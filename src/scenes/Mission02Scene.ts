@@ -38,6 +38,7 @@ export class Mission02Scene extends Phaser.Scene {
   else if(action==='prediction'&&this.s.phase==='PREDICTION'){if(data?.get('distance')===''||data?.get('charge')===''){this.feedback='Pilih kedua prediksi terlebih dahulu.'}else{this.s.prediction=[number('distance'),number('charge')];this.s.phase='INVESTIGATION';this.feedback='Prediksi awal tersimpan. Sekarang buat dua pasangan perbandingan.'}}
   else if(action==='lesson'){this.panel.open(this.s);return}
   else if(action==='render'){this.panel.render(this.s,this.feedback);return}
+  else if(action==='next-mission'&&this.s.phase==='RESULTS'){this.persist();this.ui.enterMission(3);return}
   else if(action==='home'||action==='missions'){this.persist();if(action==='missions')openMissionPicker(()=>this.ui.menu());else this.ui.menu();return}
   else if(action==='replay'){if(await confirmGame('Ulang Misi 2? Sesi Misi 2 diganti; penyelesaian Misi 1 dan pengaturan tetap.')){removeBridge();this.s=newBridgeSession();this.initial=null;this.body.reset(80,304);this.clearEffects()}}
   else if(action==='hint'){this.s.hints=Math.min(3,this.s.hints+1);this.feedback=['','Pertahankan kedua muatan dan bandingkan r=140 dengan r=280.','Kembalikan r=140. Bandingkan qP=2 dengan qP=4, qS tetap2.','Untuk ke kanan, gunakan muatan sejenis bukan nol. qS=2,qP=2,r=140 dan kunci otomatis dapat mencapai zona.'][this.s.hints]}

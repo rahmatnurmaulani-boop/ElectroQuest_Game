@@ -18,6 +18,7 @@ const escape = (s: string) =>
 export class WarehouseLessonPanel {
   readonly controls = document.createElement('div');
   private dialog = document.createElement('dialog');
+  private predictionDialog = document.createElement('dialog');
   private abort = new AbortController();
   private live = document.createElement('div');
   private mode: 'lesson' | 'observations' | 'microscope' = 'lesson';
@@ -57,41 +58,45 @@ export class WarehouseLessonPanel {
     this.dialog.className = 'inspection bridge-terminal warehouse-lesson';
     this.dialog.setAttribute('aria-label', 'Pembelajaran Gudang Polarisasi');
     mountGameDialog(this.dialog);
-
-    this.dialog.addEventListener('cancel', e => {
-      e.preventDefault();
-      this.close();
-    }, { signal: this.abort.signal });
-
-    this.dialog.addEventListener('keydown', e => {
-      trapDialogTab(this.dialog, e);
-      if (e.repeat && (e.key === 'Enter' || e.key === ' ')) e.preventDefault();
-    }, { signal: this.abort.signal });
-
-    this.dialog.addEventListener('click', e => {
-      const b = (e.target as HTMLElement).closest<HTMLButtonElement>('button[data-action]');
-      if (!b || b.disabled) return;
-      const a = b.dataset.action!;
-      if (a === 'close') {
+    this.predictionDialog.className = 'inspection bridge-terminal warehouse-prediction';
+    this.predictionDialog.setAttribute('aria-label', 'Prediksi Gudang Polarisasi');
+    mountGameDialog(this.predictionDialog);
+    for (const dialog of [this.dialog, this.predictionDialog]) {
+      dialog.addEventListener('cancel', e => {
+        e.preventDefault();
         this.close();
-        return;
-      }
-      if (a === 'observations') {
-        this.mode = 'observations';
-        this.action('render', null);
-        return;
-      }
-      if (a === 'microscope') {
-        this.mode = 'microscope';
-        this.action('render', null);
-        return;
-      }
-      this.action(a, new FormData(this.dialog.querySelector('form')!));
-    }, { signal: this.abort.signal });
+      }, { signal: this.abort.signal });
+
+      dialog.addEventListener('keydown', e => {
+        trapDialogTab(dialog, e);
+        if (e.repeat && (e.key === 'Enter' || e.key === ' ')) e.preventDefault();
+      }, { signal: this.abort.signal });
+
+      dialog.addEventListener('click', e => {
+        const b = (e.target as HTMLElement).closest<HTMLButtonElement>('button[data-action]');
+        if (!b || b.disabled) return;
+        const a = b.dataset.action!;
+        if (a === 'close') {
+          this.close();
+          return;
+        }
+        if (a === 'observations') {
+          this.mode = 'observations';
+          this.action('render', null);
+          return;
+        }
+        if (a === 'microscope') {
+          this.mode = 'microscope';
+          this.action('render', null);
+          return;
+        }
+        this.action(a, new FormData(dialog.querySelector('form')!));
+      }, { signal: this.abort.signal });
+    }
   }
 
   get isOpen() {
-    return this.dialog.open;
+    return this.dialog.open || this.predictionDialog.open;
   }
 
   open(
@@ -100,18 +105,21 @@ export class WarehouseLessonPanel {
     feedback = ''
   ) {
     this.mode = mode;
+    const wasOpen = this.dialog.open || this.predictionDialog.open;
     this.render(s, feedback);
-    if (!this.dialog.open) {
-      this.modal(true);
-      this.dialog.showModal();
+    const target = this.targetDialog(s);
+    if (!target.open) {
+      if (!wasOpen) this.modal(true);
+      target.showModal();
     }
-    this.dialog.scrollTop = 0;
-    focusDialog(this.dialog);
+    target.scrollTop = 0;
+    focusDialog(target);
   }
 
   close() {
-    if (!this.dialog.open) return;
-    this.dialog.close();
+    if (!this.dialog.open && !this.predictionDialog.open) return;
+    if (this.dialog.open) this.dialog.close();
+    if (this.predictionDialog.open) this.predictionDialog.close();
     this.modal(false);
     document.querySelector<HTMLElement>('.game-stage')?.focus({ preventScroll: true });
   }
@@ -146,12 +154,18 @@ export class WarehouseLessonPanel {
     if (objEl) objEl.textContent = objMap[s.phase] ?? '';
   }
 
+  private targetDialog(s: PolarizationSession) {
+    return this.mode === 'lesson' && s.phase === 'PREDICTION'
+      ? this.predictionDialog
+      : this.dialog;
+  }
+
   render(s: PolarizationSession, feedback = '') {
-    const key=this.mode+':'+s.phase,changed=key!==this.viewKey;this.viewKey=key;const oldAction=(document.activeElement as HTMLElement|null)?.getAttribute('data-action');
+    const key=this.mode+':'+s.phase,changed=key!==this.viewKey;this.viewKey=key;const target=this.targetDialog(s),opened=this.dialog.open?this.dialog:this.predictionDialog.open?this.predictionDialog:null;const oldAction=(document.activeElement as HTMLElement|null)?.getAttribute('data-action');
     const active = document.activeElement as HTMLInputElement | null;
     const name = active?.name;
     const value = active?.value;
-    const scroll = this.dialog.scrollTop;
+    const scroll = target.scrollTop;
 
     const button = (a: string, t: string, disabled = false) =>
       `<button type="button" data-action="${a}" ${disabled ? 'disabled' : ''}>${t}</button>`;
@@ -312,19 +326,19 @@ export class WarehouseLessonPanel {
         `<p>Bantuan digunakan: ${s.hints} · Total reset eksperimen: ${s.attempts.length}.</p>`,actions:button('observations','Lihat catatan pengamatan')+button('replay','Ulang Misi 3')+button('missions','Pilih misi')+button('home','Kembali ke Beranda')});
     }
 
-    this.dialog.innerHTML =
+    target.innerHTML =
       `<h2 tabindex="-1">${title}</h2>` +
       `<form onsubmit="return false">` +
       (feedback ? `<p class="concept-note" role="status">${escape(feedback)}</p>` : '') +
       body +
       (s.phase === 'RESULTS' && this.mode === 'lesson' ? '' : `<div>${button('close', 'Tutup')}</div>`) +
       `</form>`;
-    this.dialog.classList.toggle('mission3-complete', s.phase === 'RESULTS' && this.mode === 'lesson');
+    target.classList.toggle('mission3-complete', s.phase === 'RESULTS' && this.mode === 'lesson');
 
-    decorateUI(this.dialog);
-    if (s.phase === 'PROBLEM') speaker(this.dialog, 'Ion');
+    decorateUI(target);
+    if (s.phase === 'PROBLEM') speaker(target, 'Ion');
 
-    for (const b of this.dialog.querySelectorAll('button[data-action]')) {
+    for (const b of target.querySelectorAll('button[data-action]')) {
       const a = b.getAttribute('data-action')!;
       const key =
         a === 'observe'
@@ -345,22 +359,29 @@ export class WarehouseLessonPanel {
       if (key) icon(b, key);
     }
 
-    this.dialog.scrollTop = scroll;
+    if (opened && opened !== target) {
+      opened.close();
+      opened.replaceChildren();
+      target.showModal();
+    }
+    target.scrollTop = scroll;
     if (name) {
-      const el = this.dialog.querySelector<HTMLInputElement | HTMLSelectElement>(`[name="${name}"]`);
+      const el = target.querySelector<HTMLInputElement | HTMLSelectElement>(`[name="${name}"]`);
       if (el) {
         el.value = value ?? '';
         el.focus({ preventScroll: true });
       }
     }
-    if(changed)this.dialog.scrollTop=0;else if(oldAction){const b=this.dialog.querySelector<HTMLButtonElement>(`button[data-action="${oldAction}"]`);if(b&&!b.disabled)b.focus({preventScroll:true})}if(this.dialog.open&&!this.dialog.contains(document.activeElement))focusDialog(this.dialog);
+    if(changed)target.scrollTop=0;else if(oldAction){const b=target.querySelector<HTMLButtonElement>(`button[data-action="${oldAction}"]`);if(b&&!b.disabled)b.focus({preventScroll:true})}if(target.open&&!target.contains(document.activeElement))focusDialog(target);
     this.update(s);
   }
 
   destroy() {
     this.abort.abort();
     this.dialog.close();
+    this.predictionDialog.close();
     this.dialog.remove();
+    this.predictionDialog.remove();
     this.controls.remove();
     this.live.remove();
   }

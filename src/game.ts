@@ -11,6 +11,7 @@ import type {AppUI} from './ui/AppUI';
 export interface GameOptions extends BootOptions {
   home: () => void;
   retry: () => void;
+  enterMission: (mission: number) => void;
 }
 
 export function createGame(
@@ -57,7 +58,8 @@ export function createGame(
       game.scene.stop('boot');
       options.home();
     },
-    retry: options.retry
+    retry: options.retry,
+    enterMission: options.enterMission
   });
 
   const observer = new ResizeObserver(() => {

@@ -25,13 +25,13 @@ Ulang misi membuat sesi baru dari ORIENTATION pada fase mana pun setelah orienta
 
 Ion menjelaskan motor gerbang rusak dalam panel singkat di samping arena, dengan Lanjut dan Baca kembali. Bacaan tidak berupa modal yang terus menutupi arena. Baca kembali memakai panel yang dapat dibuka/tutup tanpa menghapus isian formulir yang sedang dibuat.
 
-Lanjut mengarahkan siswa ke terminal. E atau Periksa terminal membuka satu dialog native dengan nilai model sebenarnya, termasuk muatan bersih alat, rel dan pengunci. Periksa panel kiri dan kanan menandai observasi masing-masing. Prediksi baru aktif sesudah terminal dan kedua panel diperiksa. Transfer dan Uji dinonaktifkan di UI dan dijaga lagi pada logika scene sebelum prediksi awal tersimpan.
+Lanjut mengarahkan siswa ke terminal. Setelah Raka mencapai terminal dan menekan E, terminal ditandai telah diperiksa dan dialog belajar mandiri terbuka. Dialog ini memuat checklist observasi serta tombol untuk memeriksa panel kiri dan kanan; halaman eksperimen utama tidak dibuka pada tahap ini. Prediksi baru aktif sesudah terminal dan kedua panel diperiksa.
 
 ### Prediksi
 
 Siswa dapat memilih lebih dari satu pengaturan dan harus memilih alasan. A/B benar untuk arah tolakan; C tidak. Namun ketepatan tidak menjadi syarat menuju eksperimen, dan kunci tidak ditampilkan saat menyimpan. Semua siswa menerima “Prediksimu tersimpan. Mari kita uji.” Penjelasan arah gaya dibedakan dari keberhasilan mekanis yang masih perlu diuji.
 
-`initialPrediction` hanya diisi sekali dari formulir awal. Tinjau / revisi prediksi menambahkan entri ke `predictionRevisions`, tidak mengganti jawaban awal. Ketepatan prediksi ditampilkan per arah/alasan di hasil, tanpa angka nilai.
+Prediksi memiliki dialog tersendiri, terpisah dari dialog eksperimen. Setelah prediksi awal disimpan, dialog prediksi tertutup dan halaman eksperimen utama terbuka otomatis untuk pengaturan serta pengujian. Transfer dan Uji dinonaktifkan di UI dan dijaga lagi pada logika scene sebelum prediksi awal tersimpan. `initialPrediction` hanya diisi sekali dari formulir awal. Tinjau / revisi prediksi menambahkan entri ke `predictionRevisions`, tidak mengganti jawaban awal; setelah revisi disimpan, halaman eksperimen dibuka kembali. Ketepatan prediksi ditampilkan per arah/alasan di hasil, tanpa angka nilai.
 
 ### Eksperimen dan petunjuk
 
@@ -49,7 +49,7 @@ Setelah ketiga jawaban sesuai, dua refleksi teks opsional tersedia, masing-masin
 
 Hasil menyajikan prediksi awal dan revisinya, percobaan yang berhasil beserta muatannya, pemahaman per konsep, jawaban pertama/terakhir, jumlah percobaan dan pembatalan, tingkat bantuan serta refleksi. Tidak ada nilai tunggal, bonus kecepatan, hukuman reset, atau anggapan bahwa percobaan belum berhasil berarti siswa tidak mampu. Lihat riwayat berisi catatan berbahasa Indonesia; data teknis lengkap tetap di model, bukan ditampilkan sebagai JSON kepada siswa. Kesimpulan konsep, Ulang misi dan Kembali ke menu tersedia di hasil.
 
-Setelah hasil Misi 1, pintu keluar di sisi kanan terbuka. Raka harus berjalan ke pintu dan menekan E (atau tombol sentuh) untuk masuk langsung ke Misi 2; pemilihan misi di landing page tidak diperlukan. Sebelum fase RESULTS, pintu keluar tetap tertutup.
+Setelah hasil Misi 1, pintu keluar di sisi kanan terbuka. Raka dapat berjalan ke pintu dan menekan E (atau tombol sentuh), atau memilih **Lanjut ke Misi 2** pada dialog hasil untuk masuk langsung; pemilihan misi di landing page tidak diperlukan. Sebelum fase RESULTS, pintu keluar tetap tertutup.
 
 ## Penutup Misi 3
 
@@ -78,7 +78,7 @@ Reset eksperimen membersihkan model gerbang dan transfer yang masih disiapkan, t
 
 ## Fokus, input dan siklus hidup
 
-Hanya terminal yang memakai modal native; panel belajar/riwayat/kesimpulan tidak membuka modal lain. Modal membekukan aktor; pengujian dimulai setelah modal ditutup seperti Tahap 5. Blur menjeda scene dan membersihkan accumulator/input. Ketika fokus berada pada input/select/textarea, A/D/E tidak diambil sebagai kontrol permainan. Tombol sentuh tetap dapat membuka terminal dari keadaan tersebut.
+Dialog prediksi dan dialog eksperimen merupakan modal native terpisah. Peralihan setelah simpan prediksi mempertahankan jeda permainan dan langsung membuka dialog eksperimen; Uji gerbang hanya berjalan setelah tombol Uji dipilih. Panel riwayat/kesimpulan tidak membuka modal lain. Blur menjeda scene dan membersihkan accumulator/input. Ketika fokus berada pada input/select/textarea, A/D/E tidak diambil sebagai kontrol permainan. Tombol sentuh tetap dapat membuka terminal dari keadaan tersebut.
 
 Perpindahan fase/formulir mengarahkan fokus ke judul tahap. Fokus bantuan dipertahankan bila tingkat berikutnya masih tersedia. Formulir menolak pengiriman berulang dari node yang sama; transisi awal/start percobaan juga dijaga pada model. Enter/Space repeat dicegah pada panel/formulir, tetapi tidak mengganggu pengetikan refleksi. Pada ponsel arena dan kontrol berada di atas, panel belajar dapat digulir. Riwayat yang panjang memiliki area gulir tersendiri.
 

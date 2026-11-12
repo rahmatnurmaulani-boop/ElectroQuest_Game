@@ -11,6 +11,8 @@ body[data-screen=mission] .bridge-preview .bridge-terminal{width:min(680px,calc(
 body[data-screen=mission] #app .bridge-preview .bridge-selection button[aria-pressed=true]{border-image:var(--m2-data-selected) 8 fill / 8px}
 .bridge-terminal .preview-note{border-left:3px solid #ffbc55;padding-left:12px;font-size:14px}.bridge-vfx-legend{font-size:13px}.bridge-vfx-legend .ui-icon{width:16px;height:16px}
 .warehouse-lesson label{display:grid;grid-template-columns:minmax(0,1fr);align-items:start;gap:8px;min-width:0;min-height:0;margin:16px 0}.warehouse-lesson select,.warehouse-lesson input[type=range],.warehouse-lesson textarea{width:100%;min-width:0;max-width:100%}
+.bridge-prediction label{display:grid;grid-template-columns:minmax(0,1fr);align-items:start;gap:8px;min-width:0;margin:16px 0}.bridge-prediction select{width:100%;min-width:0;max-width:100%}
+.warehouse-prediction label{display:grid;grid-template-columns:minmax(0,1fr);align-items:start;gap:8px;min-width:0;min-height:0;margin:16px 0}.warehouse-prediction select{width:100%;min-width:0;max-width:100%}
 body[data-screen=mission] .bridge-preview .bridge-controls [data-interact]{max-width:150px}
 @media(max-width:760px){body[data-screen=mission] #app .bridge-preview .game-hud{max-width:calc(100% - 174px)}body[data-screen=mission] .bridge-preview .game-hud h1{font-size:11px}body[data-screen=mission] .bridge-preview #active-objective{font-size:10px}.bridge-terminal label{display:grid;gap:4px}.bridge-terminal input[type=range]{width:100%}.bridge-selection{display:grid;grid-template-columns:1fr 1fr;gap:8px}}
 body[data-screen=mission] #app .game-stage dialog.mission3-complete{width:min(980px,calc(100vw - 32px));max-width:calc(100vw - 32px);padding:clamp(18px,4vw,36px)}

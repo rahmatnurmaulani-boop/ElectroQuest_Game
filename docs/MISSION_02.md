@@ -2,7 +2,7 @@
 
 ## Status terkini — misi dapat dimainkan
 
-Masuk melalui Beranda → **Pilih misi → Misi 2** setelah hasil Misi 1 tersedia. Scene `bridge-mission` menjalankan urutan Masalah → Observasi → Prediksi → Penyelidikan → Solusi → Penjelasan → Refleksi → Hasil. Prediksi salah tetap boleh lanjut; jawaban pertama dan revisi tersimpan. Pengamatan adalah snapshot, perbandingan terkontrol memeriksa variabel yang berubah. Bantuan dan pengunci otomatis tidak mengurangi hasil. Refleksi bebas opsional, tidak dinilai otomatis.
+Masuk melalui Beranda → **Pilih misi → Misi 2** setelah hasil Misi 1 tersedia. Scene `bridge-mission` menjalankan urutan Masalah → Observasi → Prediksi → Penyelidikan → Solusi → Penjelasan → Refleksi → Hasil. Prediksi menggunakan dialog tersendiri; setelah jawaban disimpan, dialog itu tertutup dan panel penyelidikan terbuka otomatis. Prediksi salah tetap boleh lanjut; jawaban pertama dan revisi tersimpan. Pengamatan adalah snapshot, perbandingan terkontrol memeriksa variabel yang berubah. Bantuan dan pengunci otomatis tidak mengurangi hasil. Refleksi bebas opsional, tidak dinilai otomatis. Pada hasil Misi 2, **Lanjut ke Misi 3** membuka Gudang Polarisasi secara langsung.
 
 `/?preview=mission-02` tetap merupakan preview aset lama dengan gerak linear, berbeda dari misi penuh. Keterangan preview pada bagian riwayat di bawah hanya berlaku untuk URL tersebut.
 
@@ -29,7 +29,7 @@ Progres Misi 1 tidak diubah formatnya. Penyelesaian lama dikenali dari checkpoin
 
 ### Uji manual misi penuh
 
-1. Selesaikan Misi 1, kembali ke Beranda, pilih Misi 2. Lanjutkan dialog Ion dan dekati terminal dengan A/D; tekan E.
+1. Selesaikan Misi 1, kembali ke Beranda, pilih Misi 2. Lanjutkan dialog Ion dan dekati terminal dengan A/D; tekan E. Setelah menyimpan kedua prediksi, pastikan dialog berpindah otomatis ke panel penyelidikan.
 2. Simpan prediksi, buat tiga pengamatan preset di atas, bandingkan1→2 dan1→3. Pasangan2→3 harus ditolak sebagai eksperimen terkontrol karena mengubah muatan serta jarak.
 3. Rancang solusi, pilih preset dasar, aktifkan kunci otomatis dan Uji. Coba Pause di tengah; Lanjutkan tidak boleh meloncat. Pengunci manual hanya aktif di zona.
 4. Setelah docking, lihat sambungan tiga bagian dan motor rusak. Jalan terus ke pintu kanan; collider harus menahan kaki di y304 sepanjang jembatan.

@@ -77,7 +77,7 @@ async function enter(fresh = false, mission = 1) {
   const activeUI = ui;
   const retry = () =>
     void enter(document.body.dataset.screen === 'mission' ? false : fresh, currentMission);
-  ui.bind({ start: () => {}, resume: () => {}, menu: home, retry });
+  ui.bind({ start: () => {}, resume: () => {}, menu: home, retry, enterMission: mission => void enter(false, mission) });
   document.querySelector('.skip')?.setAttribute('href', '#panel');
   scrollTo(0, 0);
 
@@ -97,7 +97,8 @@ async function enter(fresh = false, mission = 1) {
       preview: previewParam,
       missionNumber: currentMission,
       home,
-      retry
+      retry,
+      enterMission: mission => void enter(false, mission)
     });
   } catch (error) {
     if (current === attempt) {

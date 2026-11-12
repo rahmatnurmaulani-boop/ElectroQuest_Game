@@ -17,7 +17,7 @@ Master baru: assets-source/mission-03/m3-storage-master.png. Prompt lengkap: ass
 
 ## Menjalankan dan memeriksa
 
-Jalankan npm.cmd run dev; pilih Misi3 setelah penyelesaian Misi2. TerminalE → prediksi → Lihat Mikroskop Distribusi Muatan. Atur sumber+3/−3/0 dan periksa skema. Selesaikan pengumpulan dan kunci baki untuk melihat indikator baru. Progres dan unlock tidak diubah untuk sekadar preview.
+Jalankan npm.cmd run dev; pilih Misi3 setelah penyelesaian Misi2. TerminalE → isi prediksi di dialog khusus → simpan untuk membuka panel penyelidikan secara otomatis → Lihat Mikroskop Distribusi Muatan. Atur sumber+3/−3/0 dan periksa skema. Selesaikan pengumpulan dan kunci baki untuk melihat indikator baru. Progres dan unlock tidak diubah untuk sekadar preview.
 
 Rebuild: npm.cmd run assets:mission03. Validasi: npm.cmd run assets:mission03:validate. Build: npm.cmd run build. Browser: npm.cmd test -- tests/mission03.spec.js tests/mission03-assets.spec.js. assets:build kini mempertahankan paket Misi3/Misi4 yang sudah tersedia.
 

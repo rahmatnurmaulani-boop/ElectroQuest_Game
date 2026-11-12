@@ -52,11 +52,13 @@ test('Mission 3: Full polarization flow from landing to results', async ({ page 
   await expect(page.locator('.warehouse-lesson')).toBeVisible();
   await page.getByRole('button', { name: 'Lanjut ke Prediksi', exact: true }).click();
   await expect.poll(async () => (await state(page)).phase).toBe('PREDICTION');
+  await expect(page.locator('.warehouse-prediction[open]')).toBeVisible();
+  await expect(page.locator('.warehouse-lesson[open]')).toHaveCount(0);
   await expect(page.locator('[name=pred_0] option').nth(1)).toHaveCSS('color', 'rgb(237, 247, 251)');
   await expect(page.locator('[name=pred_0] option').nth(1)).toHaveCSS('background-color', 'rgb(14, 25, 44)');
   for (const viewport of [{ width: 865, height: 700 }, { width: 390, height: 844 }]) {
     await page.setViewportSize(viewport);
-    const layout = await page.locator('.warehouse-lesson').evaluate(dialog => {
+    const layout = await page.locator('.warehouse-prediction').evaluate(dialog => {
       const label = dialog.querySelector('label');
       const select = label.querySelector('select');
       const labelBox = label.getBoundingClientRect();
@@ -84,6 +86,8 @@ test('Mission 3: Full polarization flow from landing to results', async ({ page 
   await page.locator('[name=pred_1]').selectOption('0');
   await page.getByRole('button', { name: 'Simpan Prediksi Awal', exact: true }).click();
   await expect.poll(async () => (await state(page)).phase).toBe('INVESTIGATION');
+  await expect(page.locator('.warehouse-prediction[open]')).toHaveCount(0);
+  await expect(page.locator('.warehouse-lesson[open]')).toBeVisible();
 
   // Check microscope view
   await page.getByRole('button', { name: 'Lihat Mikroskop Distribusi Muatan', exact: true }).click();

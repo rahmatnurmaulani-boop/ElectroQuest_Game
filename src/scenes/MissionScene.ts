@@ -62,7 +62,7 @@ export class MissionScene extends Phaser.Scene {
     this.inputState=new MissionInput(this.panel.controls,hidden=>{if(hidden)this.showPause('background')});
     this.pauseUI=new PausePanel({resume:()=>{this.pauses.delete('background');this.setPause('user',false);this.panel.setPaused(false);this.lessonUI.resume();void audio.unlock()},menu:()=>this.ui.menu(),status:()=>this.saveStatus,reset:()=>this.resetExperiment(),report:()=>this.ui.loadReport,retry:()=>this.ui.retry()});
     this.pauseUI.pauseButton.addEventListener('click',()=>this.showPause('user'),{signal:this.runtime.signal});
-    this.lessonUI=new LearningPanel({next:()=>this.updateLearning(orient(this.learning)),predict:()=>this.updateLearning(predict(this.learning)),save:(p,revision)=>this.recordPrediction(p,revision),hint:()=>this.updateLearning(requestHint(this.learning)),explain:answers=>this.recordExplanation(answers),reflect:(comparison,next)=>this.updateLearning(reflect(this.learning,comparison,next)),restart:async()=>{if(await confirmGame('Ulang Misi 1? Sesi Misi 1 diganti; progres misi lain dan pengaturan tetap.')){this.checkpointReady=false;try{localStorage.removeItem(PROGRESS_KEY)}catch{}this.scene.restart({checkpoint:null})}},menu:()=>this.ui.menu(),pause:()=>this.showPause('user'),modal:open=>this.setPause('lesson',open),beforeModal:()=>this.panel.close()},this.panel.lessonHost);
+    this.lessonUI=new LearningPanel({next:()=>this.updateLearning(orient(this.learning)),predict:()=>this.updateLearning(predict(this.learning)),observe:panel=>this.recordObservation(panel),save:(p,revision)=>this.recordPrediction(p,revision),hint:()=>this.updateLearning(requestHint(this.learning)),explain:answers=>this.recordExplanation(answers),reflect:(comparison,next)=>this.updateLearning(reflect(this.learning,comparison,next)),restart:async()=>{if(await confirmGame('Ulang Misi 1? Sesi Misi 1 diganti; progres misi lain dan pengaturan tetap.')){this.checkpointReady=false;try{localStorage.removeItem(PROGRESS_KEY)}catch{}this.scene.restart({checkpoint:null})}},menu:()=>this.ui.menu(),nextMission:()=>{this.saveStable();this.ui.enterMission(2)},pause:()=>this.showPause('user'),modal:open=>this.setPause('lesson',open),beforeModal:()=>this.panel.close()},this.panel.lessonHost);
     this.updateLearning(this.learning);
     window.addEventListener('electroquest-confirmation',e=>this.setPause('confirmation',(e as CustomEvent<boolean>).detail),{signal:this.runtime.signal});
     window.addEventListener('electroquest-settings',()=>this.applyPreferences(),{signal:this.runtime.signal});this.applyPreferences();
@@ -103,7 +103,7 @@ export class MissionScene extends Phaser.Scene {
     const exitReady=this.learning.phase==='RESULTS';
     this.gate.setExitOpen(exitReady);this.gate.setNearby(this.near);this.panel.setNearby(this.near||atExit,this.near?'terminal':atExit?exitReady?'exit-open':'exit-locked':'none');
     if(this.inputState.consumeInteraction()){
-      if(this.near&&this.experiment.phase!=='SIMULATING'){this.panel.open();this.recordObservation('terminal');audio.play('scan');this.comfort.scanning()}
+      if(this.near&&this.experiment.phase!=='SIMULATING'){if(this.learning.phase==='OBSERVATION')this.recordObservation('terminal');else this.panel.open();audio.play('scan');this.comfort.scanning()}
       else if(atExit&&exitReady&&!this.advancing){this.advancing=true;this.inputState.clear();audio.stop();this.scene.start('bridge-mission')}
     }
     this.panel.render(this.experiment);
@@ -111,8 +111,8 @@ export class MissionScene extends Phaser.Scene {
   }
   private refresh(){this.gate.render(this.experiment,this.observationMode);this.gate.setExitOpen(this.learning.phase==='RESULTS');this.panel.render(this.experiment)}
   private updateLearning(session:LearningSession){const completed=this.learning.phase!=='RESULTS'&&session.phase==='RESULTS';this.learning=session;this.lessonUI.render(session);this.panel.setLearning(session);this.gate.setExitOpen(session.phase==='RESULTS');this.panel.render(this.experiment);if(completed){audio.play('complete');this.comfort.success()}this.saveStable();this.publish()}
-  private recordObservation(object:'terminal'|Panel){if(this.panel.isOpen){this.updateLearning(observe(this.learning,object,this.experiment));if(object!=='terminal'){audio.play('scan');this.comfort.scanning()}}}
-  private recordPrediction(prediction:Prediction,revision:boolean){if(revision?this.learning.phase!=='EXPERIMENT':this.learning.phase!=='PREDICTION')return;this.updateLearning(savePrediction(this.learning,prediction))}
+  private recordObservation(object:'terminal'|Panel){this.updateLearning(observe(this.learning,object,this.experiment));if(object!=='terminal'){audio.play('scan');this.comfort.scanning()}}
+  private recordPrediction(prediction:Prediction,revision:boolean){if(revision?this.learning.phase!=='EXPERIMENT':this.learning.phase!=='PREDICTION')return;const next=savePrediction(this.learning,prediction);if(next===this.learning)return;this.updateLearning(next);this.panel.open(true)}
   private recordExplanation(answers:Answers){this.updateLearning(explain(this.learning,answers))}
   private transfer(panel:Panel,action:'take'|'send'){
     if(this.learning.phase!=='EXPERIMENT'||!this.learning.initialPrediction||!this.panel.isOpen)return;

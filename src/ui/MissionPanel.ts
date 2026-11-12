@@ -70,7 +70,7 @@ export class MissionPanel {
     this.prompt.dataset.nearby=String(value&&mode!=='exit-locked');
   }
   setPaused(value:boolean){this.paused.hidden=!value}
-  open(){if(!this.nearby||this.dialog.open)return;this.onModal(true);this.dialog.showModal();this.dialog.querySelector<HTMLButtonElement>('[data-close]')!.focus({preventScroll:true})}
+  open(force=false){if((!force&&!this.nearby)||this.dialog.open)return;this.onModal(true);this.dialog.showModal();this.dialog.querySelector<HTMLButtonElement>('[data-close]')!.focus({preventScroll:true})}
   close(){if(!this.dialog.open)return;this.dialog.close();this.onModal(false);if(!document.querySelector('.game-stage dialog[open]'))this.interact.focus({preventScroll:true})}
   get lessonHost(){return this.dialog}
   get observationInput(){return this.dialog.querySelector<HTMLInputElement>('[data-observation]')!}
