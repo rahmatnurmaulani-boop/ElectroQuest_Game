@@ -1,0 +1,362 @@
+[
+  {
+    "key": "sky",
+    "path": "assets/environment/sky.png",
+    "sha256": "c66639ab78aa9e04094bcd7a73a47f2a2518c6a643478cec75b72df864261e44"
+  },
+  {
+    "key": "city",
+    "path": "assets/environment/city.png",
+    "sha256": "00983b1d527cee24d75701d79b762e6a9f4116bf3f4fedbfa3278fc62cbc46db"
+  },
+  {
+    "key": "lab-facade",
+    "path": "assets/environment/lab-facade.png",
+    "sha256": "b00a7f375f688911bba5e21c027415637884fc88a021ab15a17696fff6783947"
+  },
+  {
+    "key": "floor-left",
+    "path": "assets/environment/floor-left.png",
+    "sha256": "fc02b7fdfb071fd9f31993289eb437041cfbcb620c8be6546325f7d49f89d704"
+  },
+  {
+    "key": "floor-middle",
+    "path": "assets/environment/floor-middle.png",
+    "sha256": "632137ff6fef0a5ee02df5e5f8f8747e508e3fb10994659f29f846472709718e"
+  },
+  {
+    "key": "floor-right",
+    "path": "assets/environment/floor-right.png",
+    "sha256": "3a739f23e14c9513e768ff777ad43c7f041ad754fd976dabce2ff10a4c66b89e"
+  },
+  {
+    "key": "wall-left",
+    "path": "assets/environment/wall-left.png",
+    "sha256": "594c997d9acc337c077d4d01e9a8e4bf112b150ac55fa13c6eb99997792e28c1"
+  },
+  {
+    "key": "wall-middle",
+    "path": "assets/environment/wall-middle.png",
+    "sha256": "0f318be2ccee2ba18a838c6d05d57d574016bcf1ac8f55b29d4cdc0d8a702783"
+  },
+  {
+    "key": "wall-right",
+    "path": "assets/environment/wall-right.png",
+    "sha256": "f5c98b5cbebab023bcbc26e46357cf48bdadc61ca941364f09a13702ee2b7882"
+  },
+  {
+    "key": "lamp",
+    "path": "assets/environment/lamp.png",
+    "sha256": "a0d953c0ab68dbd18fcd2be8b2bd3016d8496dd5dda982e68d6973db9ebde767"
+  },
+  {
+    "key": "crate",
+    "path": "assets/environment/crate.png",
+    "sha256": "44532048aae0ac8ec8532de9a5596a7bebf8a6c5d86514aa27cd953774ac8533"
+  },
+  {
+    "key": "plant",
+    "path": "assets/environment/plant.png",
+    "sha256": "2a19166fabaf7b0b01dd6f2d0304357b408f06f539c911124d1e74fe9dd98b11"
+  },
+  {
+    "key": "sign",
+    "path": "assets/environment/sign.png",
+    "sha256": "587d02efb60cf0709823f705ad86171bbd7f0aef920bbebc89955055bb3b57a5"
+  },
+  {
+    "key": "panel-left",
+    "path": "assets/puzzle/panel-left.png",
+    "sha256": "22d1fee7ce5a0e1db1b7c267037cdd6cb05ed8841bd096f5c3e9b6c8191a28bc"
+  },
+  {
+    "key": "panel-right",
+    "path": "assets/puzzle/panel-right.png",
+    "sha256": "f992ee8c7f1b816a2895141359492613c02efa458fd4ac0baa67be578e6bb36a"
+  },
+  {
+    "key": "gate-frame",
+    "path": "assets/puzzle/gate-frame.png",
+    "sha256": "f6cd740b66e52effd038ac47907cbe967a527ef2739b537c8161c2ccda19e3dc"
+  },
+  {
+    "key": "rail",
+    "path": "assets/puzzle/rail.png",
+    "sha256": "d0577ef4a4bfadb1f98b9496ec119862e6ec7fc6d7fb3536f88349974706cd8a"
+  },
+  {
+    "key": "latch-closed",
+    "path": "assets/puzzle/latch-closed.png",
+    "sha256": "02126940bc04191c34008cf3369b65acadb02ceb08c46de9489022003b49bbe8"
+  },
+  {
+    "key": "latch-open",
+    "path": "assets/puzzle/latch-open.png",
+    "sha256": "cebf8ed6a1c1a45cce0d3226297770a9768fea8ad443bbf032206c44a02ea38a"
+  },
+  {
+    "key": "terminal",
+    "path": "assets/puzzle/terminal.png",
+    "sha256": "caadf341b6538068b5b0e4d80fe7497573b467349faca7f5274bb4facb8862e5"
+  },
+  {
+    "key": "destination-door",
+    "path": "assets/puzzle/destination-door.png",
+    "sha256": "b63df540182bcb95b045375d656edd56a2de66e7b491039299de5f8940682dfc"
+  },
+  {
+    "key": "panel-nine",
+    "path": "assets/ui/panel-nine.png",
+    "sha256": "b337f45c86a1453cca1104b59dede0f74608f38aa45c532e57a6df1f3703b4c8"
+  },
+  {
+    "key": "button-normal",
+    "path": "assets/ui/button-normal.png",
+    "sha256": "cdf23db35aa0784c7089d7cd64fbd7d17e5e6de73f2d196e249c6a80db710ca1"
+  },
+  {
+    "key": "button-focus",
+    "path": "assets/ui/button-focus.png",
+    "sha256": "bfe1ef0cfe560f8bc2ef256a22725f3e1c9399e5732a697bd6b84f7925a0ef09"
+  },
+  {
+    "key": "button-pressed",
+    "path": "assets/ui/button-pressed.png",
+    "sha256": "49488870af6335dec33bd7856c82ff756ac6d45ad4052d84e074f8e947fbd28f"
+  },
+  {
+    "key": "button-disabled",
+    "path": "assets/ui/button-disabled.png",
+    "sha256": "fd6437e1851726685b040e1dd6fca1fb136189b48cb8cd48fab38ff9b9a06de2"
+  },
+  {
+    "key": "icon-left",
+    "path": "assets/ui/icon-left.png",
+    "sha256": "730d83c69dc238c5353967f5ef3039be1d84e7bc0bb9124137a7582e67c38cfa"
+  },
+  {
+    "key": "icon-right",
+    "path": "assets/ui/icon-right.png",
+    "sha256": "d0cb98f60d376d6ed1b7cb5f05fe768f36f8a4731151dc3f4b3efa5a416e50e4"
+  },
+  {
+    "key": "icon-interaction",
+    "path": "assets/ui/icon-interaction.png",
+    "sha256": "9b0dd8c97f0a3ba01703e0b43514109497a24d1c0c710a421a5217f1d4b590ad"
+  },
+  {
+    "key": "icon-scanner",
+    "path": "assets/ui/icon-scanner.png",
+    "sha256": "f4fddfbf279f8909c652ccb501a7c736f0fc9f56eaf64864345bc76d7e093c83"
+  },
+  {
+    "key": "icon-electron-transfer",
+    "path": "assets/ui/icon-electron-transfer.png",
+    "sha256": "5de879f33143a225e2b12b5500fa4e77564ffd43616e0f176ab660d296ce7085"
+  },
+  {
+    "key": "icon-observation",
+    "path": "assets/ui/icon-observation.png",
+    "sha256": "3dcf4f4b4cd53f5f6535304fb4a374d19ce43dd8f40a1bb137d3da9edab81fe3"
+  },
+  {
+    "key": "icon-reset",
+    "path": "assets/ui/icon-reset.png",
+    "sha256": "1f83953491a8e3aaac08f8735002c28fee5c920eaad8ad51f3f0e78eb163ab4d"
+  },
+  {
+    "key": "icon-sound",
+    "path": "assets/ui/icon-sound.png",
+    "sha256": "37cbc859b60bb91f30beec3b9193d64f5fd8651326141a791c5910329386496f"
+  },
+  {
+    "key": "icon-fullscreen",
+    "path": "assets/ui/icon-fullscreen.png",
+    "sha256": "db43a8373d7901d1400db4bd147586c50747ba3d87658011d0d36c4770cf4327"
+  },
+  {
+    "key": "electron",
+    "path": "assets/vfx/electron.png",
+    "sha256": "c07f40fe9f50026067a4c7246c39ba5c333f7f8296183b14a87e49196d3ea3d7"
+  },
+  {
+    "key": "spark-0",
+    "path": "assets/vfx/spark-0.png",
+    "sha256": "8161748f7c851e8a264b29db07df9a2e144ad6bde1a8d20a6ed53a9999e4de47"
+  },
+  {
+    "key": "spark-1",
+    "path": "assets/vfx/spark-1.png",
+    "sha256": "c98875aac28e2504aa60ef704aa97cb4b71d87cbdb79ee6d61e97a5a9de6dc50"
+  },
+  {
+    "key": "spark-2",
+    "path": "assets/vfx/spark-2.png",
+    "sha256": "c4a7902510f712a91da15792d24158bbb0f022caee34a8016d346de8c92f5959"
+  },
+  {
+    "key": "spark-3",
+    "path": "assets/vfx/spark-3.png",
+    "sha256": "b243bfb974c6fcb6db32dcd7b7566a6d29eea0a95b192d169d5bfbb6265b8ae6"
+  },
+  {
+    "key": "spark-4",
+    "path": "assets/vfx/spark-4.png",
+    "sha256": "f8439dd9d31f015ed1326ea374d504c604276101921f13b6a5fc1311a3a008df"
+  },
+  {
+    "key": "spark",
+    "path": "assets/vfx/spark.png",
+    "sha256": "832f9a9f8f23e16a16906f2ca409a40dbf1f8ff3d584ea92fb8e644816ec27f1"
+  },
+  {
+    "key": "raka-idle-frame-0",
+    "path": "assets/characters/raka-idle-00.png",
+    "sha256": "5952c39298bc9047d90367edf8dd64f5bf8fdd8d91f454282ed54a8fd20ad9ac"
+  },
+  {
+    "key": "raka-idle-frame-1",
+    "path": "assets/characters/raka-idle-01.png",
+    "sha256": "9bccb54df74b7dcca7e321328f5a418e67c306a1dffcadf4249aa6bf43f9eeed"
+  },
+  {
+    "key": "raka-idle-frame-2",
+    "path": "assets/characters/raka-idle-02.png",
+    "sha256": "efe0e6d5fca7390da1cf6f10f72cb5b1fef52c63b0b8a57fd3c87fcaf8d430df"
+  },
+  {
+    "key": "raka-idle-frame-3",
+    "path": "assets/characters/raka-idle-03.png",
+    "sha256": "82ab31cacd5981d7db4e259c75577b5d12a8fc9c5898a34080a2bf69cd93edb8"
+  },
+  {
+    "key": "raka-idle",
+    "path": "assets/characters/raka-idle.png",
+    "sha256": "f3c9b2ae33a097725252d09aaf8d8f336a2f8f3ec549405ba6c000caa39a2935"
+  },
+  {
+    "key": "raka-walk-frame-0",
+    "path": "assets/characters/raka-walk-00.png",
+    "sha256": "80716cfd2ab23300904090155562173aa57fd6692f5f0e8125d37ceb677d4bbf"
+  },
+  {
+    "key": "raka-walk-frame-1",
+    "path": "assets/characters/raka-walk-01.png",
+    "sha256": "940ca965f291cfd6f506c41d4fef8bab1afe47b825890b4a9841daad3813d1b7"
+  },
+  {
+    "key": "raka-walk-frame-2",
+    "path": "assets/characters/raka-walk-02.png",
+    "sha256": "a6a4ef9e8c9711e2b803f188d35232cac8d7f59281b0cbd0a6e96fc648347b50"
+  },
+  {
+    "key": "raka-walk-frame-3",
+    "path": "assets/characters/raka-walk-03.png",
+    "sha256": "c489b02dd6c531b7bf4c5f4a1db4c1f419c805b15a0f6e52eeadb26fe54f31e1"
+  },
+  {
+    "key": "raka-walk-frame-4",
+    "path": "assets/characters/raka-walk-04.png",
+    "sha256": "28ba3c260614ea472b9bb6658dfdc8e5e010026dd64dfe15889aec4a637f8735"
+  },
+  {
+    "key": "raka-walk-frame-5",
+    "path": "assets/characters/raka-walk-05.png",
+    "sha256": "7af7889ca9599d59fba1835183af40d6856d4b36193f126117b3404fef1ecf38"
+  },
+  {
+    "key": "raka-walk-frame-6",
+    "path": "assets/characters/raka-walk-06.png",
+    "sha256": "d55381ae4bc3a3db40734a9828ec351be8fd3e4c3ddd549c0028f605d5917f1e"
+  },
+  {
+    "key": "raka-walk-frame-7",
+    "path": "assets/characters/raka-walk-07.png",
+    "sha256": "beeadc826e7c26c44407ccf6cec4e588483192256f36a3b812285d869aed741f"
+  },
+  {
+    "key": "raka-walk",
+    "path": "assets/characters/raka-walk.png",
+    "sha256": "1ea28f4c92ec240803226c5eaa35a1a8cde71e12c46758e117207f2bfbf86c53"
+  },
+  {
+    "key": "raka-tool-frame-0",
+    "path": "assets/characters/raka-tool-00.png",
+    "sha256": "4fa72e2918cd374adb498410a0595d4f51e36efa309121bba919a7825553d1d4"
+  },
+  {
+    "key": "raka-tool-frame-1",
+    "path": "assets/characters/raka-tool-01.png",
+    "sha256": "19def33ea676c5d9259310d74fa9ca7091d335e10d3ab7237c5c0e723d412401"
+  },
+  {
+    "key": "raka-tool-frame-2",
+    "path": "assets/characters/raka-tool-02.png",
+    "sha256": "557209648e612354b2bffacb9a942a9be8678ccf92ca49b2c71e2f9d1d6e7c92"
+  },
+  {
+    "key": "raka-tool-frame-3",
+    "path": "assets/characters/raka-tool-03.png",
+    "sha256": "4d5b0e0d47f30378f3a576a1ab99ad6c20da6882b2c6f6ee7481a0413c7d69d0"
+  },
+  {
+    "key": "raka-tool-frame-4",
+    "path": "assets/characters/raka-tool-04.png",
+    "sha256": "8af4e9f3eed6d1fb01c93e44fc31e587f14f771c3eacea6f325d5ac6d6d859e0"
+  },
+  {
+    "key": "raka-tool-frame-5",
+    "path": "assets/characters/raka-tool-05.png",
+    "sha256": "cc0827336f61cc5e3df012d6e619ee03a56dfc57b5bbe5baad641718f9ee50f7"
+  },
+  {
+    "key": "raka-tool",
+    "path": "assets/characters/raka-tool.png",
+    "sha256": "d749b2273d9cdd9441fc3962b7f7bc5af7ddfefa29e5f521170ffe9bb1b97023"
+  },
+  {
+    "key": "ion-idle-frame-0",
+    "path": "assets/characters/ion-idle-00.png",
+    "sha256": "7decbe97de6b99e3f9a43e873c9b46c268d0360038fa58e49e502a869047b23e"
+  },
+  {
+    "key": "ion-idle-frame-1",
+    "path": "assets/characters/ion-idle-01.png",
+    "sha256": "503fdbf36887428a90962fd7ca3e08b144cf7dcf006ad785769752a88b867d1f"
+  },
+  {
+    "key": "ion-idle-frame-2",
+    "path": "assets/characters/ion-idle-02.png",
+    "sha256": "aeb46aa7d49c55ef0369fd6ccc35f3b5b140766cd0e8c995ba665e87c5cf7aab"
+  },
+  {
+    "key": "ion-idle-frame-3",
+    "path": "assets/characters/ion-idle-03.png",
+    "sha256": "7f2efa9b9284bd184811e982e117c61556ed4e96aff90742d9021f8a2b587c67"
+  },
+  {
+    "key": "ion-idle",
+    "path": "assets/characters/ion-idle.png",
+    "sha256": "e2f4a5974c8ade4e6dcdf5bafd722a268e3c9bee324dd33c34aa518406ff39c6"
+  },
+  {
+    "key": "raka-portrait-frame-0",
+    "path": "assets/characters/raka-portrait-00.png",
+    "sha256": "db1ae9a15bdb4b112c44aea9f23f31307e2c455e1a864624bb9ac56daca407d4"
+  },
+  {
+    "key": "raka-portrait",
+    "path": "assets/characters/raka-portrait.png",
+    "sha256": "db1ae9a15bdb4b112c44aea9f23f31307e2c455e1a864624bb9ac56daca407d4"
+  },
+  {
+    "key": "ion-portrait-frame-0",
+    "path": "assets/characters/ion-portrait-00.png",
+    "sha256": "176be19904012ba8fbc20b13b552dd60b7210c6017c46f5e9c948d8cd0b26468"
+  },
+  {
+    "key": "ion-portrait",
+    "path": "assets/characters/ion-portrait.png",
+    "sha256": "176be19904012ba8fbc20b13b552dd60b7210c6017c46f5e9c948d8cd0b26468"
+  }
+]

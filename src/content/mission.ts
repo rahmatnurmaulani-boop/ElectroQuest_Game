@@ -1,0 +1,6 @@
+export const WORLD={width:640,height:360,tile:32} as const;
+export const MISSION={id:'gerbang-muatan',title:'Gerbang Muatan',subtitle:'Misi 01 · Laboratorium kota',description:'Kenali lingkungan laboratorium tempat Raka dan Ion akan mempelajari muatan listrik.'} as const;
+export const REQUIRED_ENVIRONMENT=['sky','city','lab-facade','floor-left','floor-middle','floor-right','lamp','crate','plant','sign'] as const;
+export const REQUIRED_MISSION=[...REQUIRED_ENVIRONMENT,'raka-idle','raka-walk','raka-tool','ion-idle','gate-frame','rail','panel-left','panel-right','latch-closed','latch-open','terminal','destination-door','electron','spark'] as const;
+export const PUZZLE={initial:{left:3,right:-3,glove:0},limit:8,closed:{left:288,right:352},open:{left:224,right:416},panelWidth:64,minDistance:48,forceScale:180000,mass:1.5,damping:1.5,maxSpeed:64,fixedStep:1/120,maxAccumulation:.1,maxDuration:8} as const;
+export const ARENA={floorY:328,spawn:{x:80,y:328},gate:{left:256,right:384,top:88,bottom:328},terminal:{x:208,y:328,range:48,name:'Terminal Gerbang Muatan',purpose:'Memeriksa kondisi awal kedua panel dan kait gerbang.'},door:{x:578,y:328,range:48},speed:100,bodyHalfWidth:12,gravity:800} as const;

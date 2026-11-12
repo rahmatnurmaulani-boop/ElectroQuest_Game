@@ -1,0 +1,725 @@
+{
+  "source": "scripts/assets/landing-v2.mjs",
+  "assets": [
+    {
+      "key": "lp-raka",
+      "path": "assets/landing/lp-raka.png",
+      "width": 160,
+      "height": 240,
+      "frameWidth": 160,
+      "frameHeight": 240,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.95
+      },
+      "source": "assets-source/landing-v2/lp-raka-master.png",
+      "status": "generated",
+      "final": true,
+      "usage": "Raka full-body static pose",
+      "provenance": "Built-in image_gen; created from scratch in this task. Ion references only this task new Raka master. Uniform nearest-neighbor normalization only; original alpha preserved.",
+      "alpha": {
+        "transparentPixels": 26582,
+        "partialPixels": 11818
+      },
+      "contentBounds": {
+        "left": 11,
+        "top": 2,
+        "right": 116,
+        "bottom": 236
+      },
+      "sourceDimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "key": "lp-ion",
+      "path": "assets/landing/lp-ion.png",
+      "width": 96,
+      "height": 96,
+      "frameWidth": 96,
+      "frameHeight": 96,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "assets-source/landing-v2/lp-ion-master.png",
+      "status": "generated",
+      "final": true,
+      "usage": "Ion separate static pose",
+      "provenance": "Built-in image_gen; created from scratch in this task. Ion references only this task new Raka master. Uniform nearest-neighbor normalization only; original alpha preserved.",
+      "alpha": {
+        "transparentPixels": 6780,
+        "partialPixels": 2435
+      },
+      "contentBounds": {
+        "left": 11,
+        "top": 10,
+        "right": 93,
+        "bottom": 86
+      },
+      "sourceDimensions": [
+        1312,
+        1199
+      ]
+    },
+    {
+      "key": "lp-sky",
+      "path": "assets/landing/lp-sky.png",
+      "width": 640,
+      "height": 360,
+      "frameWidth": 640,
+      "frameHeight": 360,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "assets-source/landing-v2/lp-sky-master.png",
+      "status": "generated",
+      "final": true,
+      "usage": "Night sky, quiet left side",
+      "provenance": "Built-in image_gen; created from scratch in this task. Ion references only this task new Raka master. Uniform nearest-neighbor normalization only; original alpha preserved.",
+      "alpha": {
+        "transparentPixels": 0,
+        "partialPixels": 0
+      },
+      "contentBounds": {
+        "left": 0,
+        "top": 0,
+        "right": 639,
+        "bottom": 359
+      },
+      "sourceDimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "key": "lp-city",
+      "path": "assets/landing/lp-city.png",
+      "width": 640,
+      "height": 360,
+      "frameWidth": 640,
+      "frameHeight": 360,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "assets-source/landing-v2/lp-city-master.png",
+      "status": "generated",
+      "final": true,
+      "usage": "Distant skyline layer",
+      "provenance": "Built-in image_gen; created from scratch in this task. Ion references only this task new Raka master. Uniform nearest-neighbor normalization only; original alpha preserved.",
+      "alpha": {
+        "transparentPixels": 185309,
+        "partialPixels": 44796
+      },
+      "contentBounds": {
+        "left": 0,
+        "top": 83,
+        "right": 639,
+        "bottom": 359
+      },
+      "sourceDimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "key": "lp-lab",
+      "path": "assets/landing/lp-lab.png",
+      "width": 640,
+      "height": 360,
+      "frameWidth": 640,
+      "frameHeight": 360,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "assets-source/landing-v2/lp-lab-master.png",
+      "status": "generated",
+      "final": true,
+      "usage": "Laboratory middle layer",
+      "provenance": "Built-in image_gen; created from scratch in this task. Ion references only this task new Raka master. Uniform nearest-neighbor normalization only; original alpha preserved.",
+      "alpha": {
+        "transparentPixels": 151453,
+        "partialPixels": 78915
+      },
+      "contentBounds": {
+        "left": 17,
+        "top": 19,
+        "right": 633,
+        "bottom": 339
+      },
+      "sourceDimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "key": "lp-floor",
+      "path": "assets/landing/lp-floor.png",
+      "width": 640,
+      "height": 360,
+      "frameWidth": 640,
+      "frameHeight": 360,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "assets-source/landing-v2/lp-floor-master.png",
+      "status": "generated",
+      "final": true,
+      "usage": "Foreground floor and props",
+      "provenance": "Built-in image_gen; created from scratch in this task. Ion references only this task new Raka master. Uniform nearest-neighbor normalization only; original alpha preserved.",
+      "alpha": {
+        "transparentPixels": 198329,
+        "partialPixels": 32038
+      },
+      "contentBounds": {
+        "left": 0,
+        "top": 77,
+        "right": 639,
+        "bottom": 359
+      },
+      "sourceDimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "key": "lp-title-frame",
+      "path": "assets/landing/lp-title-frame.png",
+      "width": 48,
+      "height": 32,
+      "frameWidth": 48,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/landing-v2.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "HTML title frame",
+      "alpha": {
+        "transparentPixels": 120,
+        "partialPixels": 866
+      },
+      "provenance": "New original deterministic pixel geometry created in this task. No prior images, labels, title text or charge values baked into artwork.",
+      "nineSlice": {
+        "left": 8,
+        "right": 8,
+        "top": 8,
+        "bottom": 8
+      }
+    },
+    {
+      "key": "lp-panel-frame",
+      "path": "assets/landing/lp-panel-frame.png",
+      "width": 48,
+      "height": 32,
+      "frameWidth": 48,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/landing-v2.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Help, mission and settings overlays",
+      "alpha": {
+        "transparentPixels": 120,
+        "partialPixels": 866
+      },
+      "provenance": "New original deterministic pixel geometry created in this task. No prior images, labels, title text or charge values baked into artwork.",
+      "nineSlice": {
+        "left": 8,
+        "right": 8,
+        "top": 8,
+        "bottom": 8
+      }
+    },
+    {
+      "key": "lp-button-normal",
+      "path": "assets/landing/lp-button-normal.png",
+      "width": 48,
+      "height": 32,
+      "frameWidth": 48,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/landing-v2.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Landing button normal",
+      "alpha": {
+        "transparentPixels": 120,
+        "partialPixels": 866
+      },
+      "provenance": "New original deterministic pixel geometry created in this task. No prior images, labels, title text or charge values baked into artwork.",
+      "nineSlice": {
+        "left": 8,
+        "right": 8,
+        "top": 8,
+        "bottom": 8
+      }
+    },
+    {
+      "key": "lp-button-focus",
+      "path": "assets/landing/lp-button-focus.png",
+      "width": 48,
+      "height": 32,
+      "frameWidth": 48,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/landing-v2.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Landing button focus",
+      "alpha": {
+        "transparentPixels": 120,
+        "partialPixels": 866
+      },
+      "provenance": "New original deterministic pixel geometry created in this task. No prior images, labels, title text or charge values baked into artwork.",
+      "nineSlice": {
+        "left": 8,
+        "right": 8,
+        "top": 8,
+        "bottom": 8
+      }
+    },
+    {
+      "key": "lp-button-pressed",
+      "path": "assets/landing/lp-button-pressed.png",
+      "width": 48,
+      "height": 32,
+      "frameWidth": 48,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/landing-v2.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Landing button pressed",
+      "alpha": {
+        "transparentPixels": 120,
+        "partialPixels": 866
+      },
+      "provenance": "New original deterministic pixel geometry created in this task. No prior images, labels, title text or charge values baked into artwork.",
+      "nineSlice": {
+        "left": 8,
+        "right": 8,
+        "top": 8,
+        "bottom": 8
+      }
+    },
+    {
+      "key": "lp-button-disabled",
+      "path": "assets/landing/lp-button-disabled.png",
+      "width": 48,
+      "height": 32,
+      "frameWidth": 48,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/landing-v2.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Landing button disabled",
+      "alpha": {
+        "transparentPixels": 120,
+        "partialPixels": 866
+      },
+      "provenance": "New original deterministic pixel geometry created in this task. No prior images, labels, title text or charge values baked into artwork.",
+      "nineSlice": {
+        "left": 8,
+        "right": 8,
+        "top": 8,
+        "bottom": 8
+      }
+    },
+    {
+      "key": "lp-icon-play",
+      "path": "assets/landing/lp-icon-play.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/landing-v2.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Landing play button",
+      "alpha": {
+        "transparentPixels": 488,
+        "partialPixels": 0
+      },
+      "provenance": "New original deterministic pixel geometry created in this task. No prior images, labels, title text or charge values baked into artwork."
+    },
+    {
+      "key": "lp-icon-continue",
+      "path": "assets/landing/lp-icon-continue.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/landing-v2.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Landing continue button",
+      "alpha": {
+        "transparentPixels": 460,
+        "partialPixels": 0
+      },
+      "provenance": "New original deterministic pixel geometry created in this task. No prior images, labels, title text or charge values baked into artwork."
+    },
+    {
+      "key": "lp-icon-help",
+      "path": "assets/landing/lp-icon-help.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/landing-v2.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Landing help button",
+      "alpha": {
+        "transparentPixels": 386,
+        "partialPixels": 0
+      },
+      "provenance": "New original deterministic pixel geometry created in this task. No prior images, labels, title text or charge values baked into artwork."
+    },
+    {
+      "key": "lp-icon-settings",
+      "path": "assets/landing/lp-icon-settings.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/landing-v2.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Landing settings button",
+      "alpha": {
+        "transparentPixels": 336,
+        "partialPixels": 0
+      },
+      "provenance": "New original deterministic pixel geometry created in this task. No prior images, labels, title text or charge values baked into artwork."
+    },
+    {
+      "key": "lp-icon-sound",
+      "path": "assets/landing/lp-icon-sound.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/landing-v2.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Landing sound button",
+      "alpha": {
+        "transparentPixels": 451,
+        "partialPixels": 0
+      },
+      "provenance": "New original deterministic pixel geometry created in this task. No prior images, labels, title text or charge values baked into artwork."
+    },
+    {
+      "key": "lp-icon-back",
+      "path": "assets/landing/lp-icon-back.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/landing-v2.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Landing back button",
+      "alpha": {
+        "transparentPixels": 500,
+        "partialPixels": 0
+      },
+      "provenance": "New original deterministic pixel geometry created in this task. No prior images, labels, title text or charge values baked into artwork."
+    },
+    {
+      "key": "lp-icon-close",
+      "path": "assets/landing/lp-icon-close.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/landing-v2.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Landing close button",
+      "alpha": {
+        "transparentPixels": 495,
+        "partialPixels": 0
+      },
+      "provenance": "New original deterministic pixel geometry created in this task. No prior images, labels, title text or charge values baked into artwork."
+    },
+    {
+      "key": "lp-icon-info",
+      "path": "assets/landing/lp-icon-info.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/landing-v2.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Landing info button",
+      "alpha": {
+        "transparentPixels": 320,
+        "partialPixels": 0
+      },
+      "provenance": "New original deterministic pixel geometry created in this task. No prior images, labels, title text or charge values baked into artwork."
+    },
+    {
+      "key": "lp-emblem",
+      "path": "assets/landing/lp-emblem.png",
+      "width": 48,
+      "height": 48,
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/landing-v2.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Landing identity ornament",
+      "alpha": {
+        "transparentPixels": 1614,
+        "partialPixels": 0
+      },
+      "provenance": "New original deterministic pixel geometry created in this task. No prior images, labels, title text or charge values baked into artwork."
+    },
+    {
+      "key": "lp-lamp-glow",
+      "path": "assets/landing/lp-lamp-glow.png",
+      "width": 64,
+      "height": 64,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/landing-v2.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Lamp local illumination",
+      "alpha": {
+        "transparentPixels": 2224,
+        "partialPixels": 1872
+      },
+      "provenance": "New original deterministic pixel geometry created in this task. No prior images, labels, title text or charge values baked into artwork."
+    },
+    {
+      "key": "lp-glove-glow",
+      "path": "assets/landing/lp-glove-glow.png",
+      "width": 64,
+      "height": 64,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/landing-v2.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Charge Glove local illumination",
+      "alpha": {
+        "transparentPixels": 2224,
+        "partialPixels": 1872
+      },
+      "provenance": "New original deterministic pixel geometry created in this task. No prior images, labels, title text or charge values baked into artwork."
+    },
+    {
+      "key": "lp-particle",
+      "path": "assets/landing/lp-particle.png",
+      "width": 8,
+      "height": 8,
+      "frameWidth": 8,
+      "frameHeight": 8,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/landing-v2.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Three finite-lifetime ambient particles",
+      "alpha": {
+        "transparentPixels": 36,
+        "partialPixels": 28
+      },
+      "provenance": "New original deterministic pixel geometry created in this task. No prior images, labels, title text or charge values baked into artwork."
+    },
+    {
+      "key": "lp-raka-shadow",
+      "path": "assets/landing/lp-raka-shadow.png",
+      "width": 64,
+      "height": 16,
+      "frameWidth": 64,
+      "frameHeight": 16,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/landing-v2.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Raka floor contact shadow",
+      "alpha": {
+        "transparentPixels": 363,
+        "partialPixels": 661
+      },
+      "provenance": "New original deterministic pixel geometry created in this task. No prior images, labels, title text or charge values baked into artwork."
+    },
+    {
+      "key": "lp-loader",
+      "path": "assets/landing/lp-loader.png",
+      "width": 64,
+      "height": 16,
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "frames": 4,
+      "fps": 6,
+      "loop": true,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/landing-v2.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Actual asset loader activity indicator",
+      "alpha": {
+        "transparentPixels": 768,
+        "partialPixels": 0
+      },
+      "provenance": "New original deterministic pixel geometry created in this task. No prior images, labels, title text or charge values baked into artwork."
+    }
+  ]
+}

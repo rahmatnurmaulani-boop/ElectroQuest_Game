@@ -1,0 +1,5 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import ts from 'typescript';
+const code=ts.transpileModule(fs.readFileSync('src/content/mission02.ts','utf8'),{compilerOptions:{module:ts.ModuleKind.ESNext,target:ts.ScriptTarget.ES2022}}).outputText;
+const {bridgeObservation:f}=await import('data:text/javascript;base64,'+Buffer.from(code).toString('base64'));
+test('point-charge diagram: doubled center distance quarters relative force; doubled charge doubles it',()=>{const a=f(2,-2,276,560);assert.equal(a.relative,1);assert.equal(f(2,-2,276,844).relative,.25);assert.equal(f(4,-2,276,560).relative,2)});
+test('diagram directions are equal/opposite, like repel, unlike attract, neutral zero',()=>{assert.equal(f(2,-2,276,560).direction,1);assert.equal(f(2,2,276,560).direction,-1);assert.equal(f(2,-2,560,276).direction,-1);for(const q of [-2,0,2]){const a=f(q,2,276,560);assert.equal(a.direction,-a.sourceDirection)}assert.equal(f(0,2,276,560).relative,0);assert.equal(f(0,2,276,560).direction,0);assert(Number.isFinite(f(2,2,276,276).relative))});

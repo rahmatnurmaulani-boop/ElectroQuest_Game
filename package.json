@@ -1,0 +1,39 @@
+{
+  "name": "electroquest",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "check": "tsc --noEmit",
+    "build": "npm run check && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "playwright test",
+    "assets:dev": "node scripts/serve.mjs",
+    "assets:import": "node scripts/assets/import.mjs",
+    "assets:build": "node scripts/assets/build.mjs",
+    "assets:validate": "node scripts/assets/validate.mjs",
+    "assets:ui": "node scripts/assets/ui.mjs",
+    "assets:landing": "node scripts/assets/landing.mjs",
+    "assets:landing:validate": "node scripts/assets/validate-landing.mjs",
+    "assets:landing:v2": "node scripts/assets/import-landing.mjs && node scripts/assets/landing-v2.mjs",
+    "assets:landing:v2:validate": "node scripts/assets/validate-landing-v2.mjs",
+    "assets:ui:validate": "node scripts/assets/validate-ui.mjs",
+    "test:unit": "node --test tests/*.unit.mjs",
+    "assets:mission02": "node scripts/assets/mission-02.mjs",
+    "assets:mission02:validate": "node scripts/assets/validate-mission02.mjs",
+    "assets:mission03": "node scripts/assets/mission-03.mjs",
+    "assets:mission03:validate": "node scripts/assets/validate-mission03.mjs",
+    "assets:mission04": "node scripts/assets/mission-04.mjs",
+    "assets:mission04:validate": "node scripts/assets/validate-mission04.mjs",
+    "assets:console": "node scripts/assets/console-ui.mjs",
+    "assets:console:validate": "node scripts/assets/validate-console-ui.mjs"
+  },
+  "dependencies": {
+    "phaser": "3.90.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.65.0",
+    "typescript": "5.9.3",
+    "vite": "8.3.8"
+  }
+}

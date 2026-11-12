@@ -1,0 +1,9 @@
+/* UI effects are local, brief and never intercept input. Existing pixel assets supply the shapes. */
+/* Position belongs to immersive.css; animating transform displaces fixed top-layer dialogs. */
+@keyframes eq-window-arrive{from{opacity:.65}to{opacity:1}}
+@keyframes eq-action-arrive{from{outline-offset:5px}to{outline-offset:2px}}
+html:not(.reduced-effects) .eq-window[open]{animation:eq-window-arrive 140ms ease-out both}
+html:not(.reduced-effects) .eq-button:focus-visible{animation:eq-action-arrive 140ms ease-out}
+.eq-button{transition:filter 100ms ease-out}
+.eq-button:active:not(:disabled){filter:brightness(.92)}
+@media(prefers-reduced-motion:reduce){.eq-window[open],.eq-button:focus-visible{animation:none!important}.eq-button{transition:none}}

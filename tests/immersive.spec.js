@@ -1,0 +1,30 @@
+import {test,expect} from '@playwright/test';
+import {unlockExperiment,returnHome} from './learning-helper.js';
+test.use({hasTouch:true});
+const state=async page=>{await expect(page.locator('#game')).toHaveAttribute('data-mission',/.+/);return page.locator('#game').evaluate(el=>JSON.parse(el.dataset.mission))};
+async function start(page){await page.goto('/');await page.locator('#hero [data-entry]').click();await state(page)}
+async function withinArena(page,selector){await expect.poll(()=>page.locator(selector).evaluate(el=>{const a=document.querySelector('.game-stage').getBoundingClientRect(),r=el.getBoundingClientRect();return r.x>=a.x-1&&r.y>=a.y-1&&r.right<=a.right+1&&r.bottom<=a.bottom+1})).toBe(true)}
+test('only the complete arena fills the viewport, HUD and all dialogs stay inside it',async({page})=>{
+ const errors=[];page.on('pageerror',e=>errors.push(e.message));await start(page);
+ await expect(page.locator('.topbar')).toBeHidden();await expect(page.locator('.learning-dialog')).toBeVisible();await expect(page.locator('[data-direction]').first()).toBeHidden();
+ for(const[width,height]of [[1440,900],[1920,1080],[844,390],[390,844],[320,740],[3840,2160]]){
+ await page.setViewportSize({width,height});await expect.poll(()=>page.locator('canvas').evaluate(c=>{const r=c.getBoundingClientRect();return Math.abs(r.width/r.height-16/9)})).toBeLessThan(.002);
+ expect(await page.evaluate(()=>({w:document.documentElement.scrollWidth<=innerWidth,h:document.documentElement.scrollHeight<=innerHeight}))).toEqual({w:true,h:true});
+ expect(await page.locator('canvas').evaluate(c=>[c.width,c.height,getComputedStyle(c).imageRendering])).toEqual([640,360,'pixelated']);
+ await withinArena(page,'.learning-dialog');await withinArena(page,'.game-hud');await withinArena(page,'.mission-toolbar');
+ expect(await page.locator('canvas').evaluate(c=>{const r=c.getBoundingClientRect();return Math.abs(r.width-innerWidth)<2||Math.abs(r.height-innerHeight)<2})).toBe(true);
+ await page.screenshot({path:`docs/immersive-evidence/intro-${width}x${height}.png`});
+ }
+ await page.setViewportSize({width:1440,height:900});const x=(await state(page)).x;await page.keyboard.down('KeyD');await page.keyboard.up('KeyD');expect((await state(page)).x).toBe(x);
+ await page.getByRole('button',{name:'Lanjut',exact:true}).click();await expect(page.locator('dialog[open]')).toHaveCount(0);await expect(page.locator('.game-hud')).toContainText('Periksa kedua panel');await page.screenshot({path:'docs/immersive-evidence/arena-desktop.png'});
+ expect(await page.locator('[data-direction],[data-interact],.mission-toolbar,#panel').evaluateAll(els=>els.every(el=>!!el.closest('.game-stage')))).toBe(true);
+ await page.keyboard.down('KeyD');await expect.poll(async()=>(await state(page)).x).toBeGreaterThan(165);await page.keyboard.up('KeyD');await expect(page.locator('#interaction-prompt')).toHaveText('E — Periksa terminal');await withinArena(page,'#interaction-prompt');await page.keyboard.press('KeyE');await withinArena(page,'.experiment');await expect(page.locator('[data-direction]').first()).toBeHidden();
+ await page.setViewportSize({width:390,height:844});await withinArena(page,'.experiment');await page.getByRole('button',{name:'Periksa panel kiri',exact:true}).tap();await page.getByRole('button',{name:'Periksa panel kanan',exact:true}).tap();await page.getByRole('button',{name:'Buat prediksi',exact:true}).tap();await withinArena(page,'.learning-dialog');await page.screenshot({path:'docs/immersive-evidence/prediction-phone.png'});
+ await page.keyboard.press('Tab');for(let i=0;i<8;i++){await page.keyboard.press('Tab');expect(await page.evaluate(()=>!!document.activeElement.closest('.learning-dialog'))).toBe(true)}
+ await page.keyboard.press('Escape');await withinArena(page,'.pause-dialog');await page.getByRole('button',{name:'Cara bermain',exact:true}).tap();await expect(page.locator('.pause-dialog')).toContainText('A / D');await page.getByRole('button',{name:'Kembali ke pause'}).tap();await page.getByRole('button',{name:'Baca kembali tujuan/dialog'}).tap();await expect(page.locator('.pause-dialog')).toContainText('Motor gerbang');await page.getByRole('button',{name:'Kembali ke pause'}).tap();await page.getByRole('button',{name:'Lanjutkan',exact:true}).tap();await expect(page.locator('.learning-dialog')).toBeVisible();expect((await state(page)).learning.phase).toBe('PREDICTION');expect(errors).toEqual([]);
+});
+test('terminal, prediction, explanation and results remain functional with viewport-only scrolling',async({page})=>{
+ await start(page);await unlockExperiment(page);await page.getByLabel('Panel yang dituju').selectOption('right');for(let i=0;i<6;i++)await page.getByRole('button',{name:'Ambil elektron',exact:true}).click();await page.screenshot({path:'docs/immersive-evidence/terminal-desktop.png'});await page.getByRole('button',{name:'Uji gerbang',exact:true}).click();await expect.poll(async()=>(await state(page)).learning.phase).toBe('EXPLANATION');await withinArena(page,'.learning-dialog');
+ await page.setViewportSize({width:844,height:390});for(const[k,v]of Object.entries({A:'like',B:'positive',C:'conserved'}))await page.locator(`input[name=${k}][value=${v}]`).check();await page.getByRole('button',{name:'Kirim penjelasan',exact:true}).click();await page.getByLabel('Apakah hasil percobaan sesuai prediksimu?').fill('Tolakan membuka gerbang.');await page.getByRole('button',{name:'Lihat hasil',exact:true}).click();await withinArena(page,'.learning-dialog');await page.screenshot({path:'docs/immersive-evidence/results-landscape.png'});expect(await page.evaluate(()=>scrollY)).toBe(0);
+ await returnHome(page);await expect(page.locator('body')).toHaveAttribute('data-screen','landing');await page.locator('#hero [data-entry]').click();await expect.poll(async()=>(await state(page)).learning.phase).toBe('RESULTS');await expect(page.locator('.student-reflection')).toContainText('Tolakan membuka gerbang.');await expect(page.locator('canvas')).toHaveCount(1);await expect(page.locator('.learning-dialog')).toHaveCount(1);
+});

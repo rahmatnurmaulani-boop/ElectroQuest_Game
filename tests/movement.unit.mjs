@@ -1,0 +1,14 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import ts from 'typescript';
+const compile=s=>ts.transpileModule(s,{compilerOptions:{module:ts.ModuleKind.ESNext,target:ts.ScriptTarget.ES2022}}).outputText;
+const uri=s=>'data:text/javascript;base64,'+Buffer.from(s).toString('base64');
+const config=uri(compile(fs.readFileSync('src/content/mission.ts','utf8')));
+const source=compile(fs.readFileSync('src/physics/movement.ts','utf8')).replace('../content/mission',config);
+const {moveBody}=await import(uri(source));
+const body=(x=80,y=328)=>({x,y,vy:0,grounded:y===328});
+test('one second of movement has the same distance at 30, 60 and 120 FPS',()=>{for(const fps of [30,60,120]){const p=body();for(let i=0;i<fps;i++)moveBody(p,1,1/fps);assert(Math.abs(p.x-180)<1e-8);assert.equal(p.y,328)}});
+test('swept gate collision cannot tunnel from either side during a long frame',()=>{const left=body(),right=body(580);moveBody(left,1,20);moveBody(right,-1,20);assert.equal(left.x,244);assert.equal(right.x,396)});
+test('world boundaries retain the full frame and floor catches a falling character',()=>{const p=body();moveBody(p,-1,20);assert.equal(p.x,32);const other=body(580);moveBody(other,1,20);assert.equal(other.x,608);const falling=body(80,200);for(let i=0;i<60;i++)moveBody(falling,0,1/60);assert.equal(falling.y,328);assert.equal(falling.vy,0);assert(falling.grounded)});
+test('mission exit stays blocked until progression is complete',()=>{const p=body(500);moveBody(p,1,10,true,false);assert.equal(p.x,566);moveBody(p,1,1,true,true);assert.equal(p.x,608)});

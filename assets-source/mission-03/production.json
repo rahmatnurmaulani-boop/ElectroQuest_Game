@@ -1,0 +1,1115 @@
+{
+  "source": "scripts/assets/mission-03.mjs",
+  "assets": [
+    {
+      "key": "m3-bg-wall",
+      "path": "assets/mission-03/environment/m3-bg-wall.png",
+      "width": 640,
+      "height": 360,
+      "frameWidth": 640,
+      "frameHeight": 360,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "assets-source/mission-03/m3-warehouse-master.png",
+      "status": "generated",
+      "final": true,
+      "usage": "Generated warehouse backdrop layer",
+      "alpha": {
+        "transparentPixels": 0
+      },
+      "provenance": "Built-in image_gen in this task; master normalized to 640x360 nearest-neighbor."
+    },
+    {
+      "key": "m3-shelves",
+      "path": "assets/mission-03/environment/m3-shelves.png",
+      "width": 640,
+      "height": 360,
+      "frameWidth": 640,
+      "frameHeight": 360,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-03.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Warehouse industrial shelving layer",
+      "alpha": {
+        "transparentPixels": 204176
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 3 Polarization Warehouse; signs/numbers rendered in code."
+    },
+    {
+      "key": "m3-rear",
+      "path": "assets/mission-03/environment/m3-rear.png",
+      "width": 640,
+      "height": 360,
+      "frameWidth": 640,
+      "frameHeight": 360,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-03.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Warehouse rear conduit and overhead lamps",
+      "alpha": {
+        "transparentPixels": 225726
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 3 Polarization Warehouse; signs/numbers rendered in code."
+    },
+    {
+      "key": "m3-floor-left",
+      "path": "assets/mission-03/environment/m3-floor-left.png",
+      "width": 32,
+      "height": 32,
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-03.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Modular warehouse floor tile left",
+      "alpha": {
+        "transparentPixels": 0
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 3 Polarization Warehouse; signs/numbers rendered in code."
+    },
+    {
+      "key": "m3-floor-middle",
+      "path": "assets/mission-03/environment/m3-floor-middle.png",
+      "width": 32,
+      "height": 32,
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-03.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Modular warehouse floor tile middle",
+      "alpha": {
+        "transparentPixels": 0
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 3 Polarization Warehouse; signs/numbers rendered in code."
+    },
+    {
+      "key": "m3-floor-right",
+      "path": "assets/mission-03/environment/m3-floor-right.png",
+      "width": 32,
+      "height": 32,
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-03.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Modular warehouse floor tile right",
+      "alpha": {
+        "transparentPixels": 0
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 3 Polarization Warehouse; signs/numbers rendered in code."
+    },
+    {
+      "key": "m3-crate-stack",
+      "path": "assets/mission-03/environment/m3-crate-stack.png",
+      "width": 48,
+      "height": 48,
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-03.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Decorative stacked warehouse storage crates",
+      "alpha": {
+        "transparentPixels": 704
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 3 Polarization Warehouse; signs/numbers rendered in code."
+    },
+    {
+      "key": "m3-lamp",
+      "path": "assets/mission-03/environment/m3-lamp.png",
+      "width": 32,
+      "height": 64,
+      "frameWidth": 32,
+      "frameHeight": 64,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-03.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Overhead warehouse industrial work light",
+      "alpha": {
+        "transparentPixels": 1576
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 3 Polarization Warehouse; signs/numbers rendered in code."
+    },
+    {
+      "key": "m3-tray",
+      "path": "assets/mission-03/puzzle/m3-tray.png",
+      "width": 128,
+      "height": 24,
+      "frameWidth": 128,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-03.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Paper collection tray with mechanical retaining lips",
+      "alpha": {
+        "transparentPixels": 448
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 3 Polarization Warehouse; signs/numbers rendered in code."
+    },
+    {
+      "key": "m3-tray-latch-open",
+      "path": "assets/mission-03/puzzle/m3-tray-latch-open.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-03.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Mechanical tray latch (open)",
+      "alpha": {
+        "transparentPixels": 176
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 3 Polarization Warehouse; signs/numbers rendered in code."
+    },
+    {
+      "key": "m3-tray-latch-closed",
+      "path": "assets/mission-03/puzzle/m3-tray-latch-closed.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-03.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Mechanical tray latch (closed)",
+      "alpha": {
+        "transparentPixels": 176
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 3 Polarization Warehouse; signs/numbers rendered in code."
+    },
+    {
+      "key": "m3-paper-1",
+      "path": "assets/mission-03/puzzle/m3-paper-1.png",
+      "width": 16,
+      "height": 16,
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-03.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Paper shred variation 1",
+      "alpha": {
+        "transparentPixels": 190
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 3 Polarization Warehouse; signs/numbers rendered in code."
+    },
+    {
+      "key": "m3-paper-2",
+      "path": "assets/mission-03/puzzle/m3-paper-2.png",
+      "width": 16,
+      "height": 16,
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-03.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Paper shred variation 2",
+      "alpha": {
+        "transparentPixels": 172
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 3 Polarization Warehouse; signs/numbers rendered in code."
+    },
+    {
+      "key": "m3-paper-3",
+      "path": "assets/mission-03/puzzle/m3-paper-3.png",
+      "width": 16,
+      "height": 16,
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-03.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Paper shred variation 3",
+      "alpha": {
+        "transparentPixels": 191
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 3 Polarization Warehouse; signs/numbers rendered in code."
+    },
+    {
+      "key": "m3-paper-4",
+      "path": "assets/mission-03/puzzle/m3-paper-4.png",
+      "width": 16,
+      "height": 16,
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-03.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Paper shred variation 4",
+      "alpha": {
+        "transparentPixels": 175
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 3 Polarization Warehouse; signs/numbers rendered in code."
+    },
+    {
+      "key": "m3-paper-pile",
+      "path": "assets/mission-03/puzzle/m3-paper-pile.png",
+      "width": 32,
+      "height": 16,
+      "frameWidth": 32,
+      "frameHeight": 16,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-03.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Small collected pile of paper shreds",
+      "alpha": {
+        "transparentPixels": 279
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 3 Polarization Warehouse; signs/numbers rendered in code."
+    },
+    {
+      "key": "m3-demo-stand",
+      "path": "assets/mission-03/puzzle/m3-demo-stand.png",
+      "width": 16,
+      "height": 40,
+      "frameWidth": 16,
+      "frameHeight": 40,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-03.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Insulating stand for demo metal sphere",
+      "alpha": {
+        "transparentPixels": 176
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 3 Polarization Warehouse; signs/numbers rendered in code."
+    },
+    {
+      "key": "m3-demo-sphere",
+      "path": "assets/mission-03/puzzle/m3-demo-sphere.png",
+      "width": 32,
+      "height": 32,
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-03.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Demonstration conducting metal sphere",
+      "alpha": {
+        "transparentPixels": 308
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 3 Polarization Warehouse; signs/numbers rendered in code."
+    },
+    {
+      "key": "m3-source-carriage",
+      "path": "assets/mission-03/puzzle/m3-source-carriage.png",
+      "width": 48,
+      "height": 20,
+      "frameWidth": 48,
+      "frameHeight": 20,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-03.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Carriage supporting the charged polarization source",
+      "alpha": {
+        "transparentPixels": 288
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 3 Polarization Warehouse; signs/numbers rendered in code."
+    },
+    {
+      "key": "m3-source-wand",
+      "path": "assets/mission-03/puzzle/m3-source-wand.png",
+      "width": 20,
+      "height": 52,
+      "frameWidth": 20,
+      "frameHeight": 52,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0
+      },
+      "source": "scripts/assets/mission-03.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Charged wand head with insulating handle",
+      "alpha": {
+        "transparentPixels": 512
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 3 Polarization Warehouse; signs/numbers rendered in code."
+    },
+    {
+      "key": "m3-rail-left",
+      "path": "assets/mission-03/puzzle/m3-rail-left.png",
+      "width": 32,
+      "height": 12,
+      "frameWidth": 32,
+      "frameHeight": 12,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-03.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Overhead track rail left",
+      "alpha": {
+        "transparentPixels": 0
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 3 Polarization Warehouse; signs/numbers rendered in code."
+    },
+    {
+      "key": "m3-rail-middle",
+      "path": "assets/mission-03/puzzle/m3-rail-middle.png",
+      "width": 32,
+      "height": 12,
+      "frameWidth": 32,
+      "frameHeight": 12,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-03.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Overhead track rail middle",
+      "alpha": {
+        "transparentPixels": 0
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 3 Polarization Warehouse; signs/numbers rendered in code."
+    },
+    {
+      "key": "m3-rail-right",
+      "path": "assets/mission-03/puzzle/m3-rail-right.png",
+      "width": 32,
+      "height": 12,
+      "frameWidth": 32,
+      "frameHeight": 12,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-03.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Overhead track rail right",
+      "alpha": {
+        "transparentPixels": 0
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 3 Polarization Warehouse; signs/numbers rendered in code."
+    },
+    {
+      "key": "m3-slider-grip",
+      "path": "assets/mission-03/puzzle/m3-slider-grip.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-03.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Wand slider handle grip",
+      "alpha": {
+        "transparentPixels": 176
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 3 Polarization Warehouse; signs/numbers rendered in code."
+    },
+    {
+      "key": "m3-terminal",
+      "path": "assets/mission-03/puzzle/m3-terminal.png",
+      "width": 40,
+      "height": 64,
+      "frameWidth": 40,
+      "frameHeight": 64,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-03.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Warehouse terminal for polarization experiment",
+      "alpha": {
+        "transparentPixels": 0
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 3 Polarization Warehouse; signs/numbers rendered in code."
+    },
+    {
+      "key": "m3-exit-closed",
+      "path": "assets/mission-03/puzzle/m3-exit-closed.png",
+      "width": 48,
+      "height": 96,
+      "frameWidth": 48,
+      "frameHeight": 96,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-03.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Warehouse exit shutter door (closed)",
+      "alpha": {
+        "transparentPixels": 384
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 3 Polarization Warehouse; signs/numbers rendered in code."
+    },
+    {
+      "key": "m3-exit-open",
+      "path": "assets/mission-03/puzzle/m3-exit-open.png",
+      "width": 48,
+      "height": 96,
+      "frameWidth": 48,
+      "frameHeight": 96,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-03.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Warehouse exit shutter door (open)",
+      "alpha": {
+        "transparentPixels": 384
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 3 Polarization Warehouse; signs/numbers rendered in code."
+    },
+    {
+      "key": "m3-zoom-frame",
+      "path": "assets/mission-03/ui/m3-zoom-frame.png",
+      "width": 32,
+      "height": 32,
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-03.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Microscopic charge inspection panel frame",
+      "alpha": {
+        "transparentPixels": 124
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 3 Polarization Warehouse; signs/numbers rendered in code.",
+      "nineSlice": {
+        "top": 8,
+        "right": 8,
+        "bottom": 8,
+        "left": 8
+      }
+    },
+    {
+      "key": "m3-dipole-neutral",
+      "path": "assets/mission-03/ui/m3-dipole-neutral.png",
+      "width": 48,
+      "height": 32,
+      "frameWidth": 48,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-03.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Insulator (paper) unpolarized bound dipoles",
+      "alpha": {
+        "transparentPixels": 0
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 3 Polarization Warehouse; signs/numbers rendered in code."
+    },
+    {
+      "key": "m3-dipole-polarized",
+      "path": "assets/mission-03/ui/m3-dipole-polarized.png",
+      "width": 48,
+      "height": 32,
+      "frameWidth": 48,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-03.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Insulator (paper) polarized aligned dipoles",
+      "alpha": {
+        "transparentPixels": 0
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 3 Polarization Warehouse; signs/numbers rendered in code."
+    },
+    {
+      "key": "m3-metal-neutral",
+      "path": "assets/mission-03/ui/m3-metal-neutral.png",
+      "width": 48,
+      "height": 32,
+      "frameWidth": 48,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-03.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Metal conductor uniform electron sea",
+      "alpha": {
+        "transparentPixels": 0
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 3 Polarization Warehouse; signs/numbers rendered in code."
+    },
+    {
+      "key": "m3-metal-polarized",
+      "path": "assets/mission-03/ui/m3-metal-polarized.png",
+      "width": 48,
+      "height": 32,
+      "frameWidth": 48,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-03.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Metal conductor redistributed free electrons",
+      "alpha": {
+        "transparentPixels": 0
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 3 Polarization Warehouse; signs/numbers rendered in code."
+    },
+    {
+      "key": "m3-icon-observe",
+      "path": "assets/mission-03/ui/m3-icon-observe.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-03.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Mission 3 icon observe",
+      "alpha": {
+        "transparentPixels": 460
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 3 Polarization Warehouse; signs/numbers rendered in code."
+    },
+    {
+      "key": "m3-icon-polarize",
+      "path": "assets/mission-03/ui/m3-icon-polarize.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-03.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Mission 3 icon polarize",
+      "alpha": {
+        "transparentPixels": 379
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 3 Polarization Warehouse; signs/numbers rendered in code."
+    },
+    {
+      "key": "m3-icon-collect",
+      "path": "assets/mission-03/ui/m3-icon-collect.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-03.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Mission 3 icon collect",
+      "alpha": {
+        "transparentPixels": 424
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 3 Polarization Warehouse; signs/numbers rendered in code."
+    },
+    {
+      "key": "m3-icon-reset",
+      "path": "assets/mission-03/ui/m3-icon-reset.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-03.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Mission 3 icon reset",
+      "alpha": {
+        "transparentPixels": 463
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 3 Polarization Warehouse; signs/numbers rendered in code."
+    },
+    {
+      "key": "m3-icon-help",
+      "path": "assets/mission-03/ui/m3-icon-help.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-03.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Mission 3 icon help",
+      "alpha": {
+        "transparentPixels": 525
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 3 Polarization Warehouse; signs/numbers rendered in code."
+    },
+    {
+      "key": "m3-icon-wand",
+      "path": "assets/mission-03/ui/m3-icon-wand.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-03.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Mission 3 icon wand",
+      "alpha": {
+        "transparentPixels": 481
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 3 Polarization Warehouse; signs/numbers rendered in code."
+    },
+    {
+      "key": "m3-scan",
+      "path": "assets/mission-03/vfx/m3-scan.png",
+      "width": 64,
+      "height": 64,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-03.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Polarization scan field pulse",
+      "alpha": {
+        "transparentPixels": 3372
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 3 Polarization Warehouse; signs/numbers rendered in code."
+    },
+    {
+      "key": "m3-attract-pulse",
+      "path": "assets/mission-03/vfx/m3-attract-pulse.png",
+      "width": 72,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 3,
+      "fps": 10,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-03.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Attraction field pulse animation",
+      "alpha": {
+        "transparentPixels": 1680
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 3 Polarization Warehouse; signs/numbers rendered in code."
+    },
+    {
+      "key": "m3-success-flash",
+      "path": "assets/mission-03/vfx/m3-success-flash.png",
+      "width": 72,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 3,
+      "fps": 10,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-03.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Paper collection completion flash effect",
+      "alpha": {
+        "transparentPixels": 1620
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 3 Polarization Warehouse; signs/numbers rendered in code."
+    },
+    {
+      "key": "m3-completion-art",
+      "path": "assets/mission-03/ui/m3-completion-art.png",
+      "width": 640,
+      "height": 240,
+      "frameWidth": 640,
+      "frameHeight": 240,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-03.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Pixel-art celebration scene for Mission 3 completion page",
+      "alpha": {
+        "transparentPixels": 112357
+      },
+      "provenance": "Original procedural pixel artwork generated in scripts/assets/mission-03.mjs for the Mission 3 congratulatory page."
+    },
+    {
+      "key": "m3-storage-layer",
+      "path": "assets/mission-03/environment/m3-storage-layer.png",
+      "width": 640,
+      "height": 360,
+      "frameWidth": 640,
+      "frameHeight": 360,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "assets-source/mission-03/m3-storage-master.png",
+      "status": "generated",
+      "final": true,
+      "usage": "Transparent side racks behind arena, center remains quiet",
+      "alpha": {
+        "transparentPixels": 155341
+      },
+      "provenance": "Original built-in image_gen output for this task, alpha preserved and nearest-neighbor normalized."
+    },
+    {
+      "key": "m3-insulator-stage",
+      "path": "assets/mission-03/ui/m3-insulator-stage.png",
+      "width": 96,
+      "height": 64,
+      "frameWidth": 96,
+      "frameHeight": 64,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-03.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Microscope neutral/polarized diagram base; all charge signs/positions generated by application",
+      "alpha": {
+        "transparentPixels": 316
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 3 Polarization Warehouse; signs/numbers rendered in code."
+    },
+    {
+      "key": "m3-conductor-stage",
+      "path": "assets/mission-03/ui/m3-conductor-stage.png",
+      "width": 96,
+      "height": 64,
+      "frameWidth": 96,
+      "frameHeight": 64,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-03.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Microscope neutral/polarized diagram base; all charge signs/positions generated by application",
+      "alpha": {
+        "transparentPixels": 316
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 3 Polarization Warehouse; signs/numbers rendered in code."
+    },
+    {
+      "key": "m3-icon-clearance",
+      "path": "assets/mission-03/ui/m3-icon-clearance.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-03.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Non-contact clearance reminder icon",
+      "alpha": {
+        "transparentPixels": 358
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 3 Polarization Warehouse; signs/numbers rendered in code."
+    },
+    {
+      "key": "m3-tray-ready",
+      "path": "assets/mission-03/vfx/m3-tray-ready.png",
+      "width": 128,
+      "height": 12,
+      "frameWidth": 128,
+      "frameHeight": 12,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-03.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Collection tray locked status overlay; only visible when tray latch closed",
+      "alpha": {
+        "transparentPixels": 1242
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 3 Polarization Warehouse; signs/numbers rendered in code."
+    },
+    {
+      "key": "m3-source-wand-long",
+      "path": "assets/mission-03/puzzle/m3-source-wand-long.png",
+      "width": 20,
+      "height": 82,
+      "frameWidth": 20,
+      "frameHeight": 82,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0
+      },
+      "source": "scripts/assets/mission-03.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Wand aligned with physics tip: top168, bottom250, insulated handle and separate active head",
+      "alpha": {
+        "transparentPixels": 920
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 3 Polarization Warehouse; signs/numbers rendered in code."
+    }
+  ]
+}

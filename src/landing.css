@@ -1,0 +1,83 @@
+/* Gaming title screen. Brief supplies palette, copy and one-screen composition. */
+body[data-screen=landing]{background:#0b1427;color:#edf5fa}
+body[data-screen=landing] #app{max-width:none;padding:0;margin:0}
+.landing{font:16px/1.6 system-ui,-apple-system,'Segoe UI',sans-serif;position:relative;background:#0b1427;color:#edf5fa;overflow:clip}
+.landing *{box-sizing:border-box}
+.title-screen{min-height:100dvh;position:relative;isolation:isolate;display:flex;align-items:center;max-width:2200px;margin:auto;padding:64px clamp(24px,6vw,128px) 88px;overflow:hidden}
+.title-sky{position:absolute;inset:0;z-index:-3;overflow:hidden}
+.title-sky img{width:100%;height:100%;object-fit:cover;opacity:.65}
+.title-screen::after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,#0b1427 5%,#0b1427ef 25%,#0b1427aa 43%,transparent 68%);z-index:-1;pointer-events:none}
+.title-content{width:min(600px,48%);position:relative;z-index:2;animation:title-enter .5s ease both}
+.title-identity{display:flex;align-items:center;gap:16px;margin-bottom:16px}
+.title-emblem{width:48px;height:48px;flex:none}.title-emblem img{width:100%;height:100%}
+.landing .landing-label{font-size:12px;letter-spacing:.13em;color:#ffbc55;font-weight:700;margin:0}
+.landing h1{font:800 clamp(32px,4.5vw,76px)/1.1 system-ui,sans-serif;letter-spacing:-.055em;overflow-wrap:normal;margin:0;color:#edf5fa;text-shadow:0 4px #253952,0 6px #050e20;border:8px solid transparent;padding:10px 12px;image-rendering:pixelated}
+.landing .title-subtitle{font-size:clamp(21px,2vw,30px);color:#72e7f2;margin:12px 0 20px;line-height:1.3}
+.title-intro{font-size:18px;max-width:34ch;margin:0 0 28px;color:#cad8eb;line-height:1.65}
+.title-menu{display:grid;gap:10px;max-width:360px}
+.landing button{font:600 16px/1.4 system-ui,sans-serif;min-height:50px;padding:8px 14px;text-align:left;border:8px solid transparent;background:#20334e;color:#edf5fa;border-radius:0;image-rendering:pixelated;cursor:pointer;transition:transform .12s}
+.landing button:hover,.landing button:focus-visible{transform:translateX(3px)}
+.landing button:active{transform:translate(2px,2px)}
+.landing button:disabled{opacity:.6;cursor:wait;transform:none}
+.landing button.title-primary{color:#a9f8ff;font-weight:750;background:#324b64}
+.landing :focus-visible{outline:3px solid #ffbc55;outline-offset:4px}
+.landing [hidden]{display:none!important}
+.landing .ui-icon{display:inline-block;width:24px;height:24px;object-fit:contain;image-rendering:pixelated;vertical-align:middle;margin-right:12px;pointer-events:none}
+.landing-save{font-size:13px;line-height:1.5;color:#b8cbe0;min-height:20px;margin:16px 0 0;max-width:40ch}
+.title-credit{font-size:13px;color:#a2b8cf;margin:16px 0 0}
+.title-world{position:absolute;z-index:-2;right:-4%;bottom:10%;width:86%;max-width:1640px;mask-image:linear-gradient(90deg,transparent,#000 18%)}
+.diorama{position:relative;aspect-ratio:640/360;isolation:isolate}
+.diorama>img,.diorama>.landing-raka{position:absolute}
+.landing img{display:block;image-rendering:pixelated;object-fit:contain;max-width:100%;height:auto}
+.landing .title-sky img{height:100%;object-fit:cover}
+.landing-raka img,.ion-float>img{width:100%;height:auto}
+.art-sprite{overflow:hidden;position:relative}
+.art-sprite img{max-width:none!important;height:100%;object-fit:fill}
+.landing-raka{transform-origin:50% 88%;animation:raka-idle-motion 3.2s ease-in-out infinite}
+.diorama [data-key=lp-raka-shadow]{transform-origin:50% 50%;animation:raka-shadow-motion 3.2s ease-in-out infinite}
+.ion-float{position:absolute;left:45%;top:28%;width:10%;transform-origin:50% 55%;animation:ion-flight 3.6s ease-in-out infinite}
+.diorama [data-key=lp-lamp-glow]{animation:lamp-pulse 4s ease-in-out infinite alternate;pointer-events:none}
+.diorama [data-key=lp-glove-glow]{opacity:.8;transform-origin:center;animation:glove-glow 2.4s ease-in-out infinite alternate;pointer-events:none}
+.ambient{position:absolute;width:8px;height:8px;animation:ambient-life 6s ease-in-out 2 forwards;pointer-events:none}
+.a1{left:42%;top:18%}.a2{left:64%;top:40%;animation-delay:1s}.a3{left:84%;top:30%;animation-delay:2s}
+.title-corner{position:absolute;bottom:20px;right:clamp(24px,6vw,128px);left:clamp(24px,6vw,128px);display:flex;justify-content:space-between;align-items:center;gap:16px;font-size:11px;letter-spacing:.08em;color:#a7c2db}
+.title-corner button{font-size:12px;min-height:48px;padding:6px 12px;background:#13243b}
+.title-panel{width:min(620px,calc(100vw - 32px));max-width:calc(100vw - 32px);max-height:calc(100dvh - 40px);padding:28px;overflow:auto;overscroll-behavior:contain;border:8px solid transparent;border-radius:0;background:#111e35;color:#edf5fa;font:16px/1.7 system-ui,sans-serif;image-rendering:pixelated}
+.title-panel::backdrop{background:#050c1bdd}
+.title-panel h2{font-size:28px;line-height:1.3;margin:0 0 24px}
+.title-panel p,.title-panel li{color:#cad8eb}
+.title-panel li{margin-block:12px}.title-panel form{margin-top:24px}.title-panel form button{width:100%}
+.title-panel .settings input[type=range]{width:140px;min-height:48px}.title-panel .settings input[type=checkbox]{width:24px;height:24px}
+.title-panel .settings label{min-height:64px}
+.title-panel kbd{background:#253952;border:1px solid #526780;padding:2px 6px}
+.art-placeholder{position:absolute;inset:0;display:grid;place-items:center;font-size:14px;color:#a7c2db}
+.art-retry{font-size:13px!important;margin-top:10px;min-height:48px!important}
+body[data-screen=loading] #app,body[data-screen=error] #app{min-height:100dvh;max-width:760px;display:grid;align-items:center;overflow:hidden}
+body[data-screen=loading] .topbar,body[data-screen=error] .topbar,body[data-screen=loading] #app>footer,body[data-screen=error] #app>footer,body[data-screen=loading] .world-heading,body[data-screen=error] .world-heading{display:none}
+body[data-screen=loading] .app-layout,body[data-screen=error] .app-layout{display:block;min-height:0;padding:32px 0}
+body[data-screen=loading] .world-frame,body[data-screen=error] .world-frame{position:absolute;top:0;left:0;visibility:hidden;pointer-events:none;width:min(640px,100vw);height:360px}
+body[data-screen=loading] .load-line,body[data-screen=error] .load-line{margin-top:32px}
+body[data-screen=loading] progress,body[data-screen=error] progress{height:10px;width:160px}
+body[data-screen=error] #panel>button{margin:8px 8px 0 0;min-height:48px}
+.landing-load-indicator{display:block;width:32px;height:32px;margin-bottom:24px;image-rendering:pixelated;background-size:128px 32px;animation:lp-loading var(--lp-loader-duration,.667s) steps(4) infinite}
+body[data-screen=loading] #panel button,body[data-screen=error] #panel button{border:8px solid transparent;image-rendering:pixelated;min-height:50px}
+body[data-screen=loading] #panel button:focus-visible,body[data-screen=error] #panel button:focus-visible{border-image-source:var(--asset-lp-button-focus)}
+@keyframes lp-loading{to{background-position:-128px 0}}
+.reduced-effects .landing-load-indicator{animation:none}
+@media(prefers-reduced-motion:reduce){.landing-load-indicator{animation:none}}
+.animation-paused .diorama *,.page-hidden .diorama *,.reduced-effects .landing .diorama *{animation-play-state:paused!important}
+.reduced-effects .title-content{animation:none}
+.large-text .title-intro{font-size:21px}.large-text .title-menu button{font-size:19px}.large-text .title-panel{font-size:19px}
+.high-contrast .title-content p{color:#edf5fa}.high-contrast .title-panel{background:#080f1c}
+@keyframes title-enter{from{transform:translateY(8px)}to{transform:none}}
+@keyframes sprite-frames{to{transform:translateX(-100%)}}
+@keyframes raka-idle-motion{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-3px) rotate(-.5deg)}}
+@keyframes raka-shadow-motion{0%,100%{opacity:.7;transform:scaleX(1)}50%{opacity:.45;transform:scaleX(.88)}}
+@keyframes ion-flight{0%,100%{transform:translate(0,0) rotate(-2deg)}25%{transform:translate(5px,-5px) rotate(1deg)}50%{transform:translate(0,-10px) rotate(3deg)}75%{transform:translate(-5px,-4px) rotate(0)}}
+@keyframes lamp-pulse{to{opacity:.5}}
+@keyframes glove-glow{to{opacity:1;transform:scale(1.05)}}
+@keyframes ambient-life{0%,100%{opacity:0;transform:translateY(0)}30%{opacity:.5}80%{opacity:.2;transform:translateY(-12px)}}
+@media(prefers-reduced-motion:reduce){.landing *{animation:none!important;transition:none!important;transform:none!important}}
+@media(min-width:2000px){.title-content{width:750px}.landing h1{font-size:96px}.title-intro{font-size:24px;max-width:35ch}.title-menu{max-width:440px}.landing button{font-size:21px;min-height:62px}.landing .landing-label{font-size:15px}.title-emblem{width:64px;height:64px}.title-credit,.landing-save{font-size:17px}.title-panel{width:800px;font-size:22px}.title-panel h2{font-size:36px}}
+@media(max-width:900px){.title-screen{padding:40px 32px 88px}.title-content{width:52%}.landing h1{font-size:clamp(32px,5.7vw,52px)}.title-world{width:105%;right:-15%;bottom:15%}.title-intro{font-size:16px}.title-identity{gap:10px}.landing .landing-label{font-size:10px}.title-emblem{width:36px;height:36px}}
+@media(max-width:640px){.title-screen{display:flex;flex-direction:column;align-items:stretch;padding:32px 20px 80px;min-height:100dvh}.title-content{width:100%;max-width:480px;margin:auto}.landing h1{font-size:clamp(32px,9vw,56px)}.title-identity{margin-bottom:14px}.title-subtitle{font-size:23px!important}.title-intro{font-size:17px;max-width:36ch;margin-bottom:24px}.title-menu{max-width:none;gap:8px}.title-menu button{min-height:50px}.title-world{position:relative;right:auto;bottom:auto;width:125%;margin-left:-15%;margin-top:12px;max-width:none;mask-image:none;z-index:0}.title-screen::after{background:linear-gradient(#0b1427e8,transparent 80%);z-index:-1}.title-sky{opacity:.5}.title-corner{left:20px;right:20px;bottom:12px;font-size:9px}.title-panel{padding:20px}.title-panel h2{font-size:24px}.title-panel .settings input[type=range]{width:110px}}

@@ -1,0 +1,542 @@
+[
+  {
+    "key": "raka-idle-frame-0",
+    "path": "assets/characters/raka-idle-00.png",
+    "width": 64,
+    "height": 96,
+    "frameWidth": 64,
+    "frameHeight": 96,
+    "frames": 1,
+    "fps": 0,
+    "loop": false,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.9375
+    },
+    "source": "assets-source/generated/raka-idle-source.png",
+    "status": "generated",
+    "provenance": "Built-in image_gen; original task-specific art. Nearest-neighbor normalization, alpha cutoff 128, palette quantization. No stock."
+  },
+  {
+    "key": "raka-idle-frame-1",
+    "path": "assets/characters/raka-idle-01.png",
+    "width": 64,
+    "height": 96,
+    "frameWidth": 64,
+    "frameHeight": 96,
+    "frames": 1,
+    "fps": 0,
+    "loop": false,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.9375
+    },
+    "source": "assets-source/generated/raka-idle-source.png",
+    "status": "generated",
+    "provenance": "Built-in image_gen; original task-specific art. Nearest-neighbor normalization, alpha cutoff 128, palette quantization. No stock."
+  },
+  {
+    "key": "raka-idle-frame-2",
+    "path": "assets/characters/raka-idle-02.png",
+    "width": 64,
+    "height": 96,
+    "frameWidth": 64,
+    "frameHeight": 96,
+    "frames": 1,
+    "fps": 0,
+    "loop": false,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.9375
+    },
+    "source": "assets-source/generated/raka-idle-source.png",
+    "status": "generated",
+    "provenance": "Built-in image_gen; original task-specific art. Nearest-neighbor normalization, alpha cutoff 128, palette quantization. No stock."
+  },
+  {
+    "key": "raka-idle-frame-3",
+    "path": "assets/characters/raka-idle-03.png",
+    "width": 64,
+    "height": 96,
+    "frameWidth": 64,
+    "frameHeight": 96,
+    "frames": 1,
+    "fps": 0,
+    "loop": false,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.9375
+    },
+    "source": "assets-source/generated/raka-idle-source.png",
+    "status": "generated",
+    "provenance": "Built-in image_gen; original task-specific art. Nearest-neighbor normalization, alpha cutoff 128, palette quantization. No stock."
+  },
+  {
+    "key": "raka-idle",
+    "path": "assets/characters/raka-idle.png",
+    "width": 256,
+    "height": 96,
+    "frameWidth": 64,
+    "frameHeight": 96,
+    "frames": 4,
+    "fps": 6,
+    "loop": true,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.9375
+    },
+    "source": "assets-source/generated/raka-idle-source.png",
+    "status": "generated",
+    "provenance": "Built-in image_gen; new original design, no prior assets or stock. See source log and normalization audit."
+  },
+  {
+    "key": "raka-walk-frame-0",
+    "path": "assets/characters/raka-walk-00.png",
+    "width": 64,
+    "height": 96,
+    "frameWidth": 64,
+    "frameHeight": 96,
+    "frames": 1,
+    "fps": 0,
+    "loop": false,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.9375
+    },
+    "source": "assets-source/generated/raka-walk-source.png",
+    "status": "generated",
+    "provenance": "Built-in image_gen; original task-specific art. Nearest-neighbor normalization, alpha cutoff 128, palette quantization. No stock."
+  },
+  {
+    "key": "raka-walk-frame-1",
+    "path": "assets/characters/raka-walk-01.png",
+    "width": 64,
+    "height": 96,
+    "frameWidth": 64,
+    "frameHeight": 96,
+    "frames": 1,
+    "fps": 0,
+    "loop": false,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.9375
+    },
+    "source": "assets-source/generated/raka-walk-source.png",
+    "status": "generated",
+    "provenance": "Built-in image_gen; original task-specific art. Nearest-neighbor normalization, alpha cutoff 128, palette quantization. No stock."
+  },
+  {
+    "key": "raka-walk-frame-2",
+    "path": "assets/characters/raka-walk-02.png",
+    "width": 64,
+    "height": 96,
+    "frameWidth": 64,
+    "frameHeight": 96,
+    "frames": 1,
+    "fps": 0,
+    "loop": false,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.9375
+    },
+    "source": "assets-source/generated/raka-walk-source.png",
+    "status": "generated",
+    "provenance": "Built-in image_gen; original task-specific art. Nearest-neighbor normalization, alpha cutoff 128, palette quantization. No stock."
+  },
+  {
+    "key": "raka-walk-frame-3",
+    "path": "assets/characters/raka-walk-03.png",
+    "width": 64,
+    "height": 96,
+    "frameWidth": 64,
+    "frameHeight": 96,
+    "frames": 1,
+    "fps": 0,
+    "loop": false,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.9375
+    },
+    "source": "assets-source/generated/raka-walk-source.png",
+    "status": "generated",
+    "provenance": "Built-in image_gen; original task-specific art. Nearest-neighbor normalization, alpha cutoff 128, palette quantization. No stock."
+  },
+  {
+    "key": "raka-walk-frame-4",
+    "path": "assets/characters/raka-walk-04.png",
+    "width": 64,
+    "height": 96,
+    "frameWidth": 64,
+    "frameHeight": 96,
+    "frames": 1,
+    "fps": 0,
+    "loop": false,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.9375
+    },
+    "source": "assets-source/generated/raka-walk-source.png",
+    "status": "generated",
+    "provenance": "Built-in image_gen; original task-specific art. Nearest-neighbor normalization, alpha cutoff 128, palette quantization. No stock."
+  },
+  {
+    "key": "raka-walk-frame-5",
+    "path": "assets/characters/raka-walk-05.png",
+    "width": 64,
+    "height": 96,
+    "frameWidth": 64,
+    "frameHeight": 96,
+    "frames": 1,
+    "fps": 0,
+    "loop": false,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.9375
+    },
+    "source": "assets-source/generated/raka-walk-source.png",
+    "status": "generated",
+    "provenance": "Built-in image_gen; original task-specific art. Nearest-neighbor normalization, alpha cutoff 128, palette quantization. No stock."
+  },
+  {
+    "key": "raka-walk-frame-6",
+    "path": "assets/characters/raka-walk-06.png",
+    "width": 64,
+    "height": 96,
+    "frameWidth": 64,
+    "frameHeight": 96,
+    "frames": 1,
+    "fps": 0,
+    "loop": false,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.9375
+    },
+    "source": "assets-source/generated/raka-walk-source.png",
+    "status": "generated",
+    "provenance": "Built-in image_gen; original task-specific art. Nearest-neighbor normalization, alpha cutoff 128, palette quantization. No stock."
+  },
+  {
+    "key": "raka-walk-frame-7",
+    "path": "assets/characters/raka-walk-07.png",
+    "width": 64,
+    "height": 96,
+    "frameWidth": 64,
+    "frameHeight": 96,
+    "frames": 1,
+    "fps": 0,
+    "loop": false,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.9375
+    },
+    "source": "assets-source/generated/raka-walk-source.png",
+    "status": "generated",
+    "provenance": "Built-in image_gen; original task-specific art. Nearest-neighbor normalization, alpha cutoff 128, palette quantization. No stock."
+  },
+  {
+    "key": "raka-walk",
+    "path": "assets/characters/raka-walk.png",
+    "width": 512,
+    "height": 96,
+    "frameWidth": 64,
+    "frameHeight": 96,
+    "frames": 8,
+    "fps": 12,
+    "loop": true,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.9375
+    },
+    "source": "assets-source/generated/raka-walk-source.png",
+    "status": "generated",
+    "provenance": "Built-in image_gen; new original design, no prior assets or stock. See source log and normalization audit."
+  },
+  {
+    "key": "raka-tool-frame-0",
+    "path": "assets/characters/raka-tool-00.png",
+    "width": 64,
+    "height": 96,
+    "frameWidth": 64,
+    "frameHeight": 96,
+    "frames": 1,
+    "fps": 0,
+    "loop": false,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.9375
+    },
+    "source": "assets-source/generated/raka-tool-source.png",
+    "status": "generated",
+    "provenance": "Built-in image_gen; original task-specific art. Nearest-neighbor normalization, alpha cutoff 128, palette quantization. No stock."
+  },
+  {
+    "key": "raka-tool-frame-1",
+    "path": "assets/characters/raka-tool-01.png",
+    "width": 64,
+    "height": 96,
+    "frameWidth": 64,
+    "frameHeight": 96,
+    "frames": 1,
+    "fps": 0,
+    "loop": false,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.9375
+    },
+    "source": "assets-source/generated/raka-tool-source.png",
+    "status": "generated",
+    "provenance": "Built-in image_gen; original task-specific art. Nearest-neighbor normalization, alpha cutoff 128, palette quantization. No stock."
+  },
+  {
+    "key": "raka-tool-frame-2",
+    "path": "assets/characters/raka-tool-02.png",
+    "width": 64,
+    "height": 96,
+    "frameWidth": 64,
+    "frameHeight": 96,
+    "frames": 1,
+    "fps": 0,
+    "loop": false,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.9375
+    },
+    "source": "assets-source/generated/raka-tool-source.png",
+    "status": "generated",
+    "provenance": "Built-in image_gen; original task-specific art. Nearest-neighbor normalization, alpha cutoff 128, palette quantization. No stock."
+  },
+  {
+    "key": "raka-tool-frame-3",
+    "path": "assets/characters/raka-tool-03.png",
+    "width": 64,
+    "height": 96,
+    "frameWidth": 64,
+    "frameHeight": 96,
+    "frames": 1,
+    "fps": 0,
+    "loop": false,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.9375
+    },
+    "source": "assets-source/generated/raka-tool-source.png",
+    "status": "generated",
+    "provenance": "Built-in image_gen; original task-specific art. Nearest-neighbor normalization, alpha cutoff 128, palette quantization. No stock."
+  },
+  {
+    "key": "raka-tool-frame-4",
+    "path": "assets/characters/raka-tool-04.png",
+    "width": 64,
+    "height": 96,
+    "frameWidth": 64,
+    "frameHeight": 96,
+    "frames": 1,
+    "fps": 0,
+    "loop": false,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.9375
+    },
+    "source": "assets-source/generated/raka-tool-source.png",
+    "status": "generated",
+    "provenance": "Built-in image_gen; original task-specific art. Nearest-neighbor normalization, alpha cutoff 128, palette quantization. No stock."
+  },
+  {
+    "key": "raka-tool-frame-5",
+    "path": "assets/characters/raka-tool-05.png",
+    "width": 64,
+    "height": 96,
+    "frameWidth": 64,
+    "frameHeight": 96,
+    "frames": 1,
+    "fps": 0,
+    "loop": false,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.9375
+    },
+    "source": "assets-source/generated/raka-tool-source.png",
+    "status": "generated",
+    "provenance": "Built-in image_gen; original task-specific art. Nearest-neighbor normalization, alpha cutoff 128, palette quantization. No stock."
+  },
+  {
+    "key": "raka-tool",
+    "path": "assets/characters/raka-tool.png",
+    "width": 384,
+    "height": 96,
+    "frameWidth": 64,
+    "frameHeight": 96,
+    "frames": 6,
+    "fps": 10,
+    "loop": false,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.9375
+    },
+    "source": "assets-source/generated/raka-tool-source.png",
+    "status": "generated",
+    "provenance": "Built-in image_gen; new original design, no prior assets or stock. See source log and normalization audit."
+  },
+  {
+    "key": "ion-idle-frame-0",
+    "path": "assets/characters/ion-idle-00.png",
+    "width": 48,
+    "height": 48,
+    "frameWidth": 48,
+    "frameHeight": 48,
+    "frames": 1,
+    "fps": 0,
+    "loop": false,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "source": "assets-source/generated/ion-idle-source.png",
+    "status": "generated",
+    "provenance": "Built-in image_gen; original task-specific art. Nearest-neighbor normalization, alpha cutoff 128, palette quantization. No stock."
+  },
+  {
+    "key": "ion-idle-frame-1",
+    "path": "assets/characters/ion-idle-01.png",
+    "width": 48,
+    "height": 48,
+    "frameWidth": 48,
+    "frameHeight": 48,
+    "frames": 1,
+    "fps": 0,
+    "loop": false,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "source": "assets-source/generated/ion-idle-source.png",
+    "status": "generated",
+    "provenance": "Built-in image_gen; original task-specific art. Nearest-neighbor normalization, alpha cutoff 128, palette quantization. No stock."
+  },
+  {
+    "key": "ion-idle-frame-2",
+    "path": "assets/characters/ion-idle-02.png",
+    "width": 48,
+    "height": 48,
+    "frameWidth": 48,
+    "frameHeight": 48,
+    "frames": 1,
+    "fps": 0,
+    "loop": false,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "source": "assets-source/generated/ion-idle-source.png",
+    "status": "generated",
+    "provenance": "Built-in image_gen; original task-specific art. Nearest-neighbor normalization, alpha cutoff 128, palette quantization. No stock."
+  },
+  {
+    "key": "ion-idle-frame-3",
+    "path": "assets/characters/ion-idle-03.png",
+    "width": 48,
+    "height": 48,
+    "frameWidth": 48,
+    "frameHeight": 48,
+    "frames": 1,
+    "fps": 0,
+    "loop": false,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "source": "assets-source/generated/ion-idle-source.png",
+    "status": "generated",
+    "provenance": "Built-in image_gen; original task-specific art. Nearest-neighbor normalization, alpha cutoff 128, palette quantization. No stock."
+  },
+  {
+    "key": "ion-idle",
+    "path": "assets/characters/ion-idle.png",
+    "width": 192,
+    "height": 48,
+    "frameWidth": 48,
+    "frameHeight": 48,
+    "frames": 4,
+    "fps": 6,
+    "loop": true,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "source": "assets-source/generated/ion-idle-source.png",
+    "status": "generated",
+    "provenance": "Built-in image_gen; new original design, no prior assets or stock. See source log and normalization audit."
+  },
+  {
+    "key": "raka-portrait-frame-0",
+    "path": "assets/characters/raka-portrait-00.png",
+    "width": 128,
+    "height": 128,
+    "frameWidth": 128,
+    "frameHeight": 128,
+    "frames": 1,
+    "fps": 0,
+    "loop": false,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "source": "assets-source/generated/raka-portrait-source.png",
+    "status": "generated",
+    "provenance": "Built-in image_gen; original task-specific art. Nearest-neighbor normalization, alpha cutoff 128, palette quantization. No stock."
+  },
+  {
+    "key": "raka-portrait",
+    "path": "assets/characters/raka-portrait.png",
+    "width": 128,
+    "height": 128,
+    "frameWidth": 128,
+    "frameHeight": 128,
+    "frames": 1,
+    "fps": 0,
+    "loop": false,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "source": "assets-source/generated/raka-portrait-source.png",
+    "status": "generated",
+    "provenance": "Built-in image_gen; new original design, no prior assets or stock. See source log and normalization audit."
+  },
+  {
+    "key": "ion-portrait-frame-0",
+    "path": "assets/characters/ion-portrait-00.png",
+    "width": 128,
+    "height": 128,
+    "frameWidth": 128,
+    "frameHeight": 128,
+    "frames": 1,
+    "fps": 0,
+    "loop": false,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "source": "assets-source/generated/ion-portrait-source.png",
+    "status": "generated",
+    "provenance": "Built-in image_gen; original task-specific art. Nearest-neighbor normalization, alpha cutoff 128, palette quantization. No stock."
+  },
+  {
+    "key": "ion-portrait",
+    "path": "assets/characters/ion-portrait.png",
+    "width": 128,
+    "height": 128,
+    "frameWidth": 128,
+    "frameHeight": 128,
+    "frames": 1,
+    "fps": 0,
+    "loop": false,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "source": "assets-source/generated/ion-portrait-source.png",
+    "status": "generated",
+    "provenance": "Built-in image_gen; new original design, no prior assets or stock. See source log and normalization audit."
+  }
+]

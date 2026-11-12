@@ -1,0 +1,20 @@
+/* Layout retained from game UI v1; all production skins now come from console-ui.css. */
+.game-stage .ui-icon{display:inline-block;width:24px;height:24px;flex:none;object-fit:contain;image-rendering:pixelated;vertical-align:middle;margin-right:8px;pointer-events:none}
+.dialog-speaker{display:flex;align-items:center;gap:12px;margin-bottom:12px;font-weight:700;color:#b2f7ff}
+.dialog-speaker img{width:64px;height:64px;object-fit:contain;image-rendering:pixelated}
+body[data-screen=mission] #app .game-stage .answer-option{border:8px solid transparent;padding:6px;margin:8px 0}
+body[data-screen=mission] #app .game-stage .touch-controls [data-direction]{font-size:0;line-height:0}
+body[data-screen=mission] #app .game-stage .touch-controls [data-direction] .ui-icon{margin:0;width:24px;height:24px}
+body[data-screen=mission] #app .game-stage .touch-controls [data-interact]{display:flex;align-items:center;justify-content:center;gap:4px;font-size:12px;max-width:180px}
+body[data-screen=mission] #app .game-stage .touch-controls [data-interact] .ui-icon{width:20px;height:20px;margin:0}
+body[data-screen=mission] #app .game-stage .mission-toolbar button{display:flex;align-items:center;justify-content:center;gap:4px;padding:5px 8px;min-height:48px}
+body[data-screen=mission] #app .game-stage .mission-toolbar button .ui-icon{margin:0;width:20px;height:20px}
+body[data-screen=mission] #app .game-stage .game-hud{max-width:calc(100% - 290px)}
+body[data-screen=mission] #app .game-stage #interaction-prompt{border:6px solid transparent;border-image:var(--eq-panel-modal) 12 fill /6px;background:none}
+body[data-screen=mission] #app .learning-panel h3::after{content:'';display:block;height:8px;background:var(--eq-divider) center/100% 8px;margin-top:12px;image-rendering:pixelated}
+body[data-screen=mission] #app .game-stage [data-next]::after{content:'';display:inline-block;vertical-align:middle;width:16px;height:16px;margin-left:12px;background-image:var(--asset-ui-next);background-size:64px 16px;image-rendering:pixelated;animation:ui-next var(--ui-next-duration,1s) steps(var(--ui-next-steps,4)) infinite}
+.reduced-effects [data-next]::after{animation:none!important}
+@keyframes ui-next{to{background-position:-64px 0}}
+@media(prefers-reduced-motion:reduce){[data-next]::after{animation:none!important}}
+@media(max-width:760px){body[data-screen=mission] #app .game-stage .mission-toolbar button{font-size:0;padding:4px;min-width:48px;width:48px;height:48px}body[data-screen=mission] #app .game-stage .mission-toolbar button .ui-icon{width:24px;height:24px}body[data-screen=mission] #app .game-stage .game-hud{max-width:calc(100% - 118px)}.dialog-speaker{margin-bottom:8px}body[data-screen=mission] #app .game-stage .touch-controls [data-interact]{width:104px;padding:2px;font-size:11px;line-height:1.1}}
+@media(min-width:2400px){body[data-screen=mission] #app .game-stage .game-hud{max-width:calc(100% - 400px)}}

@@ -1,0 +1,11 @@
+.experiment{width:min(650px,calc(100vw - 32px))}
+.experiment .charge-readout{grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.experiment .charge-readout>div{padding:12px}
+.experiment .charge-readout dd{font-size:1rem;overflow-wrap:anywhere}
+.experiment .charge-readout dt{font-size:.75rem}
+.panel-selector{display:grid;gap:8px}.panel-selector select{font:inherit;min-height:46px;padding:8px;background:#253952;color:#edf5fa;border:1px solid var(--line)}
+.transfer-actions,.experiment-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}.transfer-actions button{flex:1}.experiment-actions button{width:auto;flex:1;min-width:110px}
+.experiment .charge-explainer,.experiment .total-charge{font-size:.8rem}.neutral-note{border-left:3px solid #ffbc55;padding-left:12px}
+.transfer-feedback{min-height:1.5em;color:#39ddeb!important;font-size:.85rem}.live-charges{font-size:.8rem;line-height:1.7;color:#edf5fa}.experiment-status{font-size:.85rem;line-height:1.7;color:var(--muted)}
+.electron-route{position:relative;display:flex;justify-content:space-around;height:46px;font-size:.7rem;color:var(--muted)}.transfer-electron{position:absolute;width:16px;height:16px;image-rendering:pixelated;transform:translateX(-50%)}
+@media(max-width:480px){.experiment{padding:18px}.experiment h2{font-size:1.3rem}.experiment .charge-readout>div{padding:8px}.experiment .charge-readout dd{font-size:.85rem}.transfer-actions button{padding:10px;font-size:.85rem}}

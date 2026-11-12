@@ -1,0 +1,20 @@
+import http from 'node:http';
+import fs from 'node:fs';
+import path from 'node:path';
+const root=path.resolve(import.meta.dirname,'../public');
+const server=http.createServer((req,res)=>{let name;try{name=decodeURIComponent(new URL(req.url,'http://localhost').pathname)}catch{res.writeHead(400).end();return}const file=path.resolve(root,'.'+(name==='/'?'/gallery.html':name));if(!file.startsWith(root+path.sep)){res.writeHead(403).end();return}fs.readFile(file,(err,data)=>{if(err){res.writeHead(404).end('Not found');return}res.setHeader('Content-Type',({'.html':'text/html; charset=utf-8','.js':'text/javascript','.css':'text/css','.png':'image/png','.json':'application/json'})[path.extname(file)]||'application/octet-stream');res.end(data)})});
+let port=Number(process.env.PORT || 4175);
+if(!Number.isInteger(port)||port<1||port>65535){
+  console.error('PORT harus berupa angka 1–65535.');process.exit(1);
+}
+const firstPort=port;
+server.on('error',error=>{
+  if(error.code==='EADDRINUSE'&&port<Math.min(firstPort+20,65535)){
+    console.log(`Port ${port} sedang dipakai; mencoba ${port+1}…`);
+    port++;server.listen(port,'127.0.0.1');
+  }else{
+    console.error('Gagal menjalankan preview: '+error.message);process.exitCode=1;
+  }
+});
+server.on('listening',()=>console.log(`ElectroQuest asset preview: http://127.0.0.1:${port}`));
+server.listen(port,'127.0.0.1');

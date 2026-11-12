@@ -1,0 +1,33 @@
+body[data-screen=mission] .bridge-preview .game-hud{max-width:calc(100% - 280px)}
+body[data-screen=mission] #app .warehouse-full .game-hud{max-width:calc(100% - 290px)}
+@media(max-width:760px){body[data-screen=mission] #app .warehouse-full .game-hud{max-width:calc(100% - 174px)}body[data-screen=mission] #app .warehouse-full .game-hud h1{font-size:11px}}
+body[data-screen=mission] .bridge-preview #active-objective{font-size:12px}
+body[data-screen=mission] .bridge-preview .bridge-terminal{width:min(680px,calc(var(--stage-w) - 24px))}
+.bridge-terminal label{display:flex;justify-content:space-between;align-items:center;gap:16px;min-height:56px;margin:12px 0}.bridge-terminal input[type=range]{width:55%;min-height:48px;accent-color:#39ddeb}.bridge-terminal select{font:inherit;min-height:44px;background:#253952;color:#edf5fa;padding:8px;border:1px solid #526780}
+.bridge-live{position:absolute;left:24%;right:24%;bottom:8px;z-index:25;background:#111e35ed;padding:8px;max-height:30%;overflow:auto;font-size:12px}.bridge-live[hidden]{display:none}.bridge-live p{margin:0 0 6px}.bridge-live button{min-height:44px}.bridge-lesson form>button,.bridge-lesson fieldset button{margin:4px}.bridge-lesson fieldset{border:1px solid #526780;margin:12px 0}.bridge-lesson input[type=number]{width:100px;min-height:44px;font:inherit}.bridge-lesson textarea{width:100%;min-height:90px;font:inherit}.bridge-table{overflow:auto;max-width:100%}.bridge-table table{border-collapse:collapse;width:100%;font-size:14px}.bridge-table th,.bridge-table td{padding:8px;border:1px solid #526780;text-align:left}.bridge-lesson label{flex-wrap:wrap}.bridge-lesson select{max-width:100%}.bridge-full .mission-toolbar button:last-of-type{font-size:12px}
+@media(max-width:760px){.bridge-live{left:8px;right:8px;bottom:56px;max-height:28%;font-size:11px}.bridge-full .mission-toolbar button:last-of-type{font-size:10px;width:48px}.bridge-table th,.bridge-table td{padding:5px}.bridge-lesson label{display:grid}}
+.bridge-data{border:8px solid transparent;border-image:var(--m2-data-frame,var(--asset-m2-data-frame)) 8 fill / 8px;padding:8px;image-rendering:pixelated}.bridge-data p{margin:8px 0}
+.bridge-selection,.bridge-actions{display:flex;gap:12px;flex-wrap:wrap;margin:16px 0}.bridge-selection button{flex:1}
+body[data-screen=mission] #app .bridge-preview .bridge-selection button[aria-pressed=true]{border-image:var(--m2-data-selected) 8 fill / 8px}
+.bridge-terminal .preview-note{border-left:3px solid #ffbc55;padding-left:12px;font-size:14px}.bridge-vfx-legend{font-size:13px}.bridge-vfx-legend .ui-icon{width:16px;height:16px}
+.warehouse-lesson label{display:grid;grid-template-columns:minmax(0,1fr);align-items:start;gap:8px;min-width:0;min-height:0;margin:16px 0}.warehouse-lesson select,.warehouse-lesson input[type=range],.warehouse-lesson textarea{width:100%;min-width:0;max-width:100%}
+body[data-screen=mission] .bridge-preview .bridge-controls [data-interact]{max-width:150px}
+@media(max-width:760px){body[data-screen=mission] #app .bridge-preview .game-hud{max-width:calc(100% - 174px)}body[data-screen=mission] .bridge-preview .game-hud h1{font-size:11px}body[data-screen=mission] .bridge-preview #active-objective{font-size:10px}.bridge-terminal label{display:grid;gap:4px}.bridge-terminal input[type=range]{width:100%}.bridge-selection{display:grid;grid-template-columns:1fr 1fr;gap:8px}}
+body[data-screen=mission] #app .game-stage dialog.mission3-complete{width:min(980px,calc(100vw - 32px));max-width:calc(100vw - 32px);padding:clamp(18px,4vw,36px)}
+.mission3-completion{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);align-items:center;gap:clamp(16px,3vw,32px)}
+.mission3-completion-art{display:grid;place-items:center;min-width:0;padding:8px;background:#0b1527;border:1px solid #526780}
+.mission3-completion-art img{display:block;width:100%;height:auto;image-rendering:pixelated}
+.mission3-completion-copy{min-width:0}
+.mission3-completion-copy .eyebrow{margin-bottom:10px}
+.mission3-completion-copy h3{margin:0 0 12px;font-size:clamp(1.5rem,3vw,2.1rem);line-height:1.15;color:#edf5fa}
+.mission3-completion-copy>p:not(.eyebrow){line-height:1.7}
+.mission3-completion-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-top:18px}
+.mission3-completion-stats>div{display:grid;align-content:start;gap:4px;min-width:0;padding:10px;background:#192a42;border:1px solid #526780}
+.mission3-completion-stats strong{font-size:clamp(1.1rem,2.5vw,1.5rem);color:#39ddeb}
+.mission3-completion-stats span{font-size:.75rem;line-height:1.4;color:#b5c5d6}
+.mission3-results-details{grid-column:1/-1;margin-top:18px;border:1px solid #526780;padding:12px}
+.mission3-results-details summary{min-height:44px;display:flex;align-items:center;color:#39ddeb;cursor:pointer}
+.mission3-results-details h3{font-size:1rem;margin:16px 0 8px}
+.mission3-completion-actions{grid-column:1/-1;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:8px}
+.mission3-completion-actions button{margin:0;text-align:center}
+@media(max-width:760px){body[data-screen=mission] #app .game-stage dialog.mission3-complete{padding:18px}.mission3-completion{grid-template-columns:minmax(0,1fr);gap:14px}.mission3-completion-art{max-height:180px;overflow:hidden}.mission3-completion-art img{width:min(100%,520px)}.mission3-completion-actions{grid-template-columns:minmax(0,1fr)}.mission3-completion-stats{gap:6px}.mission3-completion-stats>div{padding:8px}.mission3-completion-stats span{font-size:.7rem}}

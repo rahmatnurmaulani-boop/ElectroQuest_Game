@@ -1,0 +1,4 @@
+import fs from 'node:fs';import assert from 'node:assert/strict';import {PNG} from '../vendor/pngjs/lib/png.js';
+const production=JSON.parse(fs.readFileSync('assets-source/landing-production.json','utf8')),manifest=JSON.parse(fs.readFileSync('public/asset-manifest.json','utf8'));
+for(const a of production.assets){const p=PNG.sync.read(fs.readFileSync('public/'+a.path));assert.equal(p.width,a.width);assert.equal(p.height,a.height);let clear=0;for(let i=3;i<p.data.length;i+=4)if(p.data[i]===0)clear++;assert(clear>0);assert.equal(clear,a.alpha.transparentPixels);assert(a.final&&a.source&&fs.existsSync(a.source));assert.deepEqual(a,manifest.assets.find(x=>x.key===a.key))}
+console.log(`${production.assets.length} final landing PNGs: dimensions, real alpha, production source and manifest valid.`);

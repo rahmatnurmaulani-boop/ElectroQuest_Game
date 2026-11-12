@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.npm-cache/
+test-results/
+playwright-report/
+.taste-skill/
+.vercel/
+debug.log
+.env
+.env.*
+!.env.example

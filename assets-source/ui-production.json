@@ -1,0 +1,876 @@
+{
+  "source": "scripts/assets/ui.mjs",
+  "palette": {
+    "navy": [
+      17,
+      30,
+      53
+    ],
+    "dark": [
+      37,
+      57,
+      82
+    ],
+    "gray": [
+      82,
+      103,
+      128
+    ],
+    "light": [
+      154,
+      175,
+      195
+    ],
+    "white": [
+      237,
+      245,
+      250
+    ],
+    "cyan": [
+      57,
+      221,
+      235
+    ],
+    "amber": [
+      255,
+      188,
+      85
+    ]
+  },
+  "assets": [
+    {
+      "key": "ui-hud-frame",
+      "path": "assets/ui/ui-hud-frame.png",
+      "width": 32,
+      "height": 32,
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "provenance": "Original deterministic pixel geometry, ElectroQuest palette; transparent RGBA PNG, no baked text.",
+      "usage": "HUD nama misi dan tujuan",
+      "alpha": {
+        "transparentPixels": 64,
+        "partialPixels": 536
+      },
+      "nineSlice": {
+        "top": 8,
+        "right": 8,
+        "bottom": 8,
+        "left": 8
+      },
+      "states": [
+        "frame"
+      ]
+    },
+    {
+      "key": "ui-dialog-info",
+      "path": "assets/ui/ui-dialog-info.png",
+      "width": 32,
+      "height": 32,
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "provenance": "Original deterministic pixel geometry, ElectroQuest palette; transparent RGBA PNG, no baked text.",
+      "usage": "Dialog Ion, prediksi, penjelasan dan refleksi",
+      "alpha": {
+        "transparentPixels": 64,
+        "partialPixels": 536
+      },
+      "nineSlice": {
+        "top": 8,
+        "right": 8,
+        "bottom": 8,
+        "left": 8
+      },
+      "states": [
+        "info"
+      ]
+    },
+    {
+      "key": "ui-dialog-hint",
+      "path": "assets/ui/ui-dialog-hint.png",
+      "width": 32,
+      "height": 32,
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "provenance": "Original deterministic pixel geometry, ElectroQuest palette; transparent RGBA PNG, no baked text.",
+      "usage": "Catatan konsep, petunjuk dan peringatan",
+      "alpha": {
+        "transparentPixels": 64,
+        "partialPixels": 536
+      },
+      "nineSlice": {
+        "top": 8,
+        "right": 8,
+        "bottom": 8,
+        "left": 8
+      },
+      "states": [
+        "hint"
+      ]
+    },
+    {
+      "key": "ui-dialog-success",
+      "path": "assets/ui/ui-dialog-success.png",
+      "width": 32,
+      "height": 32,
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "provenance": "Original deterministic pixel geometry, ElectroQuest palette; transparent RGBA PNG, no baked text.",
+      "usage": "Hasil dan umpan balik keberhasilan",
+      "alpha": {
+        "transparentPixels": 64,
+        "partialPixels": 529
+      },
+      "nineSlice": {
+        "top": 8,
+        "right": 8,
+        "bottom": 8,
+        "left": 8
+      },
+      "states": [
+        "success"
+      ]
+    },
+    {
+      "key": "ui-terminal-frame",
+      "path": "assets/ui/ui-terminal-frame.png",
+      "width": 32,
+      "height": 32,
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "provenance": "Original deterministic pixel geometry, ElectroQuest palette; transparent RGBA PNG, no baked text.",
+      "usage": "Overlay terminal",
+      "alpha": {
+        "transparentPixels": 64,
+        "partialPixels": 532
+      },
+      "nineSlice": {
+        "top": 8,
+        "right": 8,
+        "bottom": 8,
+        "left": 8
+      },
+      "states": [
+        "frame"
+      ]
+    },
+    {
+      "key": "ui-menu-frame",
+      "path": "assets/ui/ui-menu-frame.png",
+      "width": 32,
+      "height": 32,
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "provenance": "Original deterministic pixel geometry, ElectroQuest palette; transparent RGBA PNG, no baked text.",
+      "usage": "Pause, pengaturan dan cara bermain",
+      "alpha": {
+        "transparentPixels": 64,
+        "partialPixels": 528
+      },
+      "nineSlice": {
+        "top": 8,
+        "right": 8,
+        "bottom": 8,
+        "left": 8
+      },
+      "states": [
+        "frame"
+      ]
+    },
+    {
+      "key": "ui-choice-selected",
+      "path": "assets/ui/ui-choice-selected.png",
+      "width": 32,
+      "height": 32,
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "provenance": "Original deterministic pixel geometry, ElectroQuest palette; transparent RGBA PNG, no baked text.",
+      "usage": "Pilihan panel dan jawaban aktif",
+      "alpha": {
+        "transparentPixels": 64,
+        "partialPixels": 536
+      },
+      "nineSlice": {
+        "top": 8,
+        "right": 8,
+        "bottom": 8,
+        "left": 8
+      },
+      "states": [
+        "selected"
+      ]
+    },
+    {
+      "key": "button-selected",
+      "path": "assets/ui/button-selected.png",
+      "width": 48,
+      "height": 24,
+      "frameWidth": 48,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "provenance": "Original deterministic pixel geometry, ElectroQuest palette; transparent RGBA PNG, no baked text.",
+      "usage": "Tombol panel yang telah diperiksa",
+      "alpha": {
+        "transparentPixels": 64,
+        "partialPixels": 568
+      },
+      "nineSlice": {
+        "top": 6,
+        "right": 6,
+        "bottom": 6,
+        "left": 6
+      },
+      "states": [
+        "selected"
+      ]
+    },
+    {
+      "key": "ui-touch-normal",
+      "path": "assets/ui/ui-touch-normal.png",
+      "width": 32,
+      "height": 32,
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "provenance": "Original deterministic pixel geometry, ElectroQuest palette; transparent RGBA PNG, no baked text.",
+      "usage": "Kontrol sentuh, status normal",
+      "alpha": {
+        "transparentPixels": 64,
+        "partialPixels": 536
+      },
+      "nineSlice": {
+        "top": 8,
+        "right": 8,
+        "bottom": 8,
+        "left": 8
+      },
+      "states": [
+        "normal"
+      ]
+    },
+    {
+      "key": "ui-touch-focus",
+      "path": "assets/ui/ui-touch-focus.png",
+      "width": 32,
+      "height": 32,
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "provenance": "Original deterministic pixel geometry, ElectroQuest palette; transparent RGBA PNG, no baked text.",
+      "usage": "Kontrol sentuh, status focus",
+      "alpha": {
+        "transparentPixels": 64,
+        "partialPixels": 536
+      },
+      "nineSlice": {
+        "top": 8,
+        "right": 8,
+        "bottom": 8,
+        "left": 8
+      },
+      "states": [
+        "focus"
+      ]
+    },
+    {
+      "key": "ui-touch-pressed",
+      "path": "assets/ui/ui-touch-pressed.png",
+      "width": 32,
+      "height": 32,
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "provenance": "Original deterministic pixel geometry, ElectroQuest palette; transparent RGBA PNG, no baked text.",
+      "usage": "Kontrol sentuh, status pressed",
+      "alpha": {
+        "transparentPixels": 64,
+        "partialPixels": 536
+      },
+      "nineSlice": {
+        "top": 8,
+        "right": 8,
+        "bottom": 8,
+        "left": 8
+      },
+      "states": [
+        "pressed"
+      ]
+    },
+    {
+      "key": "ui-touch-disabled",
+      "path": "assets/ui/ui-touch-disabled.png",
+      "width": 32,
+      "height": 32,
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "provenance": "Original deterministic pixel geometry, ElectroQuest palette; transparent RGBA PNG, no baked text.",
+      "usage": "Kontrol sentuh, status disabled",
+      "alpha": {
+        "transparentPixels": 64,
+        "partialPixels": 536
+      },
+      "nineSlice": {
+        "top": 8,
+        "right": 8,
+        "bottom": 8,
+        "left": 8
+      },
+      "states": [
+        "disabled"
+      ]
+    },
+    {
+      "key": "ui-divider",
+      "path": "assets/ui/ui-divider.png",
+      "width": 32,
+      "height": 4,
+      "frameWidth": 32,
+      "frameHeight": 4,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "provenance": "Original deterministic pixel geometry, ElectroQuest palette; transparent RGBA PNG, no baked text.",
+      "usage": "Pemisah bagian hasil",
+      "alpha": {
+        "transparentPixels": 92,
+        "partialPixels": 0
+      },
+      "repeat": "horizontal"
+    },
+    {
+      "key": "ui-answer-off",
+      "path": "assets/ui/ui-answer-off.png",
+      "width": 16,
+      "height": 16,
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "provenance": "Original deterministic pixel geometry, ElectroQuest palette; transparent RGBA PNG, no baked text.",
+      "usage": "Pilihan jawaban belum dipilih",
+      "alpha": {
+        "transparentPixels": 112,
+        "partialPixels": 0
+      }
+    },
+    {
+      "key": "ui-answer-on",
+      "path": "assets/ui/ui-answer-on.png",
+      "width": 16,
+      "height": 16,
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "provenance": "Original deterministic pixel geometry, ElectroQuest palette; transparent RGBA PNG, no baked text.",
+      "usage": "Pilihan jawaban dipilih",
+      "alpha": {
+        "transparentPixels": 112,
+        "partialPixels": 0
+      }
+    },
+    {
+      "key": "ui-next",
+      "path": "assets/ui/ui-next.png",
+      "width": 64,
+      "height": 16,
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "frames": 4,
+      "fps": 4,
+      "loop": true,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "provenance": "Original deterministic pixel geometry, ElectroQuest palette; transparent RGBA PNG, no baked text.",
+      "usage": "Tombol Lanjut dialog Ion",
+      "alpha": {
+        "transparentPixels": 872,
+        "partialPixels": 0
+      },
+      "animation": {
+        "spacing": 0,
+        "margin": 0,
+        "durationMs": 1000
+      }
+    },
+    {
+      "key": "icon-pause",
+      "path": "assets/ui/icon-pause.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "provenance": "Original deterministic pixel geometry, ElectroQuest palette; transparent RGBA PNG, no baked text.",
+      "usage": "Game UI: pause",
+      "alpha": {
+        "transparentPixels": 416,
+        "partialPixels": 0
+      }
+    },
+    {
+      "key": "icon-settings",
+      "path": "assets/ui/icon-settings.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "provenance": "Original deterministic pixel geometry, ElectroQuest palette; transparent RGBA PNG, no baked text.",
+      "usage": "Game UI: settings",
+      "alpha": {
+        "transparentPixels": 300,
+        "partialPixels": 0
+      }
+    },
+    {
+      "key": "icon-help",
+      "path": "assets/ui/icon-help.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "provenance": "Original deterministic pixel geometry, ElectroQuest palette; transparent RGBA PNG, no baked text.",
+      "usage": "Game UI: help",
+      "alpha": {
+        "transparentPixels": 408,
+        "partialPixels": 0
+      }
+    },
+    {
+      "key": "icon-back",
+      "path": "assets/ui/icon-back.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "provenance": "Original deterministic pixel geometry, ElectroQuest palette; transparent RGBA PNG, no baked text.",
+      "usage": "Game UI: back",
+      "alpha": {
+        "transparentPixels": 504,
+        "partialPixels": 0
+      }
+    },
+    {
+      "key": "icon-info",
+      "path": "assets/ui/icon-info.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "provenance": "Original deterministic pixel geometry, ElectroQuest palette; transparent RGBA PNG, no baked text.",
+      "usage": "Game UI: info",
+      "alpha": {
+        "transparentPixels": 437,
+        "partialPixels": 0
+      }
+    },
+    {
+      "key": "icon-warning",
+      "path": "assets/ui/icon-warning.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "provenance": "Original deterministic pixel geometry, ElectroQuest palette; transparent RGBA PNG, no baked text.",
+      "usage": "Game UI: warning",
+      "alpha": {
+        "transparentPixels": 421,
+        "partialPixels": 0
+      }
+    },
+    {
+      "key": "icon-take",
+      "path": "assets/ui/icon-take.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "provenance": "Original deterministic pixel geometry, ElectroQuest palette; transparent RGBA PNG, no baked text.",
+      "usage": "Game UI: take",
+      "alpha": {
+        "transparentPixels": 446,
+        "partialPixels": 0
+      }
+    },
+    {
+      "key": "icon-send",
+      "path": "assets/ui/icon-send.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "provenance": "Original deterministic pixel geometry, ElectroQuest palette; transparent RGBA PNG, no baked text.",
+      "usage": "Game UI: send",
+      "alpha": {
+        "transparentPixels": 446,
+        "partialPixels": 0
+      }
+    },
+    {
+      "key": "icon-test",
+      "path": "assets/ui/icon-test.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "provenance": "Original deterministic pixel geometry, ElectroQuest palette; transparent RGBA PNG, no baked text.",
+      "usage": "Game UI: test",
+      "alpha": {
+        "transparentPixels": 430,
+        "partialPixels": 0
+      }
+    },
+    {
+      "key": "icon-glove",
+      "path": "assets/ui/icon-glove.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "provenance": "Original deterministic pixel geometry, ElectroQuest palette; transparent RGBA PNG, no baked text.",
+      "usage": "Game UI: glove",
+      "alpha": {
+        "transparentPixels": 369,
+        "partialPixels": 0
+      }
+    },
+    {
+      "key": "icon-panel-left",
+      "path": "assets/ui/icon-panel-left.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "provenance": "Original deterministic pixel geometry, ElectroQuest palette; transparent RGBA PNG, no baked text.",
+      "usage": "Game UI: panel-left",
+      "alpha": {
+        "transparentPixels": 256,
+        "partialPixels": 0
+      }
+    },
+    {
+      "key": "icon-panel-right",
+      "path": "assets/ui/icon-panel-right.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "provenance": "Original deterministic pixel geometry, ElectroQuest palette; transparent RGBA PNG, no baked text.",
+      "usage": "Game UI: panel-right",
+      "alpha": {
+        "transparentPixels": 256,
+        "partialPixels": 0
+      }
+    },
+    {
+      "key": "icon-success",
+      "path": "assets/ui/icon-success.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "provenance": "Original deterministic pixel geometry, ElectroQuest palette; transparent RGBA PNG, no baked text.",
+      "usage": "Game UI: success",
+      "alpha": {
+        "transparentPixels": 471,
+        "partialPixels": 0
+      }
+    },
+    {
+      "key": "icon-retry",
+      "path": "assets/ui/icon-retry.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "provenance": "Original deterministic pixel geometry, ElectroQuest palette; transparent RGBA PNG, no baked text.",
+      "usage": "Game UI: retry",
+      "alpha": {
+        "transparentPixels": 458,
+        "partialPixels": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+# Produksi tambahan Misi 3
+
+Alat bawaan image_gen, mode generate, transparent_background=true. Master dipertahankan sebagai m3-storage-master.png; normalisasi runtime640×360 nearest-neighbor dalam scripts/assets/mission-03.mjs. Tidak memakai layanan eksternal berbayar.
+
+Prompt:
+Use case: stylized-concept. Asset type: separate transparent rear shelving layer for ElectroQuest 2D pixel-art science warehouse game. Create original 16-bit pixel art industrial storage racks with blue-gray steel beams, small unmarked crates, ceramic insulators and closed science storage boxes ONLY concentrated in the far left quarter and far right quarter. Wide 16:9 canvas, all of center 50% genuinely transparent empty negative space, no connecting floor or ceiling, structures have visible margins around edges. Navy #111e35, blue-gray #526780, pale steel #9aafc3, restrained cyan #39ddeb and amber #ffbc55 accents. Low contrast rear decoration behind gameplay, light from upper left. Hard deliberate pixel clusters, side elevation camera, no perspective floor. Absolutely no people, text, symbols, charge signs, numbers, terminal, charged wand, loose paper, tray, doors or foreground interactive objects. Actual alpha transparency around all separate objects and across center; never checkerboard pattern.
+
+Lima aset geometri tambahan di skrip: m3-insulator-stage dan m3-conductor-stage96×64, m3-icon-clearance24×24, m3-tray-ready128×12, serta m3-source-wand-long20×82 agar ujung gambar sesuai titik fisika250. Tidak memuat teks/tanda/nilai. Posisi dan tanda muatan diagram dirender kode, inti konduktor tetap ketika tanda sumber dibalik.

@@ -1,0 +1,1974 @@
+{
+  "palette": {
+    "navy": [
+      14,
+      25,
+      44
+    ],
+    "dark": [
+      30,
+      46,
+      67
+    ],
+    "steel": [
+      71,
+      94,
+      117
+    ],
+    "light": [
+      156,
+      181,
+      199
+    ],
+    "white": [
+      237,
+      247,
+      251
+    ],
+    "cyan": [
+      57,
+      221,
+      235
+    ],
+    "amber": [
+      255,
+      188,
+      85
+    ],
+    "muted": [
+      74,
+      91,
+      108
+    ]
+  },
+  "assets": [
+    {
+      "key": "eq-panel-main",
+      "path": "assets/ui/shared/eq-panel-main.png",
+      "width": 48,
+      "height": 48,
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Shared main nine-slice frame",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 64,
+        "partialPixels": 576
+      },
+      "nineSlice": {
+        "top": 12,
+        "right": 12,
+        "bottom": 12,
+        "left": 12
+      },
+      "minimum": {
+        "width": 128,
+        "height": 64
+      },
+      "padding": 16
+    },
+    {
+      "key": "eq-panel-modal",
+      "path": "assets/ui/shared/eq-panel-modal.png",
+      "width": 48,
+      "height": 48,
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Shared modal nine-slice frame",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 64,
+        "partialPixels": 576
+      },
+      "nineSlice": {
+        "top": 12,
+        "right": 12,
+        "bottom": 12,
+        "left": 12
+      },
+      "minimum": {
+        "width": 128,
+        "height": 64
+      },
+      "padding": 16
+    },
+    {
+      "key": "eq-panel-result",
+      "path": "assets/ui/shared/eq-panel-result.png",
+      "width": 48,
+      "height": 48,
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Shared result nine-slice frame",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 64,
+        "partialPixels": 576
+      },
+      "nineSlice": {
+        "top": 12,
+        "right": 12,
+        "bottom": 12,
+        "left": 12
+      },
+      "minimum": {
+        "width": 128,
+        "height": 64
+      },
+      "padding": 16
+    },
+    {
+      "key": "eq-panel-stat",
+      "path": "assets/ui/shared/eq-panel-stat.png",
+      "width": 48,
+      "height": 48,
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Shared stat nine-slice frame",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 64,
+        "partialPixels": 576
+      },
+      "nineSlice": {
+        "top": 12,
+        "right": 12,
+        "bottom": 12,
+        "left": 12
+      },
+      "minimum": {
+        "width": 128,
+        "height": 64
+      },
+      "padding": 16
+    },
+    {
+      "key": "eq-panel-title",
+      "path": "assets/ui/shared/eq-panel-title.png",
+      "width": 48,
+      "height": 48,
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Shared title nine-slice frame",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 64,
+        "partialPixels": 576
+      },
+      "nineSlice": {
+        "top": 12,
+        "right": 12,
+        "bottom": 12,
+        "left": 12
+      },
+      "minimum": {
+        "width": 128,
+        "height": 64
+      },
+      "padding": 16
+    },
+    {
+      "key": "eq-panel-footer",
+      "path": "assets/ui/shared/eq-panel-footer.png",
+      "width": 48,
+      "height": 48,
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Shared footer nine-slice frame",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 64,
+        "partialPixels": 576
+      },
+      "nineSlice": {
+        "top": 12,
+        "right": 12,
+        "bottom": 12,
+        "left": 12
+      },
+      "minimum": {
+        "width": 128,
+        "height": 64
+      },
+      "padding": 16
+    },
+    {
+      "key": "eq-panel-hint",
+      "path": "assets/ui/shared/eq-panel-hint.png",
+      "width": 48,
+      "height": 48,
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Shared hint nine-slice frame",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 64,
+        "partialPixels": 576
+      },
+      "nineSlice": {
+        "top": 12,
+        "right": 12,
+        "bottom": 12,
+        "left": 12
+      },
+      "minimum": {
+        "width": 128,
+        "height": 64
+      },
+      "padding": 16
+    },
+    {
+      "key": "eq-panel-warning",
+      "path": "assets/ui/shared/eq-panel-warning.png",
+      "width": 48,
+      "height": 48,
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Shared warning nine-slice frame",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 64,
+        "partialPixels": 576
+      },
+      "nineSlice": {
+        "top": 12,
+        "right": 12,
+        "bottom": 12,
+        "left": 12
+      },
+      "minimum": {
+        "width": 128,
+        "height": 64
+      },
+      "padding": 16
+    },
+    {
+      "key": "eq-panel-input",
+      "path": "assets/ui/shared/eq-panel-input.png",
+      "width": 48,
+      "height": 48,
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Shared input nine-slice frame",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 64,
+        "partialPixels": 576
+      },
+      "nineSlice": {
+        "top": 12,
+        "right": 12,
+        "bottom": 12,
+        "left": 12
+      },
+      "minimum": {
+        "width": 128,
+        "height": 64
+      },
+      "padding": 16
+    },
+    {
+      "key": "eq-panel-portrait",
+      "path": "assets/ui/shared/eq-panel-portrait.png",
+      "width": 48,
+      "height": 48,
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Shared portrait nine-slice frame",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 64,
+        "partialPixels": 576
+      },
+      "nineSlice": {
+        "top": 12,
+        "right": 12,
+        "bottom": 12,
+        "left": 12
+      },
+      "minimum": {
+        "width": 48,
+        "height": 48
+      },
+      "padding": 16
+    },
+    {
+      "key": "eq-button-primary-normal",
+      "path": "assets/ui/shared/eq-button-primary-normal.png",
+      "width": 72,
+      "height": 40,
+      "frameWidth": 72,
+      "frameHeight": 40,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "primary button normal",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 64,
+        "partialPixels": 0
+      },
+      "nineSlice": {
+        "top": 12,
+        "right": 12,
+        "bottom": 12,
+        "left": 12
+      },
+      "minimum": {
+        "width": 48,
+        "height": 48
+      },
+      "padding": 12,
+      "state": "normal",
+      "variant": "primary"
+    },
+    {
+      "key": "eq-button-primary-hover",
+      "path": "assets/ui/shared/eq-button-primary-hover.png",
+      "width": 72,
+      "height": 40,
+      "frameWidth": 72,
+      "frameHeight": 40,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "primary button hover",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 64,
+        "partialPixels": 0
+      },
+      "nineSlice": {
+        "top": 12,
+        "right": 12,
+        "bottom": 12,
+        "left": 12
+      },
+      "minimum": {
+        "width": 48,
+        "height": 48
+      },
+      "padding": 12,
+      "state": "hover",
+      "variant": "primary"
+    },
+    {
+      "key": "eq-button-primary-focus",
+      "path": "assets/ui/shared/eq-button-primary-focus.png",
+      "width": 72,
+      "height": 40,
+      "frameWidth": 72,
+      "frameHeight": 40,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "primary button focus",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 16,
+        "partialPixels": 0
+      },
+      "nineSlice": {
+        "top": 12,
+        "right": 12,
+        "bottom": 12,
+        "left": 12
+      },
+      "minimum": {
+        "width": 48,
+        "height": 48
+      },
+      "padding": 12,
+      "state": "focus",
+      "variant": "primary"
+    },
+    {
+      "key": "eq-button-primary-pressed",
+      "path": "assets/ui/shared/eq-button-primary-pressed.png",
+      "width": 72,
+      "height": 40,
+      "frameWidth": 72,
+      "frameHeight": 40,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "primary button pressed",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 64,
+        "partialPixels": 0
+      },
+      "nineSlice": {
+        "top": 12,
+        "right": 12,
+        "bottom": 12,
+        "left": 12
+      },
+      "minimum": {
+        "width": 48,
+        "height": 48
+      },
+      "padding": 12,
+      "state": "pressed",
+      "variant": "primary"
+    },
+    {
+      "key": "eq-button-primary-disabled",
+      "path": "assets/ui/shared/eq-button-primary-disabled.png",
+      "width": 72,
+      "height": 40,
+      "frameWidth": 72,
+      "frameHeight": 40,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "primary button disabled",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 64,
+        "partialPixels": 0
+      },
+      "nineSlice": {
+        "top": 12,
+        "right": 12,
+        "bottom": 12,
+        "left": 12
+      },
+      "minimum": {
+        "width": 48,
+        "height": 48
+      },
+      "padding": 12,
+      "state": "disabled",
+      "variant": "primary"
+    },
+    {
+      "key": "eq-button-primary-selected",
+      "path": "assets/ui/shared/eq-button-primary-selected.png",
+      "width": 72,
+      "height": 40,
+      "frameWidth": 72,
+      "frameHeight": 40,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "primary button selected",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 64,
+        "partialPixels": 0
+      },
+      "nineSlice": {
+        "top": 12,
+        "right": 12,
+        "bottom": 12,
+        "left": 12
+      },
+      "minimum": {
+        "width": 48,
+        "height": 48
+      },
+      "padding": 12,
+      "state": "selected",
+      "variant": "primary"
+    },
+    {
+      "key": "eq-button-secondary-normal",
+      "path": "assets/ui/shared/eq-button-secondary-normal.png",
+      "width": 72,
+      "height": 40,
+      "frameWidth": 72,
+      "frameHeight": 40,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "secondary button normal",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 64,
+        "partialPixels": 0
+      },
+      "nineSlice": {
+        "top": 12,
+        "right": 12,
+        "bottom": 12,
+        "left": 12
+      },
+      "minimum": {
+        "width": 48,
+        "height": 48
+      },
+      "padding": 12,
+      "state": "normal",
+      "variant": "secondary"
+    },
+    {
+      "key": "eq-button-secondary-hover",
+      "path": "assets/ui/shared/eq-button-secondary-hover.png",
+      "width": 72,
+      "height": 40,
+      "frameWidth": 72,
+      "frameHeight": 40,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "secondary button hover",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 64,
+        "partialPixels": 0
+      },
+      "nineSlice": {
+        "top": 12,
+        "right": 12,
+        "bottom": 12,
+        "left": 12
+      },
+      "minimum": {
+        "width": 48,
+        "height": 48
+      },
+      "padding": 12,
+      "state": "hover",
+      "variant": "secondary"
+    },
+    {
+      "key": "eq-button-secondary-focus",
+      "path": "assets/ui/shared/eq-button-secondary-focus.png",
+      "width": 72,
+      "height": 40,
+      "frameWidth": 72,
+      "frameHeight": 40,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "secondary button focus",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 16,
+        "partialPixels": 0
+      },
+      "nineSlice": {
+        "top": 12,
+        "right": 12,
+        "bottom": 12,
+        "left": 12
+      },
+      "minimum": {
+        "width": 48,
+        "height": 48
+      },
+      "padding": 12,
+      "state": "focus",
+      "variant": "secondary"
+    },
+    {
+      "key": "eq-button-secondary-pressed",
+      "path": "assets/ui/shared/eq-button-secondary-pressed.png",
+      "width": 72,
+      "height": 40,
+      "frameWidth": 72,
+      "frameHeight": 40,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "secondary button pressed",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 64,
+        "partialPixels": 0
+      },
+      "nineSlice": {
+        "top": 12,
+        "right": 12,
+        "bottom": 12,
+        "left": 12
+      },
+      "minimum": {
+        "width": 48,
+        "height": 48
+      },
+      "padding": 12,
+      "state": "pressed",
+      "variant": "secondary"
+    },
+    {
+      "key": "eq-button-secondary-disabled",
+      "path": "assets/ui/shared/eq-button-secondary-disabled.png",
+      "width": 72,
+      "height": 40,
+      "frameWidth": 72,
+      "frameHeight": 40,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "secondary button disabled",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 64,
+        "partialPixels": 0
+      },
+      "nineSlice": {
+        "top": 12,
+        "right": 12,
+        "bottom": 12,
+        "left": 12
+      },
+      "minimum": {
+        "width": 48,
+        "height": 48
+      },
+      "padding": 12,
+      "state": "disabled",
+      "variant": "secondary"
+    },
+    {
+      "key": "eq-button-secondary-selected",
+      "path": "assets/ui/shared/eq-button-secondary-selected.png",
+      "width": 72,
+      "height": 40,
+      "frameWidth": 72,
+      "frameHeight": 40,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "secondary button selected",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 64,
+        "partialPixels": 0
+      },
+      "nineSlice": {
+        "top": 12,
+        "right": 12,
+        "bottom": 12,
+        "left": 12
+      },
+      "minimum": {
+        "width": 48,
+        "height": 48
+      },
+      "padding": 12,
+      "state": "selected",
+      "variant": "secondary"
+    },
+    {
+      "key": "eq-button-warning-normal",
+      "path": "assets/ui/shared/eq-button-warning-normal.png",
+      "width": 72,
+      "height": 40,
+      "frameWidth": 72,
+      "frameHeight": 40,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "warning button normal",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 64,
+        "partialPixels": 0
+      },
+      "nineSlice": {
+        "top": 12,
+        "right": 12,
+        "bottom": 12,
+        "left": 12
+      },
+      "minimum": {
+        "width": 48,
+        "height": 48
+      },
+      "padding": 12,
+      "state": "normal",
+      "variant": "warning"
+    },
+    {
+      "key": "eq-button-warning-hover",
+      "path": "assets/ui/shared/eq-button-warning-hover.png",
+      "width": 72,
+      "height": 40,
+      "frameWidth": 72,
+      "frameHeight": 40,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "warning button hover",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 64,
+        "partialPixels": 0
+      },
+      "nineSlice": {
+        "top": 12,
+        "right": 12,
+        "bottom": 12,
+        "left": 12
+      },
+      "minimum": {
+        "width": 48,
+        "height": 48
+      },
+      "padding": 12,
+      "state": "hover",
+      "variant": "warning"
+    },
+    {
+      "key": "eq-button-warning-focus",
+      "path": "assets/ui/shared/eq-button-warning-focus.png",
+      "width": 72,
+      "height": 40,
+      "frameWidth": 72,
+      "frameHeight": 40,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "warning button focus",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 16,
+        "partialPixels": 0
+      },
+      "nineSlice": {
+        "top": 12,
+        "right": 12,
+        "bottom": 12,
+        "left": 12
+      },
+      "minimum": {
+        "width": 48,
+        "height": 48
+      },
+      "padding": 12,
+      "state": "focus",
+      "variant": "warning"
+    },
+    {
+      "key": "eq-button-warning-pressed",
+      "path": "assets/ui/shared/eq-button-warning-pressed.png",
+      "width": 72,
+      "height": 40,
+      "frameWidth": 72,
+      "frameHeight": 40,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "warning button pressed",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 64,
+        "partialPixels": 0
+      },
+      "nineSlice": {
+        "top": 12,
+        "right": 12,
+        "bottom": 12,
+        "left": 12
+      },
+      "minimum": {
+        "width": 48,
+        "height": 48
+      },
+      "padding": 12,
+      "state": "pressed",
+      "variant": "warning"
+    },
+    {
+      "key": "eq-button-warning-disabled",
+      "path": "assets/ui/shared/eq-button-warning-disabled.png",
+      "width": 72,
+      "height": 40,
+      "frameWidth": 72,
+      "frameHeight": 40,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "warning button disabled",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 64,
+        "partialPixels": 0
+      },
+      "nineSlice": {
+        "top": 12,
+        "right": 12,
+        "bottom": 12,
+        "left": 12
+      },
+      "minimum": {
+        "width": 48,
+        "height": 48
+      },
+      "padding": 12,
+      "state": "disabled",
+      "variant": "warning"
+    },
+    {
+      "key": "eq-button-warning-selected",
+      "path": "assets/ui/shared/eq-button-warning-selected.png",
+      "width": 72,
+      "height": 40,
+      "frameWidth": 72,
+      "frameHeight": 40,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "warning button selected",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 64,
+        "partialPixels": 0
+      },
+      "nineSlice": {
+        "top": 12,
+        "right": 12,
+        "bottom": 12,
+        "left": 12
+      },
+      "minimum": {
+        "width": 48,
+        "height": 48
+      },
+      "padding": 12,
+      "state": "selected",
+      "variant": "warning"
+    },
+    {
+      "key": "eq-button-icon-normal",
+      "path": "assets/ui/shared/eq-button-icon-normal.png",
+      "width": 48,
+      "height": 40,
+      "frameWidth": 48,
+      "frameHeight": 40,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "icon button normal",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 64,
+        "partialPixels": 0
+      },
+      "nineSlice": {
+        "top": 12,
+        "right": 12,
+        "bottom": 12,
+        "left": 12
+      },
+      "minimum": {
+        "width": 48,
+        "height": 48
+      },
+      "padding": 12,
+      "state": "normal",
+      "variant": "icon"
+    },
+    {
+      "key": "eq-button-icon-hover",
+      "path": "assets/ui/shared/eq-button-icon-hover.png",
+      "width": 48,
+      "height": 40,
+      "frameWidth": 48,
+      "frameHeight": 40,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "icon button hover",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 64,
+        "partialPixels": 0
+      },
+      "nineSlice": {
+        "top": 12,
+        "right": 12,
+        "bottom": 12,
+        "left": 12
+      },
+      "minimum": {
+        "width": 48,
+        "height": 48
+      },
+      "padding": 12,
+      "state": "hover",
+      "variant": "icon"
+    },
+    {
+      "key": "eq-button-icon-focus",
+      "path": "assets/ui/shared/eq-button-icon-focus.png",
+      "width": 48,
+      "height": 40,
+      "frameWidth": 48,
+      "frameHeight": 40,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "icon button focus",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 16,
+        "partialPixels": 0
+      },
+      "nineSlice": {
+        "top": 12,
+        "right": 12,
+        "bottom": 12,
+        "left": 12
+      },
+      "minimum": {
+        "width": 48,
+        "height": 48
+      },
+      "padding": 12,
+      "state": "focus",
+      "variant": "icon"
+    },
+    {
+      "key": "eq-button-icon-pressed",
+      "path": "assets/ui/shared/eq-button-icon-pressed.png",
+      "width": 48,
+      "height": 40,
+      "frameWidth": 48,
+      "frameHeight": 40,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "icon button pressed",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 64,
+        "partialPixels": 0
+      },
+      "nineSlice": {
+        "top": 12,
+        "right": 12,
+        "bottom": 12,
+        "left": 12
+      },
+      "minimum": {
+        "width": 48,
+        "height": 48
+      },
+      "padding": 12,
+      "state": "pressed",
+      "variant": "icon"
+    },
+    {
+      "key": "eq-button-icon-disabled",
+      "path": "assets/ui/shared/eq-button-icon-disabled.png",
+      "width": 48,
+      "height": 40,
+      "frameWidth": 48,
+      "frameHeight": 40,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "icon button disabled",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 64,
+        "partialPixels": 0
+      },
+      "nineSlice": {
+        "top": 12,
+        "right": 12,
+        "bottom": 12,
+        "left": 12
+      },
+      "minimum": {
+        "width": 48,
+        "height": 48
+      },
+      "padding": 12,
+      "state": "disabled",
+      "variant": "icon"
+    },
+    {
+      "key": "eq-button-icon-selected",
+      "path": "assets/ui/shared/eq-button-icon-selected.png",
+      "width": 48,
+      "height": 40,
+      "frameWidth": 48,
+      "frameHeight": 40,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "icon button selected",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 64,
+        "partialPixels": 0
+      },
+      "nineSlice": {
+        "top": 12,
+        "right": 12,
+        "bottom": 12,
+        "left": 12
+      },
+      "minimum": {
+        "width": 48,
+        "height": 48
+      },
+      "padding": 12,
+      "state": "selected",
+      "variant": "icon"
+    },
+    {
+      "key": "eq-icon-play",
+      "path": "assets/ui/shared/eq-icon-play.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Shared accessible control icon: play",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 486,
+        "partialPixels": 0
+      }
+    },
+    {
+      "key": "eq-icon-continue",
+      "path": "assets/ui/shared/eq-icon-continue.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Shared accessible control icon: continue",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 454,
+        "partialPixels": 0
+      }
+    },
+    {
+      "key": "eq-icon-help",
+      "path": "assets/ui/shared/eq-icon-help.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Shared accessible control icon: help",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 520,
+        "partialPixels": 0
+      }
+    },
+    {
+      "key": "eq-icon-info",
+      "path": "assets/ui/shared/eq-icon-info.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Shared accessible control icon: info",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 510,
+        "partialPixels": 0
+      }
+    },
+    {
+      "key": "eq-icon-settings",
+      "path": "assets/ui/shared/eq-icon-settings.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Shared accessible control icon: settings",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 388,
+        "partialPixels": 0
+      }
+    },
+    {
+      "key": "eq-icon-missions",
+      "path": "assets/ui/shared/eq-icon-missions.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Shared accessible control icon: missions",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 380,
+        "partialPixels": 0
+      }
+    },
+    {
+      "key": "eq-icon-home",
+      "path": "assets/ui/shared/eq-icon-home.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Shared accessible control icon: home",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 422,
+        "partialPixels": 0
+      }
+    },
+    {
+      "key": "eq-icon-reset",
+      "path": "assets/ui/shared/eq-icon-reset.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Shared accessible control icon: reset",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 459,
+        "partialPixels": 0
+      }
+    },
+    {
+      "key": "eq-icon-replay",
+      "path": "assets/ui/shared/eq-icon-replay.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Shared accessible control icon: replay",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 429,
+        "partialPixels": 0
+      }
+    },
+    {
+      "key": "eq-icon-notes",
+      "path": "assets/ui/shared/eq-icon-notes.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Shared accessible control icon: notes",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 383,
+        "partialPixels": 0
+      }
+    },
+    {
+      "key": "eq-icon-results",
+      "path": "assets/ui/shared/eq-icon-results.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Shared accessible control icon: results",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 368,
+        "partialPixels": 0
+      }
+    },
+    {
+      "key": "eq-icon-reread",
+      "path": "assets/ui/shared/eq-icon-reread.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Shared accessible control icon: reread",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 383,
+        "partialPixels": 0
+      }
+    },
+    {
+      "key": "eq-icon-close",
+      "path": "assets/ui/shared/eq-icon-close.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Shared accessible control icon: close",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 488,
+        "partialPixels": 0
+      }
+    },
+    {
+      "key": "eq-icon-sound-on",
+      "path": "assets/ui/shared/eq-icon-sound-on.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Shared accessible control icon: sound-on",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 448,
+        "partialPixels": 0
+      }
+    },
+    {
+      "key": "eq-icon-sound-off",
+      "path": "assets/ui/shared/eq-icon-sound-off.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Shared accessible control icon: sound-off",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 432,
+        "partialPixels": 0
+      }
+    },
+    {
+      "key": "eq-icon-pause",
+      "path": "assets/ui/shared/eq-icon-pause.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Shared accessible control icon: pause",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 448,
+        "partialPixels": 0
+      }
+    },
+    {
+      "key": "eq-icon-fullscreen",
+      "path": "assets/ui/shared/eq-icon-fullscreen.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Shared accessible control icon: fullscreen",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 480,
+        "partialPixels": 0
+      }
+    },
+    {
+      "key": "eq-icon-warning",
+      "path": "assets/ui/shared/eq-icon-warning.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Shared accessible control icon: warning",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 415,
+        "partialPixels": 0
+      }
+    },
+    {
+      "key": "eq-emblem",
+      "path": "assets/ui/landing/eq-emblem.png",
+      "width": 64,
+      "height": 64,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Landing ElectroQuest charge/adventure emblem",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 2602,
+        "partialPixels": 0
+      }
+    },
+    {
+      "key": "eq-badge",
+      "path": "assets/ui/shared/eq-badge.png",
+      "width": 48,
+      "height": 48,
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Mission completed badge; mission number remains HTML",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 1170,
+        "partialPixels": 0
+      }
+    },
+    {
+      "key": "eq-pointer",
+      "path": "assets/ui/shared/eq-pointer.png",
+      "width": 16,
+      "height": 16,
+      "frameWidth": 16,
+      "frameHeight": 16,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Menu hover/focus selection pointer",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 204,
+        "partialPixels": 0
+      }
+    },
+    {
+      "key": "eq-indicator",
+      "path": "assets/ui/shared/eq-indicator.png",
+      "width": 24,
+      "height": 8,
+      "frameWidth": 24,
+      "frameHeight": 8,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Console checkpoint/status lamp",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 48,
+        "partialPixels": 44
+      }
+    },
+    {
+      "key": "eq-divider",
+      "path": "assets/ui/shared/eq-divider.png",
+      "width": 64,
+      "height": 8,
+      "frameWidth": 64,
+      "frameHeight": 8,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Resizable section separator",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 352,
+        "partialPixels": 0
+      }
+    },
+    {
+      "key": "eq-success",
+      "path": "assets/ui/shared/eq-success.png",
+      "width": 96,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 4,
+      "fps": 8,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Short decorative result success flash",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 2128,
+        "partialPixels": 0
+      }
+    },
+    {
+      "key": "eq-loader",
+      "path": "assets/ui/shared/eq-loader.png",
+      "width": 96,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 4,
+      "fps": 6,
+      "loop": true,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/console-ui.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Loading indicator using four fixed frames",
+      "provenance": "Original deterministic pixel geometry, no baked text, values, mission numbers or answers.",
+      "alpha": {
+        "transparentPixels": 1824,
+        "partialPixels": 0
+      }
+    },
+    {
+      "key": "eq-result-art-1",
+      "path": "assets/ui/results/eq-result-art-1.png",
+      "width": 640,
+      "height": 280,
+      "frameWidth": 640,
+      "frameHeight": 280,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "assets-source/console-ui/mission-1-master.png",
+      "status": "generated",
+      "final": true,
+      "usage": "Shared MissionResult illustration for mission 1",
+      "provenance": "Built-in image_gen, original retained, aspect preserved with transparent letterbox, nearest-neighbor normalization, no baked data.",
+      "alpha": {
+        "transparentPixels": 57507,
+        "partialPixels": 121659
+      },
+      "contentRect": {
+        "x": 75,
+        "y": 0,
+        "width": 490,
+        "height": 280
+      }
+    },
+    {
+      "key": "eq-result-art-2",
+      "path": "assets/ui/results/eq-result-art-2.png",
+      "width": 640,
+      "height": 280,
+      "frameWidth": 640,
+      "frameHeight": 280,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "assets-source/console-ui/mission-2-master.png",
+      "status": "generated",
+      "final": true,
+      "usage": "Shared MissionResult illustration for mission 2",
+      "provenance": "Built-in image_gen, original retained, aspect preserved with transparent letterbox, nearest-neighbor normalization, no baked data.",
+      "alpha": {
+        "transparentPixels": 19889,
+        "partialPixels": 159301
+      },
+      "contentRect": {
+        "x": 0,
+        "y": 0,
+        "width": 640,
+        "height": 280
+      }
+    },
+    {
+      "key": "eq-result-art-3",
+      "path": "assets/ui/results/eq-result-art-3.png",
+      "width": 640,
+      "height": 280,
+      "frameWidth": 640,
+      "frameHeight": 280,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "assets-source/console-ui/mission-3-master.png",
+      "status": "generated",
+      "final": true,
+      "usage": "Shared MissionResult illustration for mission 3",
+      "provenance": "Built-in image_gen, original retained, aspect preserved with transparent letterbox, nearest-neighbor normalization, no baked data.",
+      "alpha": {
+        "transparentPixels": 20873,
+        "partialPixels": 158266
+      },
+      "contentRect": {
+        "x": 0,
+        "y": 0,
+        "width": 640,
+        "height": 280
+      }
+    }
+  ]
+}

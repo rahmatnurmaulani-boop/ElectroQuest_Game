@@ -1,0 +1,879 @@
+{
+  "source": "scripts/assets/mission-04.mjs",
+  "assets": [
+    {
+      "key": "m4-bg-lab",
+      "path": "assets/mission-04/environment/m4-bg-lab.png",
+      "width": 640,
+      "height": 360,
+      "frameWidth": 640,
+      "frameHeight": 360,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-04.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Induction cleanroom laboratory backdrop",
+      "alpha": {
+        "transparentPixels": 0
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 4 Induction Lab; state & charge signs rendered in code."
+    },
+    {
+      "key": "m4-rear-props",
+      "path": "assets/mission-04/environment/m4-rear-props.png",
+      "width": 640,
+      "height": 360,
+      "frameWidth": 640,
+      "frameHeight": 360,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-04.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Induction laboratory scientific equipment backdrop",
+      "alpha": {
+        "transparentPixels": 213184
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 4 Induction Lab; state & charge signs rendered in code."
+    },
+    {
+      "key": "m4-floor-left",
+      "path": "assets/mission-04/environment/m4-floor-left.png",
+      "width": 32,
+      "height": 32,
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-04.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Modular cleanroom floor tile left",
+      "alpha": {
+        "transparentPixels": 0
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 4 Induction Lab; state & charge signs rendered in code."
+    },
+    {
+      "key": "m4-floor-middle",
+      "path": "assets/mission-04/environment/m4-floor-middle.png",
+      "width": 32,
+      "height": 32,
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-04.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Modular cleanroom floor tile middle",
+      "alpha": {
+        "transparentPixels": 0
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 4 Induction Lab; state & charge signs rendered in code."
+    },
+    {
+      "key": "m4-floor-right",
+      "path": "assets/mission-04/environment/m4-floor-right.png",
+      "width": 32,
+      "height": 32,
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-04.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Modular cleanroom floor tile right",
+      "alpha": {
+        "transparentPixels": 0
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 4 Induction Lab; state & charge signs rendered in code."
+    },
+    {
+      "key": "m4-bench",
+      "path": "assets/mission-04/environment/m4-bench.png",
+      "width": 192,
+      "height": 56,
+      "frameWidth": 192,
+      "frameHeight": 56,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-04.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Experimentation laboratory workbench table",
+      "alpha": {
+        "transparentPixels": 5376
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 4 Induction Lab; state & charge signs rendered in code."
+    },
+    {
+      "key": "m4-ceiling-lamp",
+      "path": "assets/mission-04/environment/m4-ceiling-lamp.png",
+      "width": 32,
+      "height": 24,
+      "frameWidth": 32,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0
+      },
+      "source": "scripts/assets/mission-04.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Overhead cleanroom fluorescent lamp",
+      "alpha": {
+        "transparentPixels": 264
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 4 Induction Lab; state & charge signs rendered in code."
+    },
+    {
+      "key": "m4-demo-sphere",
+      "path": "assets/mission-04/puzzle/m4-demo-sphere.png",
+      "width": 32,
+      "height": 32,
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-04.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Conducting metal sphere for electrostatic induction",
+      "alpha": {
+        "transparentPixels": 315
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 4 Induction Lab; state & charge signs rendered in code."
+    },
+    {
+      "key": "m4-demo-stand",
+      "path": "assets/mission-04/puzzle/m4-demo-stand.png",
+      "width": 32,
+      "height": 64,
+      "frameWidth": 32,
+      "frameHeight": 64,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-04.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "High-resistance dielectric insulator stand",
+      "alpha": {
+        "transparentPixels": 1232
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 4 Induction Lab; state & charge signs rendered in code."
+    },
+    {
+      "key": "m4-source-slider",
+      "path": "assets/mission-04/puzzle/m4-source-slider.png",
+      "width": 180,
+      "height": 16,
+      "frameWidth": 180,
+      "frameHeight": 16,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-04.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Precision slider rail for induction source rod",
+      "alpha": {
+        "transparentPixels": 1440
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 4 Induction Lab; state & charge signs rendered in code."
+    },
+    {
+      "key": "m4-slider-grip",
+      "path": "assets/mission-04/puzzle/m4-slider-grip.png",
+      "width": 16,
+      "height": 20,
+      "frameWidth": 16,
+      "frameHeight": 20,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-04.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Slider positioning knob handle",
+      "alpha": {
+        "transparentPixels": 128
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 4 Induction Lab; state & charge signs rendered in code."
+    },
+    {
+      "key": "m4-source-wand-neg",
+      "path": "assets/mission-04/puzzle/m4-source-wand-neg.png",
+      "width": 64,
+      "height": 24,
+      "frameWidth": 64,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-04.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Induction charged source rod (neg)",
+      "alpha": {
+        "transparentPixels": 848
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 4 Induction Lab; state & charge signs rendered in code."
+    },
+    {
+      "key": "m4-source-wand-pos",
+      "path": "assets/mission-04/puzzle/m4-source-wand-pos.png",
+      "width": 64,
+      "height": 24,
+      "frameWidth": 64,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-04.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Induction charged source rod (pos)",
+      "alpha": {
+        "transparentPixels": 848
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 4 Induction Lab; state & charge signs rendered in code."
+    },
+    {
+      "key": "m4-source-wand-zero",
+      "path": "assets/mission-04/puzzle/m4-source-wand-zero.png",
+      "width": 64,
+      "height": 24,
+      "frameWidth": 64,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-04.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Induction charged source rod (zero)",
+      "alpha": {
+        "transparentPixels": 848
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 4 Induction Lab; state & charge signs rendered in code."
+    },
+    {
+      "key": "m4-ground-switch-open",
+      "path": "assets/mission-04/puzzle/m4-ground-switch-open.png",
+      "width": 28,
+      "height": 28,
+      "frameWidth": 28,
+      "frameHeight": 28,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-04.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Grounding knife switch in OPEN (disconnected) state",
+      "alpha": {
+        "transparentPixels": 494
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 4 Induction Lab; state & charge signs rendered in code."
+    },
+    {
+      "key": "m4-ground-switch-closed",
+      "path": "assets/mission-04/puzzle/m4-ground-switch-closed.png",
+      "width": 28,
+      "height": 28,
+      "frameWidth": 28,
+      "frameHeight": 28,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-04.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Grounding knife switch in CLOSED (grounded) state",
+      "alpha": {
+        "transparentPixels": 548
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 4 Induction Lab; state & charge signs rendered in code."
+    },
+    {
+      "key": "m4-earth-symbol",
+      "path": "assets/mission-04/puzzle/m4-earth-symbol.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-04.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Standard earth ground reference symbol",
+      "alpha": {
+        "transparentPixels": 422
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 4 Induction Lab; state & charge signs rendered in code."
+    },
+    {
+      "key": "m4-charge-sensor",
+      "path": "assets/mission-04/puzzle/m4-charge-sensor.png",
+      "width": 48,
+      "height": 72,
+      "frameWidth": 48,
+      "frameHeight": 72,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-04.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Active electrometer door sensor station",
+      "alpha": {
+        "transparentPixels": 576
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 4 Induction Lab; state & charge signs rendered in code."
+    },
+    {
+      "key": "m4-door-closed",
+      "path": "assets/mission-04/environment/m4-door-closed.png",
+      "width": 64,
+      "height": 96,
+      "frameWidth": 64,
+      "frameHeight": 96,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-04.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Sealed laboratory exit door (locked)",
+      "alpha": {
+        "transparentPixels": 0
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 4 Induction Lab; state & charge signs rendered in code."
+    },
+    {
+      "key": "m4-door-open",
+      "path": "assets/mission-04/environment/m4-door-open.png",
+      "width": 64,
+      "height": 96,
+      "frameWidth": 64,
+      "frameHeight": 96,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-04.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Retracted laboratory exit door (open and accessible)",
+      "alpha": {
+        "transparentPixels": 0
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 4 Induction Lab; state & charge signs rendered in code."
+    },
+    {
+      "key": "m4-terminal",
+      "path": "assets/mission-04/puzzle/m4-terminal.png",
+      "width": 32,
+      "height": 48,
+      "frameWidth": 32,
+      "frameHeight": 48,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-04.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Induction experiment control terminal console",
+      "alpha": {
+        "transparentPixels": 384
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 4 Induction Lab; state & charge signs rendered in code."
+    },
+    {
+      "key": "m4-dist-frame",
+      "path": "assets/mission-04/ui/m4-dist-frame.png",
+      "width": 96,
+      "height": 96,
+      "frameWidth": 96,
+      "frameHeight": 96,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-04.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Microscopic charge redistribution inspector frame",
+      "alpha": {
+        "transparentPixels": 0
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 4 Induction Lab; state & charge signs rendered in code."
+    },
+    {
+      "key": "m4-sphere-neutral",
+      "path": "assets/mission-04/ui/m4-sphere-neutral.png",
+      "width": 80,
+      "height": 80,
+      "frameWidth": 80,
+      "frameHeight": 80,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-04.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Metal sphere neutral uniform charge distribution",
+      "alpha": {
+        "transparentPixels": 2347
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 4 Induction Lab; state & charge signs rendered in code."
+    },
+    {
+      "key": "m4-sphere-polar-neg",
+      "path": "assets/mission-04/ui/m4-sphere-polar-neg.png",
+      "width": 80,
+      "height": 80,
+      "frameWidth": 80,
+      "frameHeight": 80,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-04.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Sphere polarized: electrons repelled to right by negative source",
+      "alpha": {
+        "transparentPixels": 2347
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 4 Induction Lab; state & charge signs rendered in code."
+    },
+    {
+      "key": "m4-sphere-polar-pos",
+      "path": "assets/mission-04/ui/m4-sphere-polar-pos.png",
+      "width": 80,
+      "height": 80,
+      "frameWidth": 80,
+      "frameHeight": 80,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-04.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Sphere polarized: electrons attracted to left by positive source",
+      "alpha": {
+        "transparentPixels": 2347
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 4 Induction Lab; state & charge signs rendered in code."
+    },
+    {
+      "key": "m4-sphere-pos-net",
+      "path": "assets/mission-04/ui/m4-sphere-pos-net.png",
+      "width": 80,
+      "height": 80,
+      "frameWidth": 80,
+      "frameHeight": 80,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-04.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Conducting sphere retaining net positive charge",
+      "alpha": {
+        "transparentPixels": 2347
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 4 Induction Lab; state & charge signs rendered in code."
+    },
+    {
+      "key": "m4-sphere-neg-net",
+      "path": "assets/mission-04/ui/m4-sphere-neg-net.png",
+      "width": 80,
+      "height": 80,
+      "frameWidth": 80,
+      "frameHeight": 80,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-04.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Conducting sphere retaining net negative charge",
+      "alpha": {
+        "transparentPixels": 2347
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 4 Induction Lab; state & charge signs rendered in code."
+    },
+    {
+      "key": "m4-icon-approach",
+      "path": "assets/mission-04/ui/m4-icon-approach.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-04.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Induction action icon: m4-icon-approach",
+      "alpha": {
+        "transparentPixels": 0
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 4 Induction Lab; state & charge signs rendered in code."
+    },
+    {
+      "key": "m4-icon-retract",
+      "path": "assets/mission-04/ui/m4-icon-retract.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-04.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Induction action icon: m4-icon-retract",
+      "alpha": {
+        "transparentPixels": 0
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 4 Induction Lab; state & charge signs rendered in code."
+    },
+    {
+      "key": "m4-icon-ground-on",
+      "path": "assets/mission-04/ui/m4-icon-ground-on.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-04.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Induction action icon: m4-icon-ground-on",
+      "alpha": {
+        "transparentPixels": 0
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 4 Induction Lab; state & charge signs rendered in code."
+    },
+    {
+      "key": "m4-icon-ground-off",
+      "path": "assets/mission-04/ui/m4-icon-ground-off.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-04.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Induction action icon: m4-icon-ground-off",
+      "alpha": {
+        "transparentPixels": 0
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 4 Induction Lab; state & charge signs rendered in code."
+    },
+    {
+      "key": "m4-icon-measure",
+      "path": "assets/mission-04/ui/m4-icon-measure.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-04.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Induction action icon: m4-icon-measure",
+      "alpha": {
+        "transparentPixels": 0
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 4 Induction Lab; state & charge signs rendered in code."
+    },
+    {
+      "key": "m4-icon-sensor",
+      "path": "assets/mission-04/ui/m4-icon-sensor.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-04.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Induction action icon: m4-icon-sensor",
+      "alpha": {
+        "transparentPixels": 0
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 4 Induction Lab; state & charge signs rendered in code."
+    },
+    {
+      "key": "m4-icon-reset",
+      "path": "assets/mission-04/ui/m4-icon-reset.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-04.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Induction action icon: m4-icon-reset",
+      "alpha": {
+        "transparentPixels": 0
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 4 Induction Lab; state & charge signs rendered in code."
+    },
+    {
+      "key": "m4-icon-help",
+      "path": "assets/mission-04/ui/m4-icon-help.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-04.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Induction action icon: m4-icon-help",
+      "alpha": {
+        "transparentPixels": 0
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 4 Induction Lab; state & charge signs rendered in code."
+    },
+    {
+      "key": "m4-scan",
+      "path": "assets/mission-04/vfx/m4-scan.png",
+      "width": 32,
+      "height": 32,
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-04.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Induction electrometer pulse scan effect",
+      "alpha": {
+        "transparentPixels": 852
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 4 Induction Lab; state & charge signs rendered in code."
+    },
+    {
+      "key": "m4-electron-flow",
+      "path": "assets/mission-04/vfx/m4-electron-flow.png",
+      "width": 96,
+      "height": 16,
+      "frameWidth": 32,
+      "frameHeight": 16,
+      "frames": 3,
+      "fps": 8,
+      "loop": true,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-04.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Electron flow along grounding wire animation",
+      "alpha": {
+        "transparentPixels": 1248
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 4 Induction Lab; state & charge signs rendered in code."
+    },
+    {
+      "key": "m4-sensor-pass",
+      "path": "assets/mission-04/vfx/m4-sensor-pass.png",
+      "width": 96,
+      "height": 32,
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 3,
+      "fps": 8,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-04.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Sensor verification success indicator animation",
+      "alpha": {
+        "transparentPixels": 2029
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 4 Induction Lab; state & charge signs rendered in code."
+    }
+  ]
+}

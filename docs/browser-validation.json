@@ -1,0 +1,58 @@
+{
+  "animations": [
+    {
+      "key": "raka-idle",
+      "framesInspected": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "key": "raka-walk",
+      "framesInspected": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "key": "raka-tool",
+      "framesInspected": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "key": "ion-idle",
+      "framesInspected": [
+        0,
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "checks": [
+    "play/pause",
+    "step and wrap",
+    "tool stops on final frame",
+    "restart",
+    "1x/2x/4x dimensions",
+    "background choices",
+    "guides toggle",
+    "72 gallery PNG decode",
+    "390px viewport no horizontal page overflow"
+  ],
+  "errors": []
+}

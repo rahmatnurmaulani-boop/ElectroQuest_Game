@@ -1,0 +1,46 @@
+/* Raster corners stay 8px (6px for legacy buttons); only the centre/edges scale. */
+.game-stage .ui-icon,.ui-gallery .ui-icon{display:inline-block;width:24px;height:24px;flex:none;object-fit:contain;image-rendering:pixelated;vertical-align:middle;margin-right:8px;pointer-events:none}
+body[data-screen=mission] #app .game-stage button,.ui-gallery button{border:6px solid transparent;border-image:var(--asset-button-normal) 6 fill / 6px / 0 stretch;background:transparent;border-radius:0;box-shadow:none;image-rendering:pixelated;color:#edf5fa}
+body[data-screen=mission] #app .game-stage button:hover,.ui-gallery button:hover,
+body[data-screen=mission] #app .game-stage button:focus-visible,.ui-gallery button:focus-visible{border-image-source:var(--asset-button-focus)}
+body[data-screen=mission] #app .game-stage button:active,.ui-gallery button:active{border-image-source:var(--asset-button-pressed)}
+body[data-screen=mission] #app .game-stage button[aria-pressed=true],.ui-gallery button[aria-pressed=true]{border-image-source:var(--asset-button-selected);background:transparent;color:#edf5fa}
+body[data-screen=mission] #app .game-stage button:disabled,.ui-gallery button:disabled{border-image-source:var(--asset-button-disabled);opacity:.65;cursor:not-allowed}
+body[data-screen=mission] #app .game-stage .primary,.ui-gallery .primary{color:#adf7ff;font-weight:750}
+body[data-screen=mission] #app .game-stage .game-hud,.ui-gallery .skin-hud{border:8px solid transparent;border-image:var(--asset-ui-hud-frame) 8 fill / 8px / 0 stretch;background:none;border-radius:0;image-rendering:pixelated;padding:4px 10px}
+body[data-screen=mission] #app .game-stage dialog,.ui-gallery .skin-panel{border:8px solid transparent;border-image:var(--asset-ui-dialog-info) 8 fill / 8px / 0 stretch;background:none;border-radius:0;image-rendering:pixelated}
+body[data-screen=mission] #app .game-stage .experiment,.ui-gallery .skin-terminal{border-image-source:var(--asset-ui-terminal-frame)}
+body[data-screen=mission] #app .game-stage .pause-dialog,.ui-gallery .skin-menu{border-image-source:var(--asset-ui-menu-frame)}
+body[data-screen=mission] #app .game-stage .learning-dialog[data-phase=RESULTS],.ui-gallery .skin-success{border-image-source:var(--asset-ui-dialog-success)}
+body[data-screen=mission] #app .game-stage .concept-note,body[data-screen=mission] #app .game-stage .neutral-note,.ui-gallery .skin-hint{border:8px solid transparent;border-image:var(--asset-ui-dialog-hint) 8 fill / 8px / 0 stretch;background:none;padding:8px;image-rendering:pixelated}
+body[data-screen=mission] #app .game-stage select:focus,body[data-screen=mission] #app .game-stage .answer-option:has(input:checked),.ui-gallery .skin-selected{border:8px solid transparent;border-image:var(--asset-ui-choice-selected) 8 fill / 8px / 0 stretch;background:none;image-rendering:pixelated}
+body[data-screen=mission] #app .game-stage .inspection select{color-scheme:dark}
+body[data-screen=mission] #app .game-stage .inspection select option{color:#edf5fa;background-color:#111e35}
+body[data-screen=mission] #app .game-stage .inspection select option:checked{color:#fff;background-color:#17616b}
+body[data-screen=mission] #app .game-stage .answer-option{border:8px solid transparent;padding:6px;margin:8px 0}
+body[data-screen=mission] #app .game-stage .answer-option input,.ui-gallery .answer-option input{appearance:none;min-width:24px;width:24px;height:24px;border:0;border-radius:0;background:var(--asset-ui-answer-off) center/24px 24px no-repeat;image-rendering:pixelated;margin-top:2px;flex:none}
+body[data-screen=mission] #app .game-stage .answer-option input:checked,.ui-gallery .answer-option input:checked{background-image:var(--asset-ui-answer-on)}
+body[data-screen=mission] #app .game-stage .answer-option input:focus-visible,.ui-gallery input:focus-visible{outline:3px solid #ffbc55;outline-offset:3px}
+body[data-screen=mission] #app .game-stage .learning-panel h3::after,.ui-gallery .skin-divider{content:'';display:block;height:4px;background:var(--asset-ui-divider) center/32px 4px repeat-x;margin-top:12px;image-rendering:pixelated}
+body[data-screen=mission] #app .game-stage [data-next]::after,.ui-gallery [data-next]::after{content:'';display:inline-block;vertical-align:middle;width:16px;height:16px;margin-left:12px;background-image:var(--asset-ui-next);background-size:64px 16px;image-rendering:pixelated;animation:ui-next var(--ui-next-duration,1s) steps(var(--ui-next-steps,4)) infinite}
+.dialog-speaker{display:flex;align-items:center;gap:12px;margin-bottom:12px;font-weight:750;color:#b2f7ff}
+.dialog-speaker img{width:64px;height:64px;object-fit:contain;border:6px solid transparent;border-image:var(--asset-ui-dialog-info) 8 fill / 6px / 0 stretch;image-rendering:pixelated}
+body[data-screen=mission] #app .game-stage .touch-controls button{border:8px solid transparent;border-image:var(--asset-ui-touch-normal) 8 fill / 8px / 0 stretch;background:none;padding:2px;opacity:1}
+body[data-screen=mission] #app .game-stage .touch-controls button:hover,body[data-screen=mission] #app .game-stage .touch-controls button:focus-visible{border-image-source:var(--asset-ui-touch-focus)}
+body[data-screen=mission] #app .game-stage .touch-controls button[aria-pressed=true],body[data-screen=mission] #app .game-stage .touch-controls button:active{border-image-source:var(--asset-ui-touch-pressed)}
+body[data-screen=mission] #app .game-stage .touch-controls button:disabled{border-image-source:var(--asset-ui-touch-disabled);opacity:.7}
+body[data-screen=mission] #app .game-stage .touch-controls [data-direction]{font-size:0;line-height:0}
+body[data-screen=mission] #app .game-stage .touch-controls [data-direction] .ui-icon{margin:0;width:24px;height:24px}
+body[data-screen=mission] #app .game-stage .touch-controls [data-interact]{display:flex;align-items:center;justify-content:center;gap:4px;font-size:12px;max-width:180px}
+body[data-screen=mission] #app .game-stage .touch-controls [data-interact] .ui-icon{width:20px;height:20px;margin:0}
+body[data-screen=mission] #app .game-stage #interaction-prompt{border:6px solid transparent;border-image:var(--asset-ui-hud-frame) 8 fill / 6px / 0 stretch;background:none}
+body[data-screen=mission] #app .game-stage .experiment-status{border:8px solid transparent;border-image:var(--asset-ui-dialog-hint) 8 fill / 8px / 0 stretch;background:none}
+body[data-screen=mission] #app .game-stage .mission-controls[data-phase=OPENED] .experiment-status{border-image-source:var(--asset-ui-dialog-success)}
+body[data-screen=mission] #app .game-stage .mission-toolbar button{display:flex;align-items:center;justify-content:center;gap:4px;padding:5px 8px;min-height:44px}
+body[data-screen=mission] #app .game-stage .mission-toolbar button .ui-icon{margin:0;width:20px;height:20px}
+body[data-screen=mission] #app .game-stage .game-hud{max-width:calc(100% - 290px)}
+.reduced-effects [data-next]::after{animation:none!important}
+@keyframes ui-next{to{background-position:-64px 0}}
+@media(prefers-reduced-motion:reduce){[data-next]::after{animation:none!important}}
+@media(max-width:760px){body[data-screen=mission] #app .game-stage .mission-toolbar button{font-size:0;padding:4px;min-width:44px;width:44px;height:44px}body[data-screen=mission] #app .game-stage .mission-toolbar button .ui-icon{width:24px;height:24px}body[data-screen=mission] #app .game-stage .game-hud{max-width:calc(100% - 118px)}.dialog-speaker img{width:48px;height:48px}.dialog-speaker{margin-bottom:8px}body[data-screen=mission] #app .game-stage .touch-controls [data-interact]{width:104px;padding:2px;font-size:11px;line-height:1.1}}
+@media(min-width:2400px){body[data-screen=mission] #app .game-stage .game-hud{max-width:calc(100% - 400px)}}

@@ -1,0 +1,14 @@
+import {installConsoleAssets} from './ConsoleUI';
+import {assetURL,type AssetManifest} from '../content/manifest';
+let entries:AssetManifest['assets']=[];
+/** Shared manifest-backed skin for game and component gallery. Text remains live HTML. */
+export function installUISkin(manifest:AssetManifest){entries=manifest.assets;installConsoleAssets(manifest);for(const a of entries)if(a.path&&a.path.includes('/ui/'))document.documentElement.style.setProperty(`--asset-${a.key}`,`url("${new URL(assetURL(a.path),document.baseURI).href}")`);const next=entries.find(a=>a.key==='ui-next');if(next){document.documentElement.style.setProperty('--ui-next-duration',`${next.frames/next.fps}s`);document.documentElement.style.setProperty('--ui-next-steps',String(next.frames))}}
+export function icon(host:Element,key:string){if(!host)return;if(host.querySelector(':scope > .ui-icon'))return;const a=entries.find(a=>a.key===key);if(!a?.path)return;const img=document.createElement('img');img.className='ui-icon';img.src=assetURL(a.path);img.alt='';img.setAttribute('aria-hidden','true');img.width=24;img.height=24;host.prepend(img)}
+const buttons:Record<string,string>={
+ '[data-pause],[data-lesson-pause]':'icon-pause','[data-fullscreen]':'icon-fullscreen','[data-settings]':'icon-settings','[data-help],[data-hint],[data-reread]':'icon-help','[data-back],[data-menu]':'icon-back','[data-audio-test]':'icon-sound','[data-transfer=take]':'icon-take','[data-transfer=send]':'icon-send','[data-test]':'icon-test','[data-reset],.reset-outside':'icon-reset','[data-restart],[data-ui-retry],#retry':'icon-retry','[data-direction="-1"]':'icon-left','[data-direction="1"]':'icon-right','[data-interact]':'icon-interaction','[data-observe=left]':'icon-panel-left','[data-observe=right]':'icon-panel-right','[data-revision],[data-predict]':'icon-info','[data-close]':'icon-back'
+};
+export function decorateUI(root:Element){for(const [selector,key]of Object.entries(buttons))for(const button of root.querySelectorAll(selector))icon(button,key);for(const el of root.querySelectorAll('.concept-note'))icon(el,'icon-info');for(const el of root.querySelectorAll('.neutral-note,.learning-lock'))icon(el,'icon-warning');for(const el of root.querySelectorAll('[data-charge]'))icon(el.previousElementSibling!,el.getAttribute('data-charge')==='glove'?'icon-glove':`icon-panel-${el.getAttribute('data-charge')}`)}
+export function speaker(root:Element,name:'Ion'|'Raka'){
+ const a=entries.find(a=>a.key===`${name.toLowerCase()}-portrait`);if(!a?.path)return;
+ const block=document.createElement('div');block.className='dialog-speaker';const img=document.createElement('img');img.alt='';img.src=assetURL(a.path);img.width=64;img.height=64;const label=document.createElement('span');label.textContent=name;block.append(img,label);root.prepend(block);
+}

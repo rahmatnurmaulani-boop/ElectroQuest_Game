@@ -1,0 +1,206 @@
+[
+  {
+    "key": "lp-raka",
+    "path": "assets/landing/lp-raka.png",
+    "width": 160,
+    "height": 240,
+    "frameWidth": 160,
+    "frameHeight": 240,
+    "frames": 1,
+    "fps": 0,
+    "loop": false,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.95
+    },
+    "source": "assets-source/landing-v2/lp-raka-master.png",
+    "status": "generated",
+    "final": true,
+    "usage": "Raka full-body static pose",
+    "provenance": "Built-in image_gen; created from scratch in this task. Ion references only this task new Raka master. Uniform nearest-neighbor normalization only; original alpha preserved.",
+    "alpha": {
+      "transparentPixels": 26582,
+      "partialPixels": 11818
+    },
+    "contentBounds": {
+      "left": 11,
+      "top": 2,
+      "right": 116,
+      "bottom": 236
+    },
+    "sourceDimensions": [
+      1024,
+      1536
+    ]
+  },
+  {
+    "key": "lp-ion",
+    "path": "assets/landing/lp-ion.png",
+    "width": 96,
+    "height": 96,
+    "frameWidth": 96,
+    "frameHeight": 96,
+    "frames": 1,
+    "fps": 0,
+    "loop": false,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "source": "assets-source/landing-v2/lp-ion-master.png",
+    "status": "generated",
+    "final": true,
+    "usage": "Ion separate static pose",
+    "provenance": "Built-in image_gen; created from scratch in this task. Ion references only this task new Raka master. Uniform nearest-neighbor normalization only; original alpha preserved.",
+    "alpha": {
+      "transparentPixels": 6780,
+      "partialPixels": 2435
+    },
+    "contentBounds": {
+      "left": 11,
+      "top": 10,
+      "right": 93,
+      "bottom": 86
+    },
+    "sourceDimensions": [
+      1312,
+      1199
+    ]
+  },
+  {
+    "key": "lp-sky",
+    "path": "assets/landing/lp-sky.png",
+    "width": 640,
+    "height": 360,
+    "frameWidth": 640,
+    "frameHeight": 360,
+    "frames": 1,
+    "fps": 0,
+    "loop": false,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "source": "assets-source/landing-v2/lp-sky-master.png",
+    "status": "generated",
+    "final": true,
+    "usage": "Night sky, quiet left side",
+    "provenance": "Built-in image_gen; created from scratch in this task. Ion references only this task new Raka master. Uniform nearest-neighbor normalization only; original alpha preserved.",
+    "alpha": {
+      "transparentPixels": 0,
+      "partialPixels": 0
+    },
+    "contentBounds": {
+      "left": 0,
+      "top": 0,
+      "right": 639,
+      "bottom": 359
+    },
+    "sourceDimensions": [
+      1672,
+      941
+    ]
+  },
+  {
+    "key": "lp-city",
+    "path": "assets/landing/lp-city.png",
+    "width": 640,
+    "height": 360,
+    "frameWidth": 640,
+    "frameHeight": 360,
+    "frames": 1,
+    "fps": 0,
+    "loop": false,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "source": "assets-source/landing-v2/lp-city-master.png",
+    "status": "generated",
+    "final": true,
+    "usage": "Distant skyline layer",
+    "provenance": "Built-in image_gen; created from scratch in this task. Ion references only this task new Raka master. Uniform nearest-neighbor normalization only; original alpha preserved.",
+    "alpha": {
+      "transparentPixels": 185309,
+      "partialPixels": 44796
+    },
+    "contentBounds": {
+      "left": 0,
+      "top": 83,
+      "right": 639,
+      "bottom": 359
+    },
+    "sourceDimensions": [
+      1672,
+      941
+    ]
+  },
+  {
+    "key": "lp-lab",
+    "path": "assets/landing/lp-lab.png",
+    "width": 640,
+    "height": 360,
+    "frameWidth": 640,
+    "frameHeight": 360,
+    "frames": 1,
+    "fps": 0,
+    "loop": false,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "source": "assets-source/landing-v2/lp-lab-master.png",
+    "status": "generated",
+    "final": true,
+    "usage": "Laboratory middle layer",
+    "provenance": "Built-in image_gen; created from scratch in this task. Ion references only this task new Raka master. Uniform nearest-neighbor normalization only; original alpha preserved.",
+    "alpha": {
+      "transparentPixels": 151453,
+      "partialPixels": 78915
+    },
+    "contentBounds": {
+      "left": 17,
+      "top": 19,
+      "right": 633,
+      "bottom": 339
+    },
+    "sourceDimensions": [
+      1672,
+      941
+    ]
+  },
+  {
+    "key": "lp-floor",
+    "path": "assets/landing/lp-floor.png",
+    "width": 640,
+    "height": 360,
+    "frameWidth": 640,
+    "frameHeight": 360,
+    "frames": 1,
+    "fps": 0,
+    "loop": false,
+    "anchor": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "source": "assets-source/landing-v2/lp-floor-master.png",
+    "status": "generated",
+    "final": true,
+    "usage": "Foreground floor and props",
+    "provenance": "Built-in image_gen; created from scratch in this task. Ion references only this task new Raka master. Uniform nearest-neighbor normalization only; original alpha preserved.",
+    "alpha": {
+      "transparentPixels": 198329,
+      "partialPixels": 32038
+    },
+    "contentBounds": {
+      "left": 0,
+      "top": 77,
+      "right": 639,
+      "bottom": 359
+    },
+    "sourceDimensions": [
+      1672,
+      941
+    ]
+  }
+]

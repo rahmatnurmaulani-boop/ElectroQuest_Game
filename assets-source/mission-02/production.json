@@ -1,0 +1,1255 @@
+{
+  "source": "scripts/assets/mission-02.mjs",
+  "assets": [
+    {
+      "key": "m2-sky",
+      "path": "assets/mission-02/environment/m2-sky.png",
+      "width": 640,
+      "height": 360,
+      "frameWidth": 640,
+      "frameHeight": 360,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "assets-source/mission-02/m2-sky-master.png",
+      "status": "generated",
+      "final": true,
+      "usage": "Generated independent background layer",
+      "alpha": {
+        "transparentPixels": 0
+      },
+      "provenance": "Built-in image_gen in this task; original master preserved, nearest-neighbor normalized to 640x360.",
+      "scenes": [
+        "mission-02",
+        "bridge-mission"
+      ]
+    },
+    {
+      "key": "m2-city",
+      "path": "assets/mission-02/environment/m2-city.png",
+      "width": 640,
+      "height": 360,
+      "frameWidth": 640,
+      "frameHeight": 360,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "assets-source/mission-02/m2-city-master.png",
+      "status": "generated",
+      "final": true,
+      "usage": "Generated independent background layer",
+      "alpha": {
+        "transparentPixels": 174205
+      },
+      "provenance": "Built-in image_gen in this task; original master preserved, nearest-neighbor normalized to 640x360.",
+      "scenes": [
+        "mission-02",
+        "bridge-mission"
+      ]
+    },
+    {
+      "key": "m2-rear",
+      "path": "assets/mission-02/environment/m2-rear.png",
+      "width": 640,
+      "height": 360,
+      "frameWidth": 640,
+      "frameHeight": 360,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "assets-source/mission-02/m2-rear-master.png",
+      "status": "generated",
+      "final": true,
+      "usage": "Generated independent background layer",
+      "alpha": {
+        "transparentPixels": 182078
+      },
+      "provenance": "Built-in image_gen in this task; original master preserved, nearest-neighbor normalized to 640x360.",
+      "scenes": [
+        "mission-02",
+        "bridge-mission"
+      ]
+    },
+    {
+      "key": "m2-floor-left",
+      "path": "assets/mission-02/environment/m2-floor-left.png",
+      "width": 32,
+      "height": 32,
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-02.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Modular pier floor, top surface at tile origin",
+      "alpha": {
+        "transparentPixels": 0
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 2, no baked text/charge symbols or values.",
+      "scenes": [
+        "mission-02",
+        "bridge-mission"
+      ]
+    },
+    {
+      "key": "m2-floor-middle",
+      "path": "assets/mission-02/environment/m2-floor-middle.png",
+      "width": 32,
+      "height": 32,
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-02.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Modular pier floor, top surface at tile origin",
+      "alpha": {
+        "transparentPixels": 0
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 2, no baked text/charge symbols or values.",
+      "scenes": [
+        "mission-02",
+        "bridge-mission"
+      ]
+    },
+    {
+      "key": "m2-floor-right",
+      "path": "assets/mission-02/environment/m2-floor-right.png",
+      "width": 32,
+      "height": 32,
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-02.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Modular pier floor, top surface at tile origin",
+      "alpha": {
+        "transparentPixels": 0
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 2, no baked text/charge symbols or values.",
+      "scenes": [
+        "mission-02",
+        "bridge-mission"
+      ]
+    },
+    {
+      "key": "m2-gap-left",
+      "path": "assets/mission-02/environment/m2-gap-left.png",
+      "width": 32,
+      "height": 64,
+      "frameWidth": 32,
+      "frameHeight": 64,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-02.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Exposed pier/gap edge",
+      "alpha": {
+        "transparentPixels": 512
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 2, no baked text/charge symbols or values.",
+      "scenes": [
+        "mission-02",
+        "bridge-mission"
+      ]
+    },
+    {
+      "key": "m2-gap-right",
+      "path": "assets/mission-02/environment/m2-gap-right.png",
+      "width": 32,
+      "height": 64,
+      "frameWidth": 32,
+      "frameHeight": 64,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-02.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Exposed pier/gap edge",
+      "alpha": {
+        "transparentPixels": 512
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 2, no baked text/charge symbols or values.",
+      "scenes": [
+        "mission-02",
+        "bridge-mission"
+      ]
+    },
+    {
+      "key": "m2-support",
+      "path": "assets/mission-02/environment/m2-support.png",
+      "width": 32,
+      "height": 64,
+      "frameWidth": 32,
+      "frameHeight": 64,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-02.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Pier support",
+      "alpha": {
+        "transparentPixels": 1024
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 2, no baked text/charge symbols or values.",
+      "scenes": [
+        "mission-02",
+        "bridge-mission"
+      ]
+    },
+    {
+      "key": "m2-fence",
+      "path": "assets/mission-02/environment/m2-fence.png",
+      "width": 64,
+      "height": 48,
+      "frameWidth": 64,
+      "frameHeight": 48,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-02.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Rear guardrail segment",
+      "alpha": {
+        "transparentPixels": 2240
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 2, no baked text/charge symbols or values.",
+      "scenes": [
+        "mission-02",
+        "bridge-mission"
+      ]
+    },
+    {
+      "key": "m2-lamp",
+      "path": "assets/mission-02/environment/m2-lamp.png",
+      "width": 32,
+      "height": 64,
+      "frameWidth": 32,
+      "frameHeight": 64,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-02.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Pier lamp",
+      "alpha": {
+        "transparentPixels": 1484
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 2, no baked text/charge symbols or values.",
+      "scenes": [
+        "mission-02",
+        "bridge-mission"
+      ]
+    },
+    {
+      "key": "m2-utility",
+      "path": "assets/mission-02/environment/m2-utility.png",
+      "width": 48,
+      "height": 48,
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-02.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Utility box",
+      "alpha": {
+        "transparentPixels": 368
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 2, no baked text/charge symbols or values.",
+      "scenes": [
+        "mission-02",
+        "bridge-mission"
+      ]
+    },
+    {
+      "key": "m2-cable",
+      "path": "assets/mission-02/environment/m2-cable.png",
+      "width": 64,
+      "height": 16,
+      "frameWidth": 64,
+      "frameHeight": 16,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-02.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Decorative cable",
+      "alpha": {
+        "transparentPixels": 832
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 2, no baked text/charge symbols or values.",
+      "scenes": [
+        "mission-02",
+        "bridge-mission"
+      ]
+    },
+    {
+      "key": "m2-platform",
+      "path": "assets/mission-02/puzzle/m2-platform.png",
+      "width": 112,
+      "height": 24,
+      "frameWidth": 112,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-02.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Independent deck; collider follows this position",
+      "alpha": {
+        "transparentPixels": 0
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 2, no baked text/charge symbols or values.",
+      "scenes": [
+        "mission-02",
+        "bridge-mission"
+      ]
+    },
+    {
+      "key": "m2-wheels",
+      "path": "assets/mission-02/puzzle/m2-wheels.png",
+      "width": 112,
+      "height": 16,
+      "frameWidth": 112,
+      "frameHeight": 16,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-02.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Independent rail wheels",
+      "alpha": {
+        "transparentPixels": 1232
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 2, no baked text/charge symbols or values.",
+      "scenes": [
+        "mission-02",
+        "bridge-mission"
+      ]
+    },
+    {
+      "key": "m2-ball-platform",
+      "path": "assets/mission-02/puzzle/m2-ball-platform.png",
+      "width": 32,
+      "height": 32,
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-02.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Bare conductor sphere; signs and values rendered in code",
+      "alpha": {
+        "transparentPixels": 308
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 2, no baked text/charge symbols or values.",
+      "scenes": [
+        "mission-02",
+        "bridge-mission"
+      ]
+    },
+    {
+      "key": "m2-ball-source",
+      "path": "assets/mission-02/puzzle/m2-ball-source.png",
+      "width": 32,
+      "height": 32,
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-02.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Bare conductor sphere; signs and values rendered in code",
+      "alpha": {
+        "transparentPixels": 308
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 2, no baked text/charge symbols or values.",
+      "scenes": [
+        "mission-02",
+        "bridge-mission"
+      ]
+    },
+    {
+      "key": "m2-isolator",
+      "path": "assets/mission-02/puzzle/m2-isolator.png",
+      "width": 16,
+      "height": 40,
+      "frameWidth": 16,
+      "frameHeight": 40,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-02.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Shared insulating stand, reused under both balls",
+      "alpha": {
+        "transparentPixels": 176
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 2, no baked text/charge symbols or values.",
+      "scenes": [
+        "mission-02",
+        "bridge-mission"
+      ]
+    },
+    {
+      "key": "m2-carriage",
+      "path": "assets/mission-02/puzzle/m2-carriage.png",
+      "width": 48,
+      "height": 16,
+      "frameWidth": 48,
+      "frameHeight": 16,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-02.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Source position carriage",
+      "alpha": {
+        "transparentPixels": 0
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 2, no baked text/charge symbols or values.",
+      "scenes": [
+        "mission-02",
+        "bridge-mission"
+      ]
+    },
+    {
+      "key": "m2-grip",
+      "path": "assets/mission-02/puzzle/m2-grip.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-02.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Source touch grip",
+      "alpha": {
+        "transparentPixels": 176
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 2, no baked text/charge symbols or values.",
+      "scenes": [
+        "mission-02",
+        "bridge-mission"
+      ]
+    },
+    {
+      "key": "m2-rail-left",
+      "path": "assets/mission-02/puzzle/m2-rail-left.png",
+      "width": 32,
+      "height": 12,
+      "frameWidth": 32,
+      "frameHeight": 12,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-02.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Modular platform/source rail",
+      "alpha": {
+        "transparentPixels": 0
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 2, no baked text/charge symbols or values.",
+      "scenes": [
+        "mission-02",
+        "bridge-mission"
+      ]
+    },
+    {
+      "key": "m2-rail-middle",
+      "path": "assets/mission-02/puzzle/m2-rail-middle.png",
+      "width": 32,
+      "height": 12,
+      "frameWidth": 32,
+      "frameHeight": 12,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-02.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Modular platform/source rail",
+      "alpha": {
+        "transparentPixels": 0
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 2, no baked text/charge symbols or values.",
+      "scenes": [
+        "mission-02",
+        "bridge-mission"
+      ]
+    },
+    {
+      "key": "m2-rail-right",
+      "path": "assets/mission-02/puzzle/m2-rail-right.png",
+      "width": 32,
+      "height": 12,
+      "frameWidth": 32,
+      "frameHeight": 12,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-02.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Modular platform/source rail",
+      "alpha": {
+        "transparentPixels": 0
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 2, no baked text/charge symbols or values.",
+      "scenes": [
+        "mission-02",
+        "bridge-mission"
+      ]
+    },
+    {
+      "key": "m2-goal",
+      "path": "assets/mission-02/puzzle/m2-goal.png",
+      "width": 128,
+      "height": 12,
+      "frameWidth": 128,
+      "frameHeight": 12,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-02.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Target zone marker, separate state overlay",
+      "alpha": {
+        "transparentPixels": 1156
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 2, no baked text/charge symbols or values.",
+      "scenes": [
+        "mission-02",
+        "bridge-mission"
+      ]
+    },
+    {
+      "key": "m2-goal-active",
+      "path": "assets/mission-02/puzzle/m2-goal-active.png",
+      "width": 128,
+      "height": 12,
+      "frameWidth": 128,
+      "frameHeight": 12,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-02.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Target zone marker, separate state overlay",
+      "alpha": {
+        "transparentPixels": 1156
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 2, no baked text/charge symbols or values.",
+      "scenes": [
+        "mission-02",
+        "bridge-mission"
+      ]
+    },
+    {
+      "key": "m2-lock-closed",
+      "path": "assets/mission-02/puzzle/m2-lock-closed.png",
+      "width": 24,
+      "height": 32,
+      "frameWidth": 24,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-02.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Platform latch visual state",
+      "alpha": {
+        "transparentPixels": 348
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 2, no baked text/charge symbols or values.",
+      "scenes": [
+        "mission-02",
+        "bridge-mission"
+      ]
+    },
+    {
+      "key": "m2-lock-open",
+      "path": "assets/mission-02/puzzle/m2-lock-open.png",
+      "width": 24,
+      "height": 32,
+      "frameWidth": 24,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-02.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Platform latch visual state",
+      "alpha": {
+        "transparentPixels": 375
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 2, no baked text/charge symbols or values.",
+      "scenes": [
+        "mission-02",
+        "bridge-mission"
+      ]
+    },
+    {
+      "key": "m2-terminal",
+      "path": "assets/mission-02/puzzle/m2-terminal.png",
+      "width": 40,
+      "height": 64,
+      "frameWidth": 40,
+      "frameHeight": 64,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-02.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Configuration terminal",
+      "alpha": {
+        "transparentPixels": 0
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 2, no baked text/charge symbols or values.",
+      "scenes": [
+        "mission-02",
+        "bridge-mission"
+      ]
+    },
+    {
+      "key": "m2-exit",
+      "path": "assets/mission-02/puzzle/m2-exit.png",
+      "width": 48,
+      "height": 96,
+      "frameWidth": 48,
+      "frameHeight": 96,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-02.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Visual exit marker, no mission completion trigger",
+      "alpha": {
+        "transparentPixels": 576
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 2, no baked text/charge symbols or values.",
+      "scenes": [
+        "mission-02",
+        "bridge-mission"
+      ]
+    },
+    {
+      "key": "m2-object-selected",
+      "path": "assets/mission-02/puzzle/m2-object-selected.png",
+      "width": 48,
+      "height": 48,
+      "frameWidth": 48,
+      "frameHeight": 48,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-02.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Separate object selection overlay",
+      "alpha": {
+        "transparentPixels": 2128
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 2, no baked text/charge symbols or values.",
+      "scenes": [
+        "mission-02",
+        "bridge-mission"
+      ]
+    },
+    {
+      "key": "m2-icon-charge",
+      "path": "assets/mission-02/ui/m2-icon-charge.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-02.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Observation/preview control icon",
+      "alpha": {
+        "transparentPixels": 327
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 2, no baked text/charge symbols or values.",
+      "scenes": [
+        "mission-02",
+        "bridge-mission"
+      ]
+    },
+    {
+      "key": "m2-icon-distance",
+      "path": "assets/mission-02/ui/m2-icon-distance.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-02.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Observation/preview control icon",
+      "alpha": {
+        "transparentPixels": 468
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 2, no baked text/charge symbols or values.",
+      "scenes": [
+        "mission-02",
+        "bridge-mission"
+      ]
+    },
+    {
+      "key": "m2-icon-force",
+      "path": "assets/mission-02/ui/m2-icon-force.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-02.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Observation/preview control icon",
+      "alpha": {
+        "transparentPixels": 504
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 2, no baked text/charge symbols or values.",
+      "scenes": [
+        "mission-02",
+        "bridge-mission"
+      ]
+    },
+    {
+      "key": "m2-icon-ruler",
+      "path": "assets/mission-02/ui/m2-icon-ruler.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-02.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Observation/preview control icon",
+      "alpha": {
+        "transparentPixels": 468
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 2, no baked text/charge symbols or values.",
+      "scenes": [
+        "mission-02",
+        "bridge-mission"
+      ]
+    },
+    {
+      "key": "m2-icon-compare",
+      "path": "assets/mission-02/ui/m2-icon-compare.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-02.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Observation/preview control icon",
+      "alpha": {
+        "transparentPixels": 320
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 2, no baked text/charge symbols or values.",
+      "scenes": [
+        "mission-02",
+        "bridge-mission"
+      ]
+    },
+    {
+      "key": "m2-icon-test",
+      "path": "assets/mission-02/ui/m2-icon-test.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-02.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Observation/preview control icon",
+      "alpha": {
+        "transparentPixels": 504
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 2, no baked text/charge symbols or values.",
+      "scenes": [
+        "mission-02",
+        "bridge-mission"
+      ]
+    },
+    {
+      "key": "m2-icon-reset",
+      "path": "assets/mission-02/ui/m2-icon-reset.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-02.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Observation/preview control icon",
+      "alpha": {
+        "transparentPixels": 463
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 2, no baked text/charge symbols or values.",
+      "scenes": [
+        "mission-02",
+        "bridge-mission"
+      ]
+    },
+    {
+      "key": "m2-icon-lock",
+      "path": "assets/mission-02/ui/m2-icon-lock.png",
+      "width": 24,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-02.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Observation/preview control icon",
+      "alpha": {
+        "transparentPixels": 340
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 2, no baked text/charge symbols or values.",
+      "scenes": [
+        "mission-02",
+        "bridge-mission"
+      ]
+    },
+    {
+      "key": "m2-data-frame",
+      "path": "assets/mission-02/ui/m2-data-frame.png",
+      "width": 32,
+      "height": 32,
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-02.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "HTML data/selected panel frame",
+      "alpha": {
+        "transparentPixels": 124
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 2, no baked text/charge symbols or values.",
+      "nineSlice": {
+        "top": 8,
+        "right": 8,
+        "bottom": 8,
+        "left": 8
+      },
+      "scenes": [
+        "mission-02",
+        "bridge-mission"
+      ]
+    },
+    {
+      "key": "m2-data-selected",
+      "path": "assets/mission-02/ui/m2-data-selected.png",
+      "width": 32,
+      "height": 32,
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-02.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "HTML data/selected panel frame",
+      "alpha": {
+        "transparentPixels": 124
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 2, no baked text/charge symbols or values.",
+      "nineSlice": {
+        "top": 8,
+        "right": 8,
+        "bottom": 8,
+        "left": 8
+      },
+      "scenes": [
+        "mission-02",
+        "bridge-mission"
+      ]
+    },
+    {
+      "key": "m2-scan",
+      "path": "assets/mission-02/vfx/m2-scan.png",
+      "width": 64,
+      "height": 64,
+      "frameWidth": 64,
+      "frameHeight": 64,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-02.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Finite scanning overlay",
+      "alpha": {
+        "transparentPixels": 3560
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 2, no baked text/charge symbols or values.",
+      "scenes": [
+        "mission-02",
+        "bridge-mission"
+      ]
+    },
+    {
+      "key": "m2-latch-flash",
+      "path": "assets/mission-02/vfx/m2-latch-flash.png",
+      "width": 72,
+      "height": 24,
+      "frameWidth": 24,
+      "frameHeight": 24,
+      "frames": 3,
+      "fps": 10,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "source": "scripts/assets/mission-02.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Short docking latch effect",
+      "alpha": {
+        "transparentPixels": 1680
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 2, no baked text/charge symbols or values.",
+      "scenes": [
+        "mission-02",
+        "bridge-mission"
+      ]
+    },
+    {
+      "key": "m2-docking-left",
+      "path": "assets/mission-02/puzzle/m2-docking-left.png",
+      "width": 32,
+      "height": 32,
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-02.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Deployable docking walkway with matching continuous floor collider in playable Mission 2",
+      "alpha": {
+        "transparentPixels": 240
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 2, no baked text/charge symbols or values.",
+      "scenes": [
+        "bridge-mission"
+      ]
+    },
+    {
+      "key": "m2-docking-middle",
+      "path": "assets/mission-02/puzzle/m2-docking-middle.png",
+      "width": 32,
+      "height": 32,
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-02.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Deployable docking walkway with matching continuous floor collider in playable Mission 2",
+      "alpha": {
+        "transparentPixels": 240
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 2, no baked text/charge symbols or values.",
+      "scenes": [
+        "bridge-mission"
+      ]
+    },
+    {
+      "key": "m2-docking-right",
+      "path": "assets/mission-02/puzzle/m2-docking-right.png",
+      "width": 32,
+      "height": 32,
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-02.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Deployable docking walkway with matching continuous floor collider in playable Mission 2",
+      "alpha": {
+        "transparentPixels": 240
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 2, no baked text/charge symbols or values.",
+      "scenes": [
+        "bridge-mission"
+      ]
+    },
+    {
+      "key": "m2-motor-broken",
+      "path": "assets/mission-02/puzzle/m2-motor-broken.png",
+      "width": 32,
+      "height": 32,
+      "frameWidth": 32,
+      "frameHeight": 32,
+      "frames": 1,
+      "fps": 0,
+      "loop": false,
+      "anchor": {
+        "x": 0.5,
+        "y": 1
+      },
+      "source": "scripts/assets/mission-02.mjs",
+      "status": "procedural",
+      "final": true,
+      "usage": "Broken motor mounted separately on moving deck; no baked text or charge symbol",
+      "alpha": {
+        "transparentPixels": 410
+      },
+      "provenance": "Original geometric modular pixel artwork for Mission 2, no baked text/charge symbols or values.",
+      "scenes": [
+        "bridge-mission"
+      ]
+    }
+  ]
+}
