@@ -66,7 +66,7 @@ Bola dianggap pendekatan muatan titik. r diukur antar pusat, bukan tepi bola. Pa
 
 42 PNG baru: 3 ilustrasi image_gen dan 39 geometri prosedural, final untuk tahap aset; tidak ada placeholder visual atau file baru yang hanya disimpan tanpa pengguna. Sumber master dan production.json di `assets-source/mission-02/`; skrip `scripts/assets/mission-02.mjs`. Rebuild: `npm.cmd run assets:mission02`; validasi: `npm.cmd run assets:mission02:validate`. `assets:build` juga mempertahankan paket ini. Manifest menyimpan dimensi, anchor, frame, FPS, nine-slice, sumber, alpha dan penggunaan. Tile/dek/rail/terminal persegi penuh sengaja opak; cutout memiliki alpha sungguhan. Bingkai data memakai nine-slice8. Latch flash 3 frame24×24, FPS10, tidak berulang.
 
-Screenshot browser disimpan di `docs/mission-02-evidence/`. Desktop1440×900, portrait390×844, terminal dan docking dibuka untuk inspeksi visual; rasio/overflow juga diuji pada844×390,320×740,3840×2160. Pada portrait arena tetap utuh dengan letterbox; label canvas mengecil, data angka tersedia pada panel HTML yang dapat digulir internal. Landscape disarankan untuk observasi. Belum diuji perangkat fisik atau Safari/Firefox.
+Screenshot browser disimpan di `docs/mission-02-evidence/`. Desktop1440×900, portrait390×844, terminal dan docking dibuka untuk inspeksi visual; rasio/overflow juga diuji pada844×390,320×740,3840×2160. Pada portrait arena tetap utuh dengan letterbox; dialog terminal dan belajar menggunakan ruang layar yang lebih tinggi, sementara tabel observasi dapat digulir secara horizontal di dalam panel. Landscape disarankan untuk observasi yang lebih lebar. Belum diuji perangkat fisik atau Safari/Firefox.
 
 ## Uji manual
 

@@ -1,4 +1,4 @@
-/** Native focus/inert semantics, with all visible surfaces bounded by the arena. */
+/** Keep game dialogs with their scene; CSS fits them to the arena or the portrait viewport. */
 export function mountGameDialog(dialog:HTMLDialogElement){
   document.querySelector('.game-stage')!.append(dialog);
   dialog.setAttribute('aria-modal','true');

@@ -16,7 +16,7 @@ Skin v1 dilepas dari main entry. ui-layout.css mempertahankan tata letak/input t
 
 ## Ukuran modular
 
-Panel48×48 dengan slice12 pada semua sisi; sudut selalu12 CSSpx. Padding isi16, minimum panel128×64, portrait48×48. Tombol72×40(ikon48×40), slice12, area sentuh kode≥48×48. State normal/hover/focus/pressed/disabled/selected punya ekspor berbeda; fokus memakai corner marks dan outline tambahan, disabled memakai notch diagonal, selected memakai tab sisi. Label tidak dipanggang ke PNG. Art hasil640×280, aspect asli dipertahankan dengan transparansi; objek tidak diregangkan. Header/modal bergulir internal; aksi tetap dapat dicapai. Landing desktop dibatasi viewport; panel lokal boleh scroll ketika tinggi pendek/checkpoint menambah tombol. Ponsel landing menumpuk menu dan ilustrasi, gameplay tetap satu arena dengan letterbox.
+Panel48×48 dengan slice12 pada semua sisi; sudut selalu12 CSSpx. Padding isi16, minimum panel128×64, portrait48×48. Tombol72×40(ikon48×40), slice12, area sentuh kode≥48×48. State normal/hover/focus/pressed/disabled/selected punya ekspor berbeda; fokus memakai corner marks dan outline tambahan, disabled memakai notch diagonal, selected memakai tab sisi. Label tidak dipanggang ke PNG. Art hasil640×280, aspect asli dipertahankan dengan transparansi; objek tidak diregangkan. Header/modal bergulir internal; aksi tetap dapat dicapai. Landing desktop dibatasi viewport; panel lokal boleh scroll ketika tinggi pendek/checkpoint menambah tombol. Ponsel landing menumpuk menu dan ilustrasi; gameplay tetap satu arena 16:9 dengan letterbox, sedangkan dialog pada portrait memakai ruang viewport agar form dan aksi tidak terjepit setinggi arena.
 
 ## Checklist window aktual
 

@@ -2,9 +2,9 @@
 
 ## Kontrol dan tampilan
 
-Arena tetap 640 × 360, Scale.FIT dan nearest-neighbor. Teks HTML tidak ikut diskalakan dengan canvas. Layout desktop memakai panel di samping arena, portrait menempatkan arena/kontrol di atas panel. Ada anjuran landscape tanpa memblokir portrait/menu. Pada landscape, ukuran arena dibatasi ruang vertikal agar kontrol utama tetap dekat; materi belajar dan catatan panjang tetap dapat digulir.
+Arena tetap 640 × 360, Scale.FIT dan nearest-neighbor. Teks HTML tidak ikut diskalakan dengan canvas. Layout desktop memakai panel di samping arena, portrait menempatkan arena/kontrol di atas panel. Ada anjuran landscape tanpa memblokir portrait/menu. Pada ponsel portrait, dialog belajar, terminal, pause, konfirmasi dan hasil menggunakan tinggi layar yang tersedia agar isi terbaca; arena tetap utuh dengan letterbox, dan materi panjang bergulir di dalam dialog. Pada landscape, dialog tetap dibatasi arena.
 
-Ukuran viewport yang diuji: 1280×720, 1920×1080, 3840×2160, 844×390, dan portrait 390×844. Screenshot di stage-7-evidence bersifat full-page; tinggi file bisa lebih besar dari viewport karena halaman dapat digulir. Tidak ada klaim bahwa seluruh teks belajar harus berada pada satu layar. Fokus ring dan tanda +/− tetap ada. Tombol arah sekurangnya 48 CSS px; checkbox/range memiliki label yang dapat diklik dan ruang yang cukup.
+Ukuran viewport yang diuji: 1280×720, 1920×1080, 3840×2160, 844×390, portrait 390×844 dan 320×740. Screenshot di stage-7-evidence bersifat full-page; tinggi file bisa lebih besar dari viewport karena halaman dapat digulir. Fokus ring dan tanda +/− tetap ada. Tombol arah sekurangnya 48 CSS px; checkbox/range memiliki label yang dapat diklik dan ruang yang cukup.
 
 Petunjuk mengikuti input terakhir yang benar-benar digunakan (keyboard, pointer atau sentuh), dengan petunjuk alternatif tetap tersedia. Pengguna dapat menampilkan/menyembunyikan kontrol sentuh melalui Pengaturan. Deteksi touchscreen bukan satu-satunya penentu. Kiri + kanan menghasilkan diam. Setiap pointer dimiliki tombol awalnya, dengan capture dan fallback release pada document. Interaksi memakai pointerdown sehingga sentuhan kedua dapat memeriksa terminal saat jari lain masih menahan arah; click detail 0 tetap untuk keyboard/teknologi bantu dan tidak menduplikasi transaksi pointer.
 

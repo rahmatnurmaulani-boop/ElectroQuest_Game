@@ -13,13 +13,15 @@
 
 Pemeriksaan build final: 8/8 tes browser lulus (46,8 detik), mencakup console-actions, console-ui dan alur penuh mission03. Sebelumnya 7/7 tes khusus checkpoint gagal saat simulasi, blur di tengah konfirmasi, replay, galeri dan panel bersama juga lulus. Alur aktual Misi1→Misi2 hingga hasil/reload lulus lagi (28,2 detik). TypeScript/build terakhir dan validasi62 aset lulus. Tangkapan hasil portrait Misi1/2/3 telah dibuka; isi panjang menggunakan scroll internal arena, sehingga landscape lebih nyaman.
 
+Pembaruan responsif portrait: dialog gameplay kini menggunakan area viewport ponsel, bukan tinggi arena 16:9 yang ter-letterbox. `immersive.spec.js` memeriksa posisi dan lebar dialog pada 390×844 dan 320×740, ukuran target tombol, serta tidak adanya overflow halaman. Arena dan kontrol tetap mengikuti rasio/tata letak yang sama.
+
 ## Inspeksi visual
 
 Uji navigasi final: 1/1 lulus (27,4 detik). Dari hasil Misi2, tombol Pilih misi benar-benar membuka picker landing; menutup picker dan reload tetap mempertahankan hasil, revisi, refleksi dan progres Misi1.
 
 Screenshot `docs/console-ui-evidence`: landing1440/1024/768/390/320, pause1/2/3, confirmation, gallery, result1/result3. Gambar desktop/ponsel dan pause ketiga misi sudah dibuka; hasil Misi2 juga tersimpan oleh coulomb-flow di docs/mission-02-playable-evidence/results.png. Kartu nilai panjang diperbaiki; border12px tidak berubah saat panel membesar. Art640×280 mempertahankan rasio asli, bukan diregangkan.
 
-Panel panjang bergulir di dalam arena. Portrait mempertahankan seluruh arena sehingga tinggi panel kecil; landscape lebih nyaman untuk membaca panjang. Kontrol minimal48 CSSpx, radio/checkbox/select tetap semantik, outline fokus terlihat. Sistem memakai font OS/fallback; tidak ada font eksternal yang perlu diunduh.
+Panel panjang bergulir di dalam dialog. Portrait mempertahankan seluruh arena dan menyediakan tinggi viewport untuk panel; landscape lebih nyaman untuk membaca arena serta panel berdampingan. Kontrol minimal48 CSSpx, radio/checkbox/select tetap semantik, outline fokus terlihat. Sistem memakai font OS/fallback; tidak ada font eksternal yang perlu diunduh.
 
 ## Checker desain umum
 
